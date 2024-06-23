@@ -219,7 +219,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://tigermmslot.netlify.app/login';
+  var url = 'https://mk7slot.com/login';
   var user_name = @json(session('user_name'));
   var pw = @json(session('password'));
   
