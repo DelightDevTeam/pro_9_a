@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Admin\GameList;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -1598,6 +1599,8 @@ class JokerGameListSeeder extends Seeder
             ],
         ];
 
-        DB::table('games')->insert($games);
+        foreach ($games as $gameData) {
+            GameList::create($gameData);
+        }
     }
 }
