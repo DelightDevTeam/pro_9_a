@@ -1,0 +1,1906 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "zcw3utgfzk75o",
+            "GameName": "Huang Fei Hong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/zcw3utgfzk75o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1jimb59c7ztqg",
+            "GameName": "Zodiac Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1jimb59c7ztqg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bqc117dipjiso",
+            "GameName": "Sweetie Crush",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bqc117dipjiso.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "htacf8c11qejn",
+            "GameName": "Silver Hand",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/htacf8c11qejn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "g58bao4yefdrq",
+            "GameName": "Pubg",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/g58bao4yefdrq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wixa8wsu4de7c",
+            "GameName": "Sour Candy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wixa8wsu4de7c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "nzzugaudcbosc",
+            "GameName": "Love Letter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/nzzugaudcbosc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "f1hywikkjprr1",
+            "GameName": "Panda Chef",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/f1hywikkjprr1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ysj1ghuuqbazc",
+            "GameName": "Lion Of The East",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ysj1ghuuqbazc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jxcs1pbifei1o",
+            "GameName": "Mermaid Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/jxcs1pbifei1o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1abm3a9yh8uqq",
+            "GameName": "Safari Life 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1abm3a9yh8uqq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "zezjtt6ras7ms",
+            "GameName": "Leprechaun",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/zezjtt6ras7ms.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5m6k9j7rwspjs",
+            "GameName": "Roma",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5m6k9j7rwspjs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ape6dxf7sk35y",
+            "GameName": "Roma Legacy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ape6dxf7sk35y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8rqwot18etnuw",
+            "GameName": "Thunder God",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/8rqwot18etnuw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "pirtanombyroh",
+            "GameName": "Huga",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/pirtanombyroh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ha1jzrho1gmjq",
+            "GameName": "Mayan Gems",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ha1jzrho1gmjq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "mur8wje4dccb1",
+            "GameName": "Scheherazade",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/mur8wje4dccb1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5cx47jffukp3o",
+            "GameName": "Fabulous Eights",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5cx47jffukp3o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ipz77igi3mfho",
+            "GameName": "Winter Sweets",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ipz77igi3mfho.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "qmufydacbwbyg",
+            "GameName": "Warrior",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/qmufydacbwbyg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ww3a8wsu4de7c",
+            "GameName": "Sizzling Hot",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ww3a8wsu4de7c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "qd1fcneqbhgy4",
+            "GameName": "Immortals",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/qd1fcneqbhgy4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3yfmucpss64mk",
+            "GameName": "Dragon Power Flame",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3yfmucpss64mk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ynknc6m6x7684",
+            "GameName": "Sweet Tooth",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ynknc6m6x7684.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3hj4fkfji4z4a",
+            "GameName": "Lucky God Progressive 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3hj4fkfji4z4a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "uh4amsg355x7a",
+            "GameName": "Fruit Paradise",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/uh4amsg355x7a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "exesnxb7ge3uy",
+            "GameName": "Haunted House",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/exesnxb7ge3uy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "oajk3h9o685xq",
+            "GameName": "Money Vault",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/oajk3h9o685xq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gkubyu4cjibrg",
+            "GameName": "Joker Madness",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/gkubyu4cjibrg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "y5n8sh5oqf58q",
+            "GameName": "Tiger's Lair",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/y5n8sh5oqf58q.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "a7q65cfts455e",
+            "GameName": "Ong Bak 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/a7q65cfts455e.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "55hj8ghaugxj6",
+            "GameName": "Happy Buddha",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/55hj8ghaugxj6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hcu3p8r71kj3y",
+            "GameName": "Power Stars",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/hcu3p8r71kj3y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "soojfuqnaxycn",
+            "GameName": "Hot Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/soojfuqnaxycn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "u6d7fsg355x7a",
+            "GameName": "Panther Moon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/u6d7fsg355x7a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ioheiiqk3xrc1",
+            "GameName": "Book Of Ra",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ioheiiqk3xrc1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "96k1k6d3x39za",
+            "GameName": "Big Game Safari",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/96k1k6d3x39za.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4d5kdkpqi6sk4",
+            "GameName": "Safari Heat",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4d5kdkpqi6sk4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "dhdirsn3m3xia",
+            "GameName": "Lucky God",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/dhdirsn3m3xia.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "zygj7oqga9nck",
+            "GameName": "Caishen Riches",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/zygj7oqga9nck.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ooekf9x16xaxn",
+            "GameName": "Kraken Hunter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ooekf9x16xaxn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "pz7wsnombyroh",
+            "GameName": "Wizard Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/pz7wsnombyroh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4jdxbm7cistkg",
+            "GameName": "Talisman",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4jdxbm7cistkg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "d4fyes4amfxf6",
+            "GameName": "Feng Huang",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/d4fyes4amfxf6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ef1uyxt98o6ur",
+            "GameName": "Lucky God Progressive",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ef1uyxt98o6ur.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ne4gq55cpitgg",
+            "GameName": "Beanstalk",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ne4gq55cpitgg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "satj3o6ya8dcq",
+            "GameName": "Just Jewels Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/satj3o6ya8dcq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "rg5oqz19mtqir",
+            "GameName": "Bali",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/rg5oqz19mtqir.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "y6q14hdtq35ze",
+            "GameName": "Beach Life",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/y6q14hdtq35ze.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fwria11mjbrwh",
+            "GameName": "Three Kingdoms Quest",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/fwria11mjbrwh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4eekxm7cistkg",
+            "GameName": "Dragon's Realm",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4eekxm7cistkg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "e9qs4cbtga5ue",
+            "GameName": "Wealth God",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/e9qs4cbtga5ue.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "d5qfgs4amfxf6",
+            "GameName": "Respin Mania",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/d5qfgs4amfxf6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3fx69pizs144w",
+            "GameName": "Lucky Streak",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3fx69pizs144w.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "j9nzkkbjfaz1a",
+            "GameName": "Horus Eye",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/j9nzkkbjfaz1a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wr5axzs95uq7r",
+            "GameName": "Forest Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wr5axzs95uq7r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "pd6rhresnhkbk",
+            "GameName": "Shaolin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/pd6rhresnhkbk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "yxdzc9d7qj3zy",
+            "GameName": "Fire Reel",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/yxdzc9d7qj3zy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "113qm5xnhxoqn",
+            "GameName": "Aladdin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/113qm5xnhxoqn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "q9gi4yybyadoe",
+            "GameName": "Wild Giant Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/q9gi4yybyadoe.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1wt58azdhdo6c",
+            "GameName": "Wild Fairies",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1wt58azdhdo6c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5ii9zgw5unc3h",
+            "GameName": "Neptune Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5ii9zgw5unc3h.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "sco3dugpambhy",
+            "GameName": "Qatar 2022",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/sco3dugpambhy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xmzfobaryz7xs",
+            "GameName": "Lord Of The Ocean",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/xmzfobaryz7xs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ur8593z8hu17w",
+            "GameName": "Burning Pearl",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ur8593z8hu17w.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "b1cnw7mkppwg1",
+            "GameName": "Thug Life",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/b1cnw7mkppwg1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "uafejs6a58xp6",
+            "GameName": "Bounty Hunter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/uafejs6a58xp6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "kxyznmbpret1y",
+            "GameName": "Enchanted Forest",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/kxyznmbpret1y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9upe5bm4xph81",
+            "GameName": "Monkey King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/9upe5bm4xph81.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "86burqb38a9ua",
+            "GameName": "Bushido Blade",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/86burqb38a9ua.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8kzbot4rew7ds",
+            "GameName": "Journey To The West",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/8kzbot4rew7ds.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ofy9b9z99u69r",
+            "GameName": "Fire Reign",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ofy9b9z99u69r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hb4cpgc6u6qj4",
+            "GameName": "Mythological",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/hb4cpgc6u6qj4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "cuarr8e1ncebn",
+            "GameName": "Tropical Crush",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/cuarr8e1ncebn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bmr8675wqiigs",
+            "GameName": "Witch's Brew",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bmr8675wqiigs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "kdn8ckjqfhsn4",
+            "GameName": "Pharaoh's Tomb",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/kdn8ckjqfhsn4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gqotnunpejbwy",
+            "GameName": "Fortune Festival",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/gqotnunpejbwy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "swt38osdadyhc",
+            "GameName": "Black Beard Legacy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/swt38osdadyhc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "naagsa5ycfugq",
+            "GameName": "Ancient Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/naagsa5ycfugq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "d8cso3u8ct1iw",
+            "GameName": "Phoenix 888",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/d8cso3u8ct1iw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "tocki7xk7xwq1",
+            "GameName": "Burning Pearl Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/tocki7xk7xwq1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "c96w4rytnamte",
+            "GameName": "Ancient Rome Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/c96w4rytnamte.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "b4pde45epfzg6",
+            "GameName": "Genie 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/b4pde45epfzg6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4akkze7ywgukq",
+            "GameName": "Crypto Mania",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4akkze7ywgukq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7b6c7rcs16kjk",
+            "GameName": "Ocean Spray",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7b6c7rcs16kjk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "texkt79w6ziqs",
+            "GameName": "Wukong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/texkt79w6ziqs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "79mafnrjt48aa",
+            "GameName": "Pan Jin Lian",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/79mafnrjt48aa.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "quofrdenycyyn",
+            "GameName": "Bagua 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/quofrdenycyyn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9ii7s6u5xbhzh",
+            "GameName": "Yggdrasil",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/9ii7s6u5xbhzh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "x46x869a989x6",
+            "GameName": "Fat Choy Choy Sun",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/x46x869a989x6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "r8oiyz19mtqir",
+            "GameName": "Lucky Joker",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/r8oiyz19mtqir.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7cz37fritkfao",
+            "GameName": "Lucky Rooster",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7cz37fritkfao.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "axt5pxf7sk35y",
+            "GameName": "Highway Kings",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/axt5pxf7sk35y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "6c5apdrpokbay",
+            "GameName": "Tsai Shen's Gift",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/6c5apdrpokbay.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "nh9swadbc3use",
+            "GameName": "HighwayKings JP",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/nh9swadbc3use.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1ru5x5zx7us6r",
+            "GameName": "Lightning God",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1ru5x5zx7us6r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ahf5icfts455e",
+            "GameName": "Jin Fu Xing Yun",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ahf5icfts455e.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "43bx3e7ywgukq",
+            "GameName": "Dolphin's Pearl Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/43bx3e7ywgukq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gn1bc1kqj7gr4",
+            "GameName": "Bagua",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/gn1bc1kqj7gr4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bkxno75wqiigs",
+            "GameName": "Ong Bak Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bkxno75wqiigs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "orm4x9z99u69r",
+            "GameName": "League Of Legends",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/orm4x9z99u69r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "foff4ikkjprr1",
+            "GameName": "Water Margin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/foff4ikkjprr1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4py9dmfpwkt4y",
+            "GameName": "Date With Miyo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4py9dmfpwkt4y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "e5jgac3ogr5dq",
+            "GameName": "Ranchers Wealth",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/e5jgac3ogr5dq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "c53raraonrmbq",
+            "GameName": "Pan Jin Lian 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/c53raraonrmbq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9w6aa6u5xbhzh",
+            "GameName": "Golden Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/9w6aa6u5xbhzh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "byz81hmsq748k",
+            "GameName": "Supreme Caishen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/byz81hmsq748k.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "zowjitp4zqhm1",
+            "GameName": "Critter Mania Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/zowjitp4zqhm1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "c41bsraonrmbq",
+            "GameName": "Xuan Pu Lian Huan",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/c41bsraonrmbq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jpiuhpbifei1o",
+            "GameName": "Golden Rooster",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/jpiuhpbifei1o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9xpa7brfxj7zo",
+            "GameName": "Mammamia",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/9xpa7brfxj7zo.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7phhufritkfao",
+            "GameName": "Heist Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7phhufritkfao.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ggutqu1xjtgwr",
+            "GameName": "Oasis",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ggutqu1xjtgwr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ezjsgctugyauc",
+            "GameName": "Caishen Riches Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ezjsgctugyauc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gd3rn1kqj7gr4",
+            "GameName": "Queen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/gd3rn1kqj7gr4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hj5cb8hhusjjg",
+            "GameName": "Zodiac Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/hj5cb8hhusjjg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5ypkuepgw61kk",
+            "GameName": "Water Reel",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5ypkuepgw61kk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "6o5emdcnoqyen",
+            "GameName": "Aztec Temple",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/6o5emdcnoqyen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "uygm7axgh91qk",
+            "GameName": "Yeh Hsien Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/uygm7axgh91qk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "aodmmxp1sqamn",
+            "GameName": "Zhao Cai Jin Bao",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/aodmmxp1sqamn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "n1ydr5mncpogn",
+            "GameName": "Chilli Hunter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/n1ydr5mncpogn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "abkqpqp6z66m4",
+            "GameName": "Santa Workshop",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/abkqpqp6z66m4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jbzd1cjsgh4dk",
+            "GameName": "Sparta",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/jbzd1cjsgh4dk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4tyxfmpnwqokn",
+            "GameName": "Octagon Gem",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4tyxfmpnwqokn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5bgx7epgw61kk",
+            "GameName": "Queen 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5bgx7epgw61kk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3erm9p7wssiks",
+            "GameName": "Flames Of Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3erm9p7wssiks.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1q36p58phmt6y",
+            "GameName": "Genie",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/1q36p58phmt6y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xtpy4bx49xhx1",
+            "GameName": "Safari Life",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/xtpy4bx49xhx1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "j3wngk3efrzn6",
+            "GameName": "Baccarat",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/j3wngk3efrzn6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wykepsq659qp4",
+            "GameName": "Four Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wykepsq659qp4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "dxxsh3dfmjpio",
+            "GameName": "Tai Shang Lao Jun",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/dxxsh3dfmjpio.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "awn5jciusna5c",
+            "GameName": "Captains Treasure Progressive",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/awn5jciusna5c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ebudnqj68h6d4",
+            "GameName": "Happy Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ebudnqj68h6d4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bcizh7dipjiso",
+            "GameName": "Mulan",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bcizh7dipjiso.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fk9yoi4wkifrs",
+            "GameName": "Fifty Lions",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/fk9yoi4wkifrs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8u9r4tj48chd1",
+            "GameName": "Dynamite Reels",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/8u9r4tj48chd1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "t656f48j75z6a",
+            "GameName": "Great Blue",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/t656f48j75z6a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "z7k6mqf3z495a",
+            "GameName": "Crypto Mania Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/z7k6mqf3z495a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bzgza4umpbwsh",
+            "GameName": "Third Prince's Journey",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bzgza4umpbwsh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "w4ypzw6o48mpq",
+            "GameName": "Dragon Phoenix",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/w4ypzw6o48mpq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ufc6t3z8hu17w",
+            "GameName": "Santa Surprise",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ufc6t3z8hu17w.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "b5ggg45epfzg6",
+            "GameName": "Super Stars",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/b5ggg45epfzg6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "cz3wgrounyetc",
+            "GameName": "Neptune Treasure Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/cz3wgrounyetc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "u17q53q45xcp1",
+            "GameName": "White Snake",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/u17q53q45xcp1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "aij68ciusna5c",
+            "GameName": "Columbus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/aij68ciusna5c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hf5hx8w9u1q3r",
+            "GameName": "Book Of Ra Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/hf5hx8w9u1q3r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "69xaiyrbo4dae",
+            "GameName": "A Night Out",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/69xaiyrbo4dae.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "srd3xusx3ughr",
+            "GameName": "Enter The KTV",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/srd3xusx3ughr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "nqyun5dpcjtsy",
+            "GameName": "Cyber Race",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/nqyun5dpcjtsy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7tccifcktqre1",
+            "GameName": "Chinese Boss",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7tccifcktqre1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "x5ikj69a989x6",
+            "GameName": "Gold Trail",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/x5ikj69a989x6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "z1pc5tp4zqhm1",
+            "GameName": "Silver Bullet",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/z1pc5tp4zqhm1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "h33c3rho1gmjq",
+            "GameName": "Streets Of Chicago",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/h33c3rho1gmjq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bes8675wqiigs",
+            "GameName": "Captain's Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bes8675wqiigs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "k9gz4ebbrau1e",
+            "GameName": "Fifty Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/k9gz4ebbrau1e.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ie9eti6w4zfcs",
+            "GameName": "Ancient Artifact",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ie9eti6w4zfcs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "tbfxuhxs694xk",
+            "GameName": "Lucky Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/tbfxuhxs694xk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "y4jnah5oqf58q",
+            "GameName": "Yakuza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/y4jnah5oqf58q.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bwwza4umpbwsh",
+            "GameName": "Bonus Bear",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bwwza4umpbwsh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "dkzdo35rcipfs",
+            "GameName": "China",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/dkzdo35rcipfs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wcaadzg74mj7y",
+            "GameName": "Lady Hawk",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wcaadzg74mj7y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "k3anse3yrrunq",
+            "GameName": "MoneyBangBang",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/k3anse3yrrunq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "rqaonzn7kjjiy",
+            "GameName": "The Four Invention",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/rqaonzn7kjjiy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "s6xhiogba5dhe",
+            "GameName": "Football Rules",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/s6xhiogba5dhe.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "rh8iwwntk3mie",
+            "GameName": "Dolphin Reef",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/rh8iwwntk3mie.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "5864tji8w113w",
+            "GameName": "Thai Paradise",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/5864tji8w113w.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fqho1inijjfwo",
+            "GameName": "Dragon Of The Eastern Sea",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/fqho1inijjfwo.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "s77hiogba5dhe",
+            "GameName": "Peach Banquet",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/s77hiogba5dhe.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "6po7ddrpokbay",
+            "GameName": "Alice In Wonderland",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/6po7ddrpokbay.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wfo7bzs95uq7r",
+            "GameName": "Archer",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wfo7bzs95uq7r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ywozehuuqbazc",
+            "GameName": "Golden Island",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ywozehuuqbazc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9mqe9bhroi78s",
+            "GameName": "Golden Monkey King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/9mqe9bhroi78s.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ue8mt39rhzpps",
+            "GameName": "Cursed Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ue8mt39rhzpps.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "84igeq3a8r9d6",
+            "GameName": "Nugget Hunter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/84igeq3a8r9d6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "67s75yrbo4dae",
+            "GameName": "Majapahit",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/67s75yrbo4dae.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ateqfxp1sqamn",
+            "GameName": "Dolphin Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ateqfxp1sqamn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wtupmzq14xepn",
+            "GameName": "Lions Dance",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wtupmzq14xepn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "o7f9ih8t6559e",
+            "GameName": "Empress Regnant",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/o7f9ih8t6559e.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "ruufkzk1kpefn",
+            "GameName": "SilverBullet Progressive",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/ruufkzk1kpefn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "xbxy1yegyhnyk",
+            "GameName": "Jungle Island",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/xbxy1yegyhnyk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "99bzr6d3x39za",
+            "GameName": "Ni Shu Shen Me",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/99bzr6d3x39za.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "bsp1s4umpbwsh",
+            "GameName": "Buccaneer Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/bsp1s4umpbwsh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8nsbhokge7nrk",
+            "GameName": "Queen Of The Nile",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/8nsbhokge7nrk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "i4rc816e388c6",
+            "GameName": "Robin Hood",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/i4rc816e388c6.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "yqe1n9d7qj3zy",
+            "GameName": "Three Kingdoms 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/yqe1n9d7qj3zy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "itzp5iqk3xrc1",
+            "GameName": "Wild Spirit",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/itzp5iqk3xrc1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "j6j1rkbjfaz1a",
+            "GameName": "Five Tiger Generals",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/j6j1rkbjfaz1a.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "kia1eetdryo1c",
+            "GameName": "Alice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/kia1eetdryo1c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "qieoeyodyyyoc",
+            "GameName": "Captain's Treasure Pro",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/qieoeyodyyyoc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "igg7tisz4ukhw",
+            "GameName": "Egypt Queen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/igg7tisz4ukhw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7f9h9fwz11kaw",
+            "GameName": "Lucky Lady Charm",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7f9h9fwz11kaw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "qxoindypyeboy",
+            "GameName": "Geisha",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/qxoindypyeboy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "7rw3tfwz11kaw",
+            "GameName": "Arctic Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/7rw3tfwz11kaw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "kf41ymtxfos1r",
+            "GameName": "Ocean Paradise",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/kf41ymtxfos1r.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "fn6yhwksk7kfk",
+            "GameName": "Chilli Hunter Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/fn6yhwksk7kfk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "m94wkgy3daxta",
+            "GameName": "Mythical Sand",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/m94wkgy3daxta.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "gsttgo1debywc",
+            "GameName": "Octagon Gem 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/gsttgo1debywc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "wpu7pzg74mj7y",
+            "GameName": "Lucky Drum",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/wpu7pzg74mj7y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "oqt9p9876m39y",
+            "GameName": "Azteca",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/oqt9p9876m39y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "b6nuk4djp3zsa",
+            "GameName": "Dia De Los Muertos Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/b6nuk4djp3zsa.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3jxqtp7wssiks",
+            "GameName": "The Legend Of White Snake",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3jxqtp7wssiks.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4ib98eidwno4c",
+            "GameName": "Sheng Xiao Bingo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/4ib98eidwno4c.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "tqi9778i7mi6o",
+            "GameName": "Miami",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/tqi9778i7mi6o.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "dc7sh3dfmjpio",
+            "GameName": "Dragon Tiger",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/dc7sh3dfmjpio.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "o3nxzh9o685xq",
+            "GameName": "Fei Long Zai Tian",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/o3nxzh9o685xq.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "rsjogw1ukbeic",
+            "GameName": "Four Tigers",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/rsjogw1ukbeic.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "yr1zy9u9xt6zr",
+            "GameName": "HuLu",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/yr1zy9u9xt6zr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "hxb3p8r71kj3y",
+            "GameName": "Sicbo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/hxb3p8r71kj3y.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3uim5ppkiqwk1",
+            "GameName": "Belangkai",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/3uim5ppkiqwk1.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "jsguaktmfyw1h",
+            "GameName": "Hercules",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "//img.qiangmingbao.net/gameimages/landscape/jsguaktmfyw1h.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

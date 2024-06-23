@@ -1,3 +1,6 @@
 // to remove laravel log
 php -r "file_put_contents('/var/www/html/shwe_dragon_slot_a/storage/logs/laravel.log', '');"
 // created dev branch for kzt
+
+BigGaming remove
+SBO - have no game list /need to use LaunchGame without the gameID

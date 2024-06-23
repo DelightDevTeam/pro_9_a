@@ -29,6 +29,7 @@ class DatabaseSeeder extends Seeder
             EvolutionGamingTableSeeder::class,
             HotGameTablesSeeder::class,
             PragmaticPlaySeeder::class,
+            PGSoftGameListSeeder::class,
         ]);
       
     }
