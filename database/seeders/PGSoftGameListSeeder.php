@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Admin\GameList;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -1011,6 +1012,8 @@ class PGSoftGameListSeeder extends Seeder
         
         ];
 
-        DB::table('games')->insert($data);
+        foreach ($data as $gameData) {
+            GameList::create($gameData);
+        }
     }
 }
