@@ -24,6 +24,11 @@ class DatabaseSeeder extends Seeder
             GameTypeProductTableSeeder::class,
             BannerSeeder::class,
             BannerTextSeeder::class,
+            AsiaGamingTablesSeeder::class,
+            CQ9GameListTableSeeder::class,
+            EvolutionGamingTableSeeder::class,
+            HotGameTablesSeeder::class,
+            PragmaticPlaySeeder::class,
         ]);
       
     }

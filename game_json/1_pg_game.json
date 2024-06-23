@@ -1,0 +1,4048 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "vs20olympx",
+            "GameName": "Gates of Olympus 1000",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20olympx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20olympgate",
+            "GameName": "Gates of Olympus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20olympgate.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sugarrushx",
+            "GameName": "Sugar Rush 1000",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sugarrushx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fruitswx",
+            "GameName": "Sweet Bonanza 1000",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fruitswx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20starlightx",
+            "GameName": "Starlight Princess 1000",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20starlightx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fruitsw",
+            "GameName": "Sweet Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fruitsw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayslions",
+            "GameName": "5 Lions Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayslions.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20starlight",
+            "GameName": "Starlight Princess",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20starlight.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sugarrush",
+            "GameName": "Sugar Rush",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sugarrush.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbkingasc",
+            "GameName": "Buffalo King Untamed Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbkingasc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayspowzeus",
+            "GameName": "Power of Merlin Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayspowzeus.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25pandagold",
+            "GameName": "Panda's Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25pandagold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysrabbits",
+            "GameName": "5 Rabbits Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysrabbits.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gatotx",
+            "GameName": "Gates of Gatot Kaca 1000",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gatotx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysdogs",
+            "GameName": "The Dog House Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysdogs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs15godsofwar",
+            "GameName": "Zeus vs Hades - Gods of War",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs15godsofwar.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20pbonanza",
+            "GameName": "Pyramid Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20pbonanza.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sbxmas",
+            "GameName": "Sweet Bonanza Xmas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sbxmas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbufking",
+            "GameName": "Buffalo King Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbufking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40wildwest",
+            "GameName": "Wild West Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40wildwest.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20tweethouse",
+            "GameName": "The Tweety House",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20tweethouse.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysrhino",
+            "GameName": "Great Rhino Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysrhino.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysrockblst",
+            "GameName": "Rocket Blast Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysrockblst.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20procount",
+            "GameName": "Wisdom of Athena",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20procount.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20doghouse",
+            "GameName": "The Dog House",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20doghouse.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayshammthor",
+            "GameName": "Power of Thor Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayshammthor.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20amuleteg",
+            "GameName": "Fortune of Giza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20amuleteg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20saiman",
+            "GameName": "Saiyan Mania",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20saiman.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gatotgates",
+            "GameName": "Gates of Gatot Kaca",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gatotgates.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20portals",
+            "GameName": "Fire Portals",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20portals.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbfmission",
+            "GameName": "Big Bass Mission Fishin'",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbfmission.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bonzgold",
+            "GameName": "Bonanza Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bonzgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs12tropicana",
+            "GameName": "Club Tropicana",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs12tropicana.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs15samurai4",
+            "GameName": "Rise of Samurai 4",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs15samurai4.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5aztecgems",
+            "GameName": "Aztec Gems",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5aztecgems.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25pandatemple",
+            "GameName": "Panda Fortune 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25pandatemple.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20farmfest",
+            "GameName": "Barn Festival",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20farmfest.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5joker",
+            "GameName": "Joker's Jewels",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5joker.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20rujakbnz",
+            "GameName": "Rujak Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20rujakbnz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024mjwinbns",
+            "GameName": "Mahjong Wins Bonus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024mjwinbns.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs15seoultrain",
+            "GameName": "Zombie Train",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs15seoultrain.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmegareel",
+            "GameName": "Pompeii Megareels Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmegareel.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sugrux",
+            "GameName": "Sugar Rush Xmas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sugrux.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20olympdice",
+            "GameName": "Gates of Olympus Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20olympdice.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysluckyfish",
+            "GameName": "Lucky Fishing Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysluckyfish.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmadame",
+            "GameName": "Madame Destiny Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmadame.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20cleocatra",
+            "GameName": "Cleocatra",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20cleocatra.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayspizza",
+            "GameName": "PIZZA PIZZA PIZZA",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayspizza.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bnnzdice",
+            "GameName": "Sweet Bonanza Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bnnzdice.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20muertos",
+            "GameName": "Muertos Multiplier Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20muertos.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024mahjwins",
+            "GameName": "Mahjong Wins",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024mahjwins.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10txbigbass",
+            "GameName": "Big Bass Splash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10txbigbass.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs12bbb",
+            "GameName": "Bigger Bass Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs12bbb.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mammoth",
+            "GameName": "Mammoth Gold Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mammoth.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs4096bufking",
+            "GameName": "Buffalo King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs4096bufking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20doghouse2",
+            "GameName": "The Dog House - Dog or Alive",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20doghouse2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswwriches",
+            "GameName": "Wild Wild Riches Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswwriches.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20candybltz2",
+            "GameName": "Candy Blitz Bombs",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20candybltz2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25goldparty",
+            "GameName": "Gold Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25goldparty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbhas",
+            "GameName": "Big Bass - Hold & Spinner",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbhas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20ninjapower",
+            "GameName": "Power of Ninja",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20ninjapower.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20xmascarol",
+            "GameName": "Christmas Carol Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20xmascarol.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bhallbnza",
+            "GameName": "Big Bass Halloween",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bhallbnza.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20rockvegas",
+            "GameName": "Rock Vegas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20rockvegas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysaztecking",
+            "GameName": "Aztec King Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysaztecking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10floatdrg",
+            "GameName": "Floating Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10floatdrg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mustanggld2",
+            "GameName": "Clover Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mustanggld2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20medusast",
+            "GameName": "Medusa's Stone",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20medusast.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbbonanza",
+            "GameName": "Big Bass Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbbonanza.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10fdrasbf",
+            "GameName": "Floating Dragon - Dragon Boat Festival",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10fdrasbf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25hotfiesta",
+            "GameName": "Hot Fiesta",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25hotfiesta.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfrywld",
+            "GameName": "Spin & Score Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfrywld.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bblotgl",
+            "GameName": "Big Bass - Secrets of the Golden Lake",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bblotgl.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10fisheye",
+            "GameName": "Fish Eye",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10fisheye.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs12bbbxmas",
+            "GameName": "Bigger Bass Blizzard - Christmas Catch",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs12bbbxmas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20framazon",
+            "GameName": "Fruits of the Amazon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20framazon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysstampede",
+            "GameName": "Fire Stampede",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysstampede.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20goldclust",
+            "GameName": "Rabbit Garden",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20goldclust.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243lionsgold",
+            "GameName": "5 Lions Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243lionsgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20heartcleo",
+            "GameName": "Heart of Cleopatra",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20heartcleo.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fruitparty",
+            "GameName": "Fruit Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fruitparty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20candvil",
+            "GameName": "Candy Village",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20candvil.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20pistols",
+            "GameName": "Wild West Duels",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20pistols.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbfloats",
+            "GameName": "Big Bass Floats my Boat",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbfloats.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayssamurai",
+            "GameName": "Rise of Samurai Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayssamurai.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20wildparty",
+            "GameName": "3 Buzzing Wilds",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20wildparty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sugarnudge",
+            "GameName": "Sugar Supreme Powernudge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sugarnudge.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fortbon",
+            "GameName": "Fruity Treats",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fortbon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25holiday",
+            "GameName": "Holiday Ride",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25holiday.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40samurai3",
+            "GameName": "Rise of Samurai 3",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40samurai3.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayslofhero",
+            "GameName": "Legend of Heroes Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayslofhero.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20doghousemh",
+            "GameName": "The Dog House Multihold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20doghousemh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bxmasbnza",
+            "GameName": "Christmas Big Bass Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bxmasbnza.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10returndead",
+            "GameName": "Return of the Dead",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10returndead.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20schristmas",
+            "GameName": "Starlight Christmas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20schristmas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswildwest",
+            "GameName": "Wild West Gold Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswildwest.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20stickywild",
+            "GameName": "Wild Bison Charge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20stickywild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5hotburn",
+            "GameName": "Hot to Burn",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5hotburn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysrsm",
+            "GameName": "Wild Celebrity Bus Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysrsm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25copsrobbers",
+            "GameName": "Cash Patrol",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25copsrobbers.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbbrlact",
+            "GameName": "Big Bass Bonanza - Reel Action",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbbrlact.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10fruity2",
+            "GameName": "Extra Juicy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10fruity2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10tictac",
+            "GameName": "Tic Tac Take",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10tictac.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20devilic",
+            "GameName": "Devilicious",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20devilic.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10eyestorm",
+            "GameName": "Eye of the Storm",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10eyestorm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayscheist",
+            "GameName": "Casino Heist Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayscheist.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20cbrhst",
+            "GameName": "Cyber Heist",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20cbrhst.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sugarcoins",
+            "GameName": "Viking Forge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sugarcoins.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20forge",
+            "GameName": "Forge of Olympus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20forge.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20clustwild",
+            "GameName": "Sticky Bees",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20clustwild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40pirate",
+            "GameName": "Pirate Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40pirate.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayszombcarn",
+            "GameName": "Zombie Carnival",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayszombcarn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfuryodin",
+            "GameName": "Fury of Odin Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfuryodin.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayslight",
+            "GameName": "Lucky Lightning",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayslight.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bookfallen",
+            "GameName": "Book of Fallen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bookfallen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20midas",
+            "GameName": "The Hand of Midas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20midas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25aztecking",
+            "GameName": "Aztec King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25aztecking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20olympgrace",
+            "GameName": "Grace of Ebisu",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20olympgrace.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswildgang",
+            "GameName": "The Wild Gang",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswildgang.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmonkey",
+            "GameName": "3 Dancing Monkeys",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmonkey.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10egyptcls",
+            "GameName": "Ancient Egypt Classic",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10egyptcls.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20dhdice",
+            "GameName": "The Dog House Dice Show",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20dhdice.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20dhcluster",
+            "GameName": "Twilight Princess",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20dhcluster.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20asgard",
+            "GameName": "Kingdom of Asgard",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20asgard.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysyumyum",
+            "GameName": "Yum Yum Powerways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysyumyum.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25wildies",
+            "GameName": "Wildies",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25wildies.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20porbs",
+            "GameName": "Santa's Great Gifts",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20porbs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbkir",
+            "GameName": "Big Bass Bonanza - Keeping it Reel",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbkir.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysxjuicy",
+            "GameName": "Extra Juicy Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysxjuicy.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20goldfever",
+            "GameName": "Gems Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20goldfever.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20cjcluster",
+            "GameName": "Candy Jar Clusters",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20cjcluster.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bison",
+            "GameName": "Release the Bison",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bison.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbextreme",
+            "GameName": "Big Bass Amazon Xtreme",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbextreme.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40cosmiccash",
+            "GameName": "Cosmic Cash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40cosmiccash.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20aztecgates",
+            "GameName": "Gates of Aztec",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20aztecgates.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20candyblitz",
+            "GameName": "Candy Blitz",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20candyblitz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbsplxmas",
+            "GameName": "Big Bass Christmas Bash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbsplxmas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243mwarrior",
+            "GameName": "Monkey Warrior",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243mwarrior.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20rhinoluxe",
+            "GameName": "Great Rhino Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20rhinoluxe.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5ultra",
+            "GameName": "Ultra Hold and Spin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5ultra.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20hburnhs",
+            "GameName": "Hot to Burn Hold and Spin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20hburnhs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9aztecgemsdx",
+            "GameName": "Aztec Gems Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9aztecgemsdx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20laughluck",
+            "GameName": "Happy Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20laughluck.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs4096magician",
+            "GameName": "Magician's Secrets",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs4096magician.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20drgbless",
+            "GameName": "Dragon Hero",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20drgbless.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayscharms",
+            "GameName": "5 Frozen Charms Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayscharms.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25scarabqueen",
+            "GameName": "John Hunter and the Tomb of the Scarab Queen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25scarabqueen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs7776aztec",
+            "GameName": "Aztec Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs7776aztec.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10firestrike",
+            "GameName": "Fire Strike",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10firestrike.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5ultrab",
+            "GameName": "Ultra Burn",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5ultrab.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20octobeer",
+            "GameName": "Octobeer Fortunes",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20octobeer.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20santawonder",
+            "GameName": "Santa's Wonderland",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20santawonder.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10powerlines",
+            "GameName": "Peak Power",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10powerlines.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysjapan",
+            "GameName": "Starlight Princess Pachi",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysjapan.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysconcoll",
+            "GameName": "Firebird Spirit - Connect & Collect",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysconcoll.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1dragon8",
+            "GameName": "888 Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1dragon8.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243lions",
+            "GameName": "5 Lions",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243lions.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysstrlght",
+            "GameName": "Fortunes of Aztec",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysstrlght.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs4096robber",
+            "GameName": "Robber Strike",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs4096robber.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmegahays",
+            "GameName": "Barnyard Megahays Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmegahays.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20dugems",
+            "GameName": "Hot Pepper",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20dugems.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bigdawgs",
+            "GameName": "The Big Dawgs",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bigdawgs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5jjwild",
+            "GameName": "Joker's Jewels Wild",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5jjwild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20clspwrndg",
+            "GameName": "Sweet Powernudge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20clspwrndg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20shootstars",
+            "GameName": "Heroic Spins",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20shootstars.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20rhino",
+            "GameName": "Great Rhino",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20rhino.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20excalibur",
+            "GameName": "Excalibur Unleashed",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20excalibur.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fparty2",
+            "GameName": "Fruit Party 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fparty2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysultrcoin",
+            "GameName": "Cowboy Coins",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysultrcoin.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs576treasures",
+            "GameName": "Wild Wild Riches",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs576treasures.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20supermania",
+            "GameName": "Supermania",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20supermania.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayscryscav",
+            "GameName": "Crystal Caverns Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayscryscav.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bbbnz",
+            "GameName": "Big Bass Day at the Races",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bbbnz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20eightdragons",
+            "GameName": "8 Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20eightdragons.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40stckwldlvl",
+            "GameName": "Ripe Rewards",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40stckwldlvl.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mahjxbnz",
+            "GameName": "Mahjong X",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mahjxbnz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfltdrg",
+            "GameName": "Floating Dragon Hold & Spin Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfltdrg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysspltsym",
+            "GameName": "Dwarf & Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysspltsym.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10frontrun",
+            "GameName": "Front Runner Odds On",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10frontrun.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024gmayhem",
+            "GameName": "Gorilla Mayhem",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024gmayhem.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243fdragon",
+            "GameName": "Fortune Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243fdragon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25rio",
+            "GameName": "Heart of Rio",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25rio.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25bkofkngdm",
+            "GameName": "Book Of Kingdoms",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25bkofkngdm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayshexhaus",
+            "GameName": "Rise of Pyramids",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayshexhaus.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5super7",
+            "GameName": "Super 7s ",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5super7.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10cowgold",
+            "GameName": "Cowboys Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10cowgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20superlanche",
+            "GameName": "Monster Superlanche",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20superlanche.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20trsbox",
+            "GameName": "Treasure Wild",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20trsbox.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20phoenixf",
+            "GameName": "Phoenix Forge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20phoenixf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25mustang",
+            "GameName": "Mustang Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25mustang.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs15diamond",
+            "GameName": "Diamond Strike",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs15diamond.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40infwild",
+            "GameName": "Infective Wild",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40infwild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20trswild2",
+            "GameName": "Black Bull",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20trswild2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024fortune",
+            "GameName": "Fortune Ace",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024fortune.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243goldfor",
+            "GameName": "888 Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243goldfor.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25rlbank",
+            "GameName": "Reel Banks",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25rlbank.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfltdrgny",
+            "GameName": "Floating Dragon New Year Festival Ultra Megaways Hold & Spin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfltdrgny.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50safariking",
+            "GameName": "Safari King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50safariking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs576hokkwolf",
+            "GameName": "Hokkaido Wolf",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs576hokkwolf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbbhas",
+            "GameName": "Big Bass Hold & Spinner Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbbhas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20multiup",
+            "GameName": "Wheel O'Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20multiup.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10spiritadv",
+            "GameName": "Spirit of Adventure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10spiritadv.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs432congocash",
+            "GameName": "Congo Cash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs432congocash.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfirewmw",
+            "GameName": "Blazing Wilds Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfirewmw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40spartaking",
+            "GameName": "Spartan King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40spartaking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20drtgold",
+            "GameName": "Drill That Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20drtgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243empcaishen",
+            "GameName": "Emperor Caishen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243empcaishen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bchprty",
+            "GameName": "Wild Beach Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bchprty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmoneyman",
+            "GameName": "The Money Men Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmoneyman.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswerewolf",
+            "GameName": "Curse of the Werewolf Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswerewolf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbbb",
+            "GameName": "Big Bass Bonanza Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbbb.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243chargebull",
+            "GameName": "Raging Bull",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243chargebull.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20kraken",
+            "GameName": "Release the Kraken",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20kraken.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20stickypos",
+            "GameName": "Ice Lobster",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20stickypos.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20leprechaun",
+            "GameName": "Leprechaun Song",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20leprechaun.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10strawberry",
+            "GameName": "Strawberry Cocktail",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10strawberry.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10trail",
+            "GameName": "Mustang Trail",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10trail.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20emptybank",
+            "GameName": "Empty the Bank",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20emptybank.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20clustext",
+            "GameName": "Gears of Horus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20clustext.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sbpnudge",
+            "GameName": "Aztec Powernudge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sbpnudge.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50jucier",
+            "GameName": "Sky Bounty",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50jucier.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10gizagods",
+            "GameName": "Gods of Giza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10gizagods.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243queenie",
+            "GameName": "Queenie",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243queenie.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayselements",
+            "GameName": "Elemental Gems Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayselements.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25chilli",
+            "GameName": "Chilli Heat",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25chilli.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20wolfie",
+            "GameName": "Greedy Wolf",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20wolfie.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbewaretd",
+            "GameName": "Beware The Deep Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbewaretd.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5drhs",
+            "GameName": "Dragon Hot Hold & Spin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5drhs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25archer",
+            "GameName": "Fire Archer",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25archer.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10firestrike2",
+            "GameName": "Fire Strike 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10firestrike2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mergedwndw",
+            "GameName": "Blade & Fangs",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mergedwndw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20kraken2",
+            "GameName": "Release the Kraken 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20kraken2.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024lionsd",
+            "GameName": "5 Lions Dance",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024lionsd.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25btygold",
+            "GameName": "Bounty Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25btygold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25mmouse",
+            "GameName": "Money Mouse",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25mmouse.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20splmystery",
+            "GameName": "Spellbinding Mystery",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20splmystery.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243dancingpar",
+            "GameName": "Dance Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243dancingpar.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1tigers",
+            "GameName": "Triple Tigers",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1tigers.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25peking",
+            "GameName": "Peking Luck",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25peking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20yotdk",
+            "GameName": "Year Of The Dragon King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20yotdk.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysexpandng",
+            "GameName": "Castle of Fire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysexpandng.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10nudgeit",
+            "GameName": "Rise of Giza PowerNudge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10nudgeit.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gatotfury",
+            "GameName": "Gatot Kaca's Fury",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gatotfury.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243fortune",
+            "GameName": "Caishen's Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243fortune.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20jewelparty",
+            "GameName": "Jewel Rush",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20jewelparty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sparta",
+            "GameName": "Shield Of Sparta",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sparta.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20lvlup",
+            "GameName": "Pub Kings",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20lvlup.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bermuda",
+            "GameName": "Bermuda Riches",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bermuda.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1masterjoker",
+            "GameName": "Master Joker",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1masterjoker.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024mahjpanda",
+            "GameName": "Mahjong Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024mahjpanda.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10wildtut",
+            "GameName": "Mysterious Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10wildtut.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mparty",
+            "GameName": "Wild Hop & Drop",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mparty.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bburger",
+            "GameName": "Big Burger Load it up with Xtra Cheese",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bburger.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1fortunetree",
+            "GameName": "Tree of Riches",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1fortunetree.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20earthquake",
+            "GameName": "Cyclops Smash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20earthquake.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1600drago",
+            "GameName": "Drago - Jewels of Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1600drago.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20superx",
+            "GameName": "Super X",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20superx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gravity",
+            "GameName": "Gravity Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gravity.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50mightra",
+            "GameName": "Might of Ra",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50mightra.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25wolfgold",
+            "GameName": "Wolf Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25wolfgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20chickdrop",
+            "GameName": "Chicken Drop",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20chickdrop.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayschilheat",
+            "GameName": "Chilli Heat Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayschilheat.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbook",
+            "GameName": "Book of Golden Sands",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbook.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50juicyfr",
+            "GameName": "Juicy Fruits",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50juicyfr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20maskgame",
+            "GameName": "Cash Chips",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20maskgame.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25gldox",
+            "GameName": "Golden Ox",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25gldox.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10runes",
+            "GameName": "Gates of Valhalla",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10runes.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243fortseren",
+            "GameName": "Greek Gods",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243fortseren.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50jfmulthold",
+            "GameName": "Juicy Fruits Multihold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50jfmulthold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243caishien",
+            "GameName": "Caishen's Cash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243caishien.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25pyramid",
+            "GameName": "Pyramid King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25pyramid.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10coffee",
+            "GameName": "Coffee Wild",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10coffee.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaystut",
+            "GameName": "Book of Tut Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaystut.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5littlegem",
+            "GameName": "Little Gem Hold and Spin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5littlegem.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25lagoon",
+            "GameName": "Great Lagoon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25lagoon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10tut",
+            "GameName": "Book Of Tut Respin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10tut.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5jokerdice",
+            "GameName": "Joker's Jewel Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5jokerdice.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40rainbowr",
+            "GameName": "Rainbow Reels",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40rainbowr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40bigjuan",
+            "GameName": "Big Juan",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40bigjuan.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20swordofares",
+            "GameName": "Sword of Ares",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20swordofares.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10gdchalleng",
+            "GameName": "8 Golden Dragon Challenge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10gdchalleng.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20stickysymbol",
+            "GameName": "The Great Stick-up",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20stickysymbol.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25jokrace",
+            "GameName": "Joker Race",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25jokrace.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysmorient",
+            "GameName": "Mystery of the Orient",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysmorient.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9piggybank",
+            "GameName": "Piggy Bank Bills",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9piggybank.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10amm",
+            "GameName": "Amazing Money Machine",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10amm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024moonsh",
+            "GameName": "Moonshot",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024moonsh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20treesot",
+            "GameName": "Trees of Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20treesot.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20stckwldsc",
+            "GameName": "Pot of Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20stckwldsc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20ultim5",
+            "GameName": "The Ultimate 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20ultim5.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20hstgldngt",
+            "GameName": "Heist for the Golden Nuggets",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20hstgldngt.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bblpop",
+            "GameName": "Bubble Pop",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bblpop.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysalterego",
+            "GameName": "The Alter Ego",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysalterego.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25wildspells",
+            "GameName": "Wild Spells",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25wildspells.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25kfruit",
+            "GameName": "Aztec Blaze",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25kfruit.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20nilefort",
+            "GameName": "Nile Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20nilefort.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20underground",
+            "GameName": "Down the Rails",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20underground.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20lobseafd",
+            "GameName": "Lobster Bob's Sea Food and Win It",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20lobseafd.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9outlaw",
+            "GameName": "Pirates Pub",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9outlaw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswest",
+            "GameName": "Mystic Chief",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswest.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024butterfly",
+            "GameName": "Jade Butterfly",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024butterfly.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40cleoeye",
+            "GameName": "Eye of Cleopatra",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40cleoeye.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysstrwild",
+            "GameName": "Candy Stars",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysstrwild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs7fire88",
+            "GameName": "Fire 88",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs7fire88.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mtreasure",
+            "GameName": "Pirate Golden Age",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mtreasure.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5balidragon",
+            "GameName": "Bali Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5balidragon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bookoftut",
+            "GameName": "Book of Tut",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bookoftut.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1money",
+            "GameName": "Money Money Money",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1money.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10luckcharm",
+            "GameName": "Lucky, Grace & Charm",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10luckcharm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20beefed",
+            "GameName": "Fat Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20beefed.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9chen",
+            "GameName": "Master Chen's Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9chen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25bullfiesta",
+            "GameName": "Bull Fiesta",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25bullfiesta.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25bomb",
+            "GameName": "Bomb Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25bomb.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024temuj",
+            "GameName": "Temujin Treasures",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024temuj.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20honey",
+            "GameName": "Honey Honey Honey",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20honey.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25asgard",
+            "GameName": "Asgard",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25asgard.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25kingdoms",
+            "GameName": "3 Kingdoms - Battle of Red Cliffs",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25kingdoms.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20ltng",
+            "GameName": "Pinup Girls",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20ltng.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10jnmntzma",
+            "GameName": "Jane Hunter and the Mask of Montezuma",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10jnmntzma.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50aladdin",
+            "GameName": "3 Genie Wishes",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50aladdin.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20loksriches",
+            "GameName": "Loki's Riches",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20loksriches.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysftropics",
+            "GameName": "Frozen Tropics",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysftropics.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs7pigs",
+            "GameName": "7 Piggies",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs7pigs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20vegasmagic",
+            "GameName": "Vegas Magic",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20vegasmagic.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25goldrush",
+            "GameName": "Gold Rush",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25goldrush.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gobnudge",
+            "GameName": "Goblin Heist Powernudge",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gobnudge.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25tigeryear",
+            "GameName": "Lucky New Year - Tiger Treasures",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25tigeryear.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20colcashzone",
+            "GameName": "Colossal Cash Zone",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20colcashzone.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20lampinf",
+            "GameName": "Lamp Of Infinity",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20lampinf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysseastory",
+            "GameName": "Sea Fantasy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysseastory.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40pirgold",
+            "GameName": "Pirate Gold Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40pirgold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25goldpig",
+            "GameName": "Golden Pig",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25goldpig.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysjkrdrop",
+            "GameName": "Tropical Tiki",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysjkrdrop.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayseternity",
+            "GameName": "Diamonds of Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayseternity.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20hercpeg",
+            "GameName": "Hercules and Pegasus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20hercpeg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mmmelon",
+            "GameName": "Mighty Munching Melons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mmmelon.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25spgldways",
+            "GameName": "Secret City Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25spgldways.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20theights",
+            "GameName": "Towering Fortunes",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20theights.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayshive",
+            "GameName": "Star Bounty",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayshive.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5gemstone",
+            "GameName": "Gemstone",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5gemstone.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10mmm",
+            "GameName": "Magic Money Maze",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10mmm.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20magicpot",
+            "GameName": "The Magic Cauldron",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20magicpot.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysoldminer",
+            "GameName": "Old Gold Miner Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysoldminer.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25vegas",
+            "GameName": "Vegas Nights",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25vegas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10madame",
+            "GameName": "Madame Destiny",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10madame.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20rainbowg",
+            "GameName": "Rainbow Gold",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20rainbowg.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20cashmachine",
+            "GameName": "Cash Box",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20cashmachine.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20daydead",
+            "GameName": "Day of Dead",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20daydead.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25dragonkingdom",
+            "GameName": "Dragon Kingdom",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25dragonkingdom.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10egypt",
+            "GameName": "Ancient Egypt",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10egypt.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25spotz",
+            "GameName": "Knight Hot Spotz",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25spotz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1024dtiger",
+            "GameName": "The Dragon Tiger",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1024dtiger.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243discolady",
+            "GameName": "Disco Lady",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243discolady.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20mvwild",
+            "GameName": "Jasmine Dreams",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20mvwild.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40madwheel",
+            "GameName": "The Wild Machine",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40madwheel.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20piggybank",
+            "GameName": "Piggy Bankers",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20piggybank.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1ball",
+            "GameName": "Lucky Dragon Ball",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1ball.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysincwnd",
+            "GameName": "Gold Oasis",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysincwnd.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243nudge4gold",
+            "GameName": "Hellvis Wild",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243nudge4gold.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20egypttrs",
+            "GameName": "Egyptian Fortunes",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20egypttrs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10egrich",
+            "GameName": "Queen of Gods",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10egrich.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9hotroll",
+            "GameName": "Hot Chilli",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9hotroll.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25walker",
+            "GameName": "Wild Walker",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25walker.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10threestar",
+            "GameName": "Three Star Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10threestar.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10bookazteck",
+            "GameName": "Book of Aztec King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10bookazteck.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysredqueen",
+            "GameName": "The Red Queen",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysredqueen.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50dmdcascade",
+            "GameName": "Diamond Cascade",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50dmdcascade.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysraghex",
+            "GameName": "Tundra's Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysraghex.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20smugcove",
+            "GameName": "Smugglers Cove",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20smugcove.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10crownfire",
+            "GameName": "Crown of Fire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10crownfire.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayswwhex",
+            "GameName": "Wild Wild Bananas",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayswwhex.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10goldfish",
+            "GameName": "Fishin Reels",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10goldfish.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20ekingrr",
+            "GameName": "Emerald King Rainbow Road",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20ekingrr.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs9madmonkey",
+            "GameName": "Monkey Madness",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs9madmonkey.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10ddcbells",
+            "GameName": "Ding Dong Christmas Bells",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10ddcbells.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs117649starz",
+            "GameName": "Starz Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs117649starz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs88hockattack",
+            "GameName": "Hockey Attack",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs88hockattack.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sknights",
+            "GameName": "The Knight King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sknights.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20chicken",
+            "GameName": "The Great Chicken Escape",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20chicken.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs18mashang",
+            "GameName": "Treasure Horse",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs18mashang.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25newyear",
+            "GameName": "Lucky New Year",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25newyear.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5spjoker",
+            "GameName": "Super Joker",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5spjoker.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysfrbugs",
+            "GameName": "Frogs & Bugs",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysfrbugs.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40demonpots",
+            "GameName": "Demon Pots",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40demonpots.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10mayangods",
+            "GameName": "John Hunter And The Mayan Gods",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10mayangods.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40voodoo",
+            "GameName": "Voodoo Magic",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40voodoo.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs15fairytale",
+            "GameName": "Fairytale Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs15fairytale.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50northgard",
+            "GameName": "North Guardians",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50northgard.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10kingofdth",
+            "GameName": "Kingdom of the Dead",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10kingofdth.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243ckemp",
+            "GameName": "Cheeky Emperor",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243ckemp.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25samurai",
+            "GameName": "Rise of Samurai",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25samurai.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs13g",
+            "GameName": "Devil's 13",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs13g.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20wildpix",
+            "GameName": "Wild Pixies",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20wildpix.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25davinci",
+            "GameName": "Da Vinci's Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25davinci.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25tigerwar",
+            "GameName": "The Tiger Warrior",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25tigerwar.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20santa",
+            "GameName": "Santa",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20santa.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10luckfort",
+            "GameName": "Good Luck & Good Fortune",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10luckfort.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20wildboost",
+            "GameName": "Wild Booster",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20wildboost.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50kingkong",
+            "GameName": "Mighty Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50kingkong.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40streetracer",
+            "GameName": "Street Racer",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40streetracer.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaystimber",
+            "GameName": "Timber Stacks",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaystimber.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswayscfglory",
+            "GameName": "Chase For Glory",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswayscfglory.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5strh",
+            "GameName": "Striking Hot 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5strh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10vampwolf",
+            "GameName": "Vampires vs Wolves",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10vampwolf.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25journey",
+            "GameName": "Journey to the West",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25journey.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20hotzone",
+            "GameName": "African Elephant",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20hotzone.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25sea",
+            "GameName": "Great Reef",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25sea.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5firehot",
+            "GameName": "Fire Hot 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5firehot.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50pixie",
+            "GameName": "Pixie Wings",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50pixie.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs100sh",
+            "GameName": "Shining Hot 100",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs100sh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs4096mystery",
+            "GameName": "Mysterious",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs4096mystery.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25jokerking",
+            "GameName": "Joker King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25jokerking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50chinesecharms",
+            "GameName": "Lucky Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50chinesecharms.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40hotburnx",
+            "GameName": "Hot To Burn Extreme",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40hotburnx.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20eking",
+            "GameName": "Emerald King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20eking.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20leprexmas",
+            "GameName": "Leprechaun Carol",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20leprexmas.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20lcount",
+            "GameName": "Gems of Serengeti",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20lcount.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25safari",
+            "GameName": "Hot Safari",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25safari.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs243koipond",
+            "GameName": "Koi Pond",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs243koipond.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20bl",
+            "GameName": "Busy Bees",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20bl.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25gladiator",
+            "GameName": "Wild Gladiator",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25gladiator.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20lobcrab",
+            "GameName": "Lobster Bob's Crazy Crab Shack",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20lobcrab.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs7776secrets",
+            "GameName": "Aztec Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs7776secrets.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20sh",
+            "GameName": "Shining Hot 20",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20sh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs100firehot",
+            "GameName": "Fire Hot 100",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs100firehot.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs1fufufu",
+            "GameName": "Fu Fu Fu",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs1fufufu.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs50hercules",
+            "GameName": "Hercules Son of Zeus",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs50hercules.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10starpirate",
+            "GameName": "Star Pirates Code",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10starpirate.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysbankbonz",
+            "GameName": "Cash Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysbankbonz.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs7monkeys",
+            "GameName": "7 Monkeys",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs7monkeys.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40frrainbow",
+            "GameName": "Fruit Rainbow",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40frrainbow.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs25dwarves_new",
+            "GameName": "Dwarven Gold Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs25dwarves_new.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10chkchase",
+            "GameName": "Chicken Chase",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10chkchase.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5trdragons",
+            "GameName": "Triple Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5trdragons.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20aladdinsorc",
+            "GameName": "Aladdin and the Sorcerer",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20aladdinsorc.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20godiva",
+            "GameName": "Lady Godiva",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20godiva.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5sh",
+            "GameName": "Shining Hot 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5sh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20fh",
+            "GameName": "Fire Hot 20",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20fh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs8magicjourn",
+            "GameName": "Magic Journey",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs8magicjourn.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40sh",
+            "GameName": "Shining Hot 40",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40sh.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40firehot",
+            "GameName": "Fire Hot 40",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40firehot.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vswaysloki",
+            "GameName": "Revenge of Loki Megaways",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vswaysloki.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10snakeladd",
+            "GameName": "Snakes and Ladders Megadice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10snakeladd.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20terrorv",
+            "GameName": "Cash Elevator",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20terrorv.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs40wanderw",
+            "GameName": "Wild Depths",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs40wanderw.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs5drmystery",
+            "GameName": "Dragon Kingdom - Eyes of Fire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs5drmystery.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs3train",
+            "GameName": "Gold Train",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs3train.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs20gorilla",
+            "GameName": "Jungle Gorilla",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs20gorilla.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "vs10snakeeyes",
+            "GameName": "Snakes & Ladders - Snake Eyes",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/vs10snakeeyes.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

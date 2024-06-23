@@ -1,0 +1,1780 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "1320",
+            "GameName": "Big Bass Crash",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1320.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1302",
+            "GameName": "Spaceman",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1302.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "441",
+            "GameName": "Korean Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/441.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "450",
+            "GameName": "Indonesia Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/450.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "402",
+            "GameName": "Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/402.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "801",
+            "GameName": "Mega Wheel",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/801.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1101",
+            "GameName": "Sweet Bonanza CandyLand",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1101.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "701",
+            "GameName": "Mega Sic Bo",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/701.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "488",
+            "GameName": "Japanese Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/488.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "451",
+            "GameName": "Thai Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/451.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "481",
+            "GameName": "Chinese Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/481.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "204",
+            "GameName": "Mega Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/204.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "442",
+            "GameName": "Mega Baccarat",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/442.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1001",
+            "GameName": "Dragon Tiger",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1001.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "449",
+            "GameName": "Korean Speed Baccarat 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/449.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "476",
+            "GameName": "Korean Speed Baccarat 5",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/476.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "477",
+            "GameName": "Korean Speed Baccarat 6",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/477.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "403",
+            "GameName": "Speed Baccarat 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/403.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "206",
+            "GameName": "Roulette Macao",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/206.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "227",
+            "GameName": "Roulette Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/227.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "401",
+            "GameName": "Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/401.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "404",
+            "GameName": "Baccarat 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/404.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "489",
+            "GameName": "Japanese Speed Baccarat 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/489.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "490",
+            "GameName": "Japanese Speed Baccarat 3",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/490.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "424",
+            "GameName": "Speed Baccarat 11",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/424.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "482",
+            "GameName": "Chinese Speed Baccarat 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/482.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "421",
+            "GameName": "Speed Baccarat 12",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/421.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "438",
+            "GameName": "Speed Baccarat 13",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/438.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "479",
+            "GameName": "Vietnamese Speed Baccarat 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/479.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "434",
+            "GameName": "Fortune 6 Baccarat",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/434.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "427",
+            "GameName": "Speed Baccarat 15",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/427.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "433",
+            "GameName": "Super 8 Baccarat",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/433.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "422",
+            "GameName": "Baccarat 3",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/422.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "426",
+            "GameName": "Baccarat 8",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/426.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "412",
+            "GameName": "Speed Baccarat 3",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/412.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "414",
+            "GameName": "Speed Baccarat 5",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/414.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "230",
+            "GameName": "Roulette Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/230.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "415",
+            "GameName": "Speed Baccarat 6",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/415.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "431",
+            "GameName": "Speed Baccarat 7",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/431.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "432",
+            "GameName": "Speed Baccarat 8",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/432.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "430",
+            "GameName": "Speed Baccarat 9",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/430.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "428",
+            "GameName": "Speed Baccarat 10",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/428.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "405",
+            "GameName": "Speed Baccarat 14",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/405.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "435",
+            "GameName": "Speed Baccarat 16",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/435.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "439",
+            "GameName": "Speed Baccarat 17",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/439.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "411",
+            "GameName": "Baccarat 5",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/411.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "413",
+            "GameName": "Baccarat 6",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/413.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "425",
+            "GameName": "Baccarat 7",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/425.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "436",
+            "GameName": "Baccarat 9",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/436.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "545",
+            "GameName": "VIP Roulette - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/545.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "240",
+            "GameName": "PowerUP Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/240.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "203",
+            "GameName": "Speed Roulette 1",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/203.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "225",
+            "GameName": "Auto Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/225.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "201",
+            "GameName": "Roulette Green",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/201.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "222",
+            "GameName": "German Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/222.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "224",
+            "GameName": "Turkish Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/224.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "221",
+            "GameName": "Russian Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/221.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "226",
+            "GameName": "Speed Auto Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/226.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "234",
+            "GameName": "Spanish Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/234.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "205",
+            "GameName": "Speed Roulette 2",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/205.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "223",
+            "GameName": "Italian Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/223.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "235",
+            "GameName": "Dutch Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/235.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "208",
+            "GameName": "Turkish Mega Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/208.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "229",
+            "GameName": "Roulette Indian",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/229.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "233",
+            "GameName": "Romanian Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/233.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1601",
+            "GameName": "Snake & Ladders Live",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1601.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1401",
+            "GameName": "Boom City",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1401.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "1024",
+            "GameName": "Andar Bahar",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/1024.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "4001",
+            "GameName": "Football Blitz",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/4001.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "491",
+            "GameName": "Punto Banco Italia Tricolore",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/491.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "901",
+            "GameName": "ONE Blackjack",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/901.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "546",
+            "GameName": "VIP Blackjack 1 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/546.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "530",
+            "GameName": "Blackjack 26 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/530.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "542",
+            "GameName": "Blackjack 34 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/542.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "568",
+            "GameName": "Speed Blackjack 3 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/568.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "607",
+            "GameName": "Speed Blackjack 11 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/607.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "566",
+            "GameName": "Speed Blackjack 1 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/566.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "543",
+            "GameName": "Blackjack 35 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/543.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "517",
+            "GameName": "Blackjack 10 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/517.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "541",
+            "GameName": "Blackjack 33 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/541.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "305",
+            "GameName": "Blackjack 16",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/305.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "552",
+            "GameName": "Blackjack 49 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/552.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "551",
+            "GameName": "Blackjack 48 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/551.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "523",
+            "GameName": "Blackjack 19 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/523.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "567",
+            "GameName": "Speed Blackjack 2 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/567.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "591",
+            "GameName": "Speed Blackjack 6 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/591.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "550",
+            "GameName": "VIP Blackjack 5 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/550.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "549",
+            "GameName": "VIP Blackjack 4 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/549.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "548",
+            "GameName": "VIP Blackjack 3 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/548.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "592",
+            "GameName": "Speed Blackjack 7 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/592.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "604",
+            "GameName": "Speed Blackjack 8 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/604.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "608",
+            "GameName": "Speed Blackjack 12 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/608.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "525",
+            "GameName": "Blackjack 21 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/525.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "560",
+            "GameName": "Blackjack 46 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/560.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "609",
+            "GameName": "Speed Blackjack 14 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/609.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "554",
+            "GameName": "Blackjack 51 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/554.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "528",
+            "GameName": "Blackjack 24 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/528.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "553",
+            "GameName": "Blackjack 50 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/553.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "516",
+            "GameName": "Blackjack 9 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/516.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "569",
+            "GameName": "Speed Blackjack 4 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/569.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "529",
+            "GameName": "Blackjack 25 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/529.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "536",
+            "GameName": "Blackjack 30 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/536.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "544",
+            "GameName": "Blackjack 36 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/544.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "570",
+            "GameName": "Speed Blackjack 5 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/570.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "535",
+            "GameName": "Blackjack 31 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/535.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "540",
+            "GameName": "Blackjack 32 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/540.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "558",
+            "GameName": "Blackjack 44 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/558.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "524",
+            "GameName": "Blackjack 20 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/524.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "902",
+            "GameName": "ONE Blackjack 2 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/902.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "539",
+            "GameName": "Blackjack 27 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/539.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "563",
+            "GameName": "Blackjack 38 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/563.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "561",
+            "GameName": "Blackjack 47 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/561.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "537",
+            "GameName": "Blackjack 29 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/537.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "527",
+            "GameName": "Blackjack 23 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/527.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "304",
+            "GameName": "Blackjack 15",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/304.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "303",
+            "GameName": "Blackjack 14",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/303.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "605",
+            "GameName": "Speed Blackjack 9 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/605.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "564",
+            "GameName": "Blackjack 39 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/564.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "606",
+            "GameName": "Speed Blackjack 10 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/606.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "565",
+            "GameName": "Blackjack 40 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/565.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3046",
+            "GameName": "BlackjackX 11 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3046.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "594",
+            "GameName": "Blackjack 52 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/594.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3047",
+            "GameName": "BlackjackX 12 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3047.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "595",
+            "GameName": "Blackjack 53 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/595.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3048",
+            "GameName": "BlackjackX 13 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3048.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "596",
+            "GameName": "Blackjack 54 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/596.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3049",
+            "GameName": "BlackjackX 22 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3049.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "597",
+            "GameName": "Blackjack 55 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/597.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3054",
+            "GameName": "BlackjackX 29 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3054.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "593",
+            "GameName": "Blackjack 56 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/593.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "559",
+            "GameName": "Blackjack 45 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/559.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3055",
+            "GameName": "BlackjackX 30 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3055.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "555",
+            "GameName": "Blackjack 41 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/555.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "556",
+            "GameName": "Blackjack 42 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/556.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "557",
+            "GameName": "Blackjack 43 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/557.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "538",
+            "GameName": "Blackjack 28 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/538.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "526",
+            "GameName": "Blackjack 22 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/526.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "513",
+            "GameName": "Blackjack 7 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/513.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "520",
+            "GameName": "Blackjack 8 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/520.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "512",
+            "GameName": "Blackjack 6 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/512.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3050",
+            "GameName": "BlackjackX 23 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3050.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "111",
+            "GameName": "Other Promos",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/111.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3051",
+            "GameName": "BlackjackX 26 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3051.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3052",
+            "GameName": "BlackjackX 27 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3052.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "598",
+            "GameName": "Blackjack 57 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/598.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "3053",
+            "GameName": "BlackjackX 28 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/3053.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "599",
+            "GameName": "Blackjack 58 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/599.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "600",
+            "GameName": "Blackjack 59 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/600.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "521",
+            "GameName": "Blackjack 17 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/521.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "515",
+            "GameName": "Blackjack 1 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/515.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "519",
+            "GameName": "Blackjack 2 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/519.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "522",
+            "GameName": "Blackjack 18 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/522.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "562",
+            "GameName": "Blackjack 37 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/562.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "601",
+            "GameName": "Blackjack 60 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/601.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "602",
+            "GameName": "Blackjack 61 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/602.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "603",
+            "GameName": "Blackjack 62 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/603.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "590",
+            "GameName": "Blackjack 63 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/590.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "301",
+            "GameName": "Blackjack 11",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/301.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "511",
+            "GameName": "Blackjack 3 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/511.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "518",
+            "GameName": "Blackjack 5 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/518.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "302",
+            "GameName": "Blackjack 12",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/302.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "514",
+            "GameName": "Blackjack 4 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/514.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "681",
+            "GameName": "Speed Blackjack 31 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/681.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "682",
+            "GameName": "Speed Blackjack 32 – Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/682.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "687",
+            "GameName": "Speed Blackjack 33 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/687.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "688",
+            "GameName": "Speed Blackjack 34 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/688.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "686",
+            "GameName": "Speed Blackjack 35 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/686.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "684",
+            "GameName": "Speed Blackjack 36 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/684.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "685",
+            "GameName": "Speed Blackjack 37 - The Club",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/685.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "903",
+            "GameName": "Dutch ONE Blackjack",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/903.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "104",
+            "GameName": "Baccarat Lobby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/104.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "102",
+            "GameName": "Roulette Lobby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/102.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "107",
+            "GameName": "Sic Bo",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/107.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "730",
+            "GameName": "Blackjack 75 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/730.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "108",
+            "GameName": "Dragon Tiger",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/108.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "731",
+            "GameName": "Blackjack 76 - Azure",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/731.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "105",
+            "GameName": "Gameshows",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/105.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "676",
+            "GameName": "Blackjack 79 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/676.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "103",
+            "GameName": "Blackjack Lobby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/103.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "677",
+            "GameName": "Blackjack 80 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/677.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "109",
+            "GameName": "Sic Bo & Dragon Tiger",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/109.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "678",
+            "GameName": "Blackjack 81 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/678.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "110",
+            "GameName": "D&W",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/110.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "673",
+            "GameName": "Blackjack 82 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/673.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "674",
+            "GameName": "Blackjack 83 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/674.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "675",
+            "GameName": "Blackjack 84 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/675.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "114",
+            "GameName": "Asian Games",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/114.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "683",
+            "GameName": "Blackjack 85 – Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/683.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "547",
+            "GameName": "VIP Blackjack 2 - Ruby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/547.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "671",
+            "GameName": "VIP Blackjack 13 – Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/671.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "672",
+            "GameName": "VIP Blackjack 14 - Emerald",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/672.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "747",
+            "GameName": "Privé Lounge Blackjack 6",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/747.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "748",
+            "GameName": "Privé Lounge Blackjack 7",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/748.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "749",
+            "GameName": "Privé Lounge Blackjack 8",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/749.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "750",
+            "GameName": "Privé Lounge Blackjack 9",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/750.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "751",
+            "GameName": "Privé Lounge Blackjack 10",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/751.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "101",
+            "GameName": "Live Casino Lobby",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "https://api-sg57.ppgames.net/game_pic/square/200/101.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}
