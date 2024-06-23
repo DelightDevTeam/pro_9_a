@@ -21,6 +21,7 @@ class LaunchGameController extends Controller
         $validatedData = $request->validate([
             'productId' => 'required|integer',
             'gameType' => 'required|integer',
+            'gameId' => 'required'
         ]);
 
         // Retrieve user and configuration settings
@@ -41,6 +42,7 @@ class LaunchGameController extends Controller
             'Password' => $password,
             'ProductID' => $validatedData['productId'],
             'GameType' => $validatedData['gameType'],
+            'GameID	' => $validatedData['gameId'],
             'LanguageCode' => self::ENG_LANGUAGE_CODE,
             'Platform' => self::WEB_PLAT_FORM,
             'IPAddress' => $request->ip(),
