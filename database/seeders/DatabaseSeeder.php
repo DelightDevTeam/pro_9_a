@@ -31,14 +31,6 @@ class DatabaseSeeder extends Seeder
             PragmaticPlaySeeder::class,
             PGSoftGameListSeeder::class,
             JokerGameListSeeder::class,
-            HabaneroGameListTableSeeder::class,
-            DragonSoftGameListTableSeeder::class,
-            PlayStarGameListTableSeeder::class,
-            SBOGameListSeeder::class,
-            SkyWindGameListTableSeeder::class,
-            ReevoGameListTableSeeder::class,
-            PragmaticPlaySeeder::class,
-            AsiaGamingTablesSeeder::class
         ]);
       
     }
