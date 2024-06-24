@@ -32,6 +32,9 @@ class DatabaseSeeder extends Seeder
             PGSoftGameListSeeder::class,
             JokerGameListSeeder::class,
             SexyGamingSeeder::class,
+            RealTimeGamingSeeder::class,
+            YggdrasilSeeder::class,
+            
         ]);
       
     }
