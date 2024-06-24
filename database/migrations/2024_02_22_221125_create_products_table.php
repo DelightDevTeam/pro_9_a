@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('code')->index();
             $table->string('name');
+            $table->string('short_name')->nullable();
             $table->integer('order')->default(0);
             $table->integer('status')->default(1);
             $table->timestamps();

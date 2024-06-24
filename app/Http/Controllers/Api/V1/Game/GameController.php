@@ -43,7 +43,6 @@ class GameController extends Controller
     {
         $gameLists = GameList::where('product_id', $product_id)
             ->where('game_type_id', $game_type_id)->get();
-
         return $this->success(GameDetailResource::collection($gameLists), 'Game Detail Successfully');
     }
 
