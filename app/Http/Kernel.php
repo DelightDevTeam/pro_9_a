@@ -67,6 +67,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'checkBanned' => \App\Http\Middleware\CheckBanned::class,
-        'webhook_log' => WebhookLogMiddleware::class
+        'webhook_log' => WebhookLogMiddleware::class,
     ];
 }

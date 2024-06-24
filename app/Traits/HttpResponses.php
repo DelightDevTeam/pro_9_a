@@ -15,7 +15,7 @@ trait HttpResponses
         if (is_scalar($data)) {
             $data = ['data' => $data];
         } elseif ($data instanceof Arrayable) {
-            $data = ['data' => $data->toArray()] ;
+            $data = ['data' => $data->toArray()];
         } elseif ($data instanceof ResourceCollection) {
             $data = $data->response()->getData(true);
 
@@ -36,12 +36,12 @@ trait HttpResponses
         return Response::json($data, $code, []);
     }
 
-    protected function error($data, $message = null, $code)
+    protected function error($data, $message, $code)
     {
         return response()->json([
             'status' => 'Error has occured...',
             'message' => $message,
-            'data' => $data
+            'data' => $data,
         ], $code);
     }
 }

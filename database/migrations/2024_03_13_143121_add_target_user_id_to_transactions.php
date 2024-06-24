@@ -13,7 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         DB::statement(
-            <<<SQL
+            <<<'SQL'
             ALTER TABLE transactions
             ADD COLUMN name VARCHAR(100) GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.name'))) STORED,
             ADD COLUMN target_user_id bigint GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.target_user_id'))) STORED
@@ -21,7 +21,7 @@ return new class extends Migration
         );
 
         Schema::table('transactions', function (Blueprint $table) {
-            $table->index("target_user_id");
+            $table->index('target_user_id');
         });
     }
 

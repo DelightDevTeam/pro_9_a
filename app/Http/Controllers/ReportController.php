@@ -22,7 +22,7 @@ class ReportController extends Controller
             DB::raw('SUM(reports.bet_amount) as total_bet_amount'),
             DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet_amount'),
             DB::raw('SUM(reports.payout_amount) as total_payout_amount'))
-        ->groupBy('product_name', 'products.code')
+            ->groupBy('product_name', 'products.code')
             ->when(isset($request->fromDate) && isset($request->toDate), function ($query) use ($request) {
                 $query->whereBetween('reports.settlement_date', [$request->fromDate, $request->toDate]);
             })
@@ -31,7 +31,7 @@ class ReportController extends Controller
         return view('report.index', compact('reports'));
     }
 
-    public function show(Request $request ,int $code)
+    public function show(Request $request, int $code)
     {
         $reports = $this->makeJoinTable()->select(
             'users.user_name',
@@ -50,7 +50,7 @@ class ReportController extends Controller
                 $query->whereBetween('reports.settlement_date', [$request->fromDate, $request->toDate]);
             })
             ->get();
-        
+
         return view('report.show', compact('reports'));
     }
 
@@ -74,7 +74,7 @@ class ReportController extends Controller
             ->when(isset($request->fromDate) && isset($request->toDate), function ($query) use ($request) {
                 $query->whereBetween('reports.settlement_date', [$request->fromDate, $request->toDate]);
             })
-            ->orderby('reports.settlement_date','desc')
+            ->orderby('reports.settlement_date', 'desc')
             ->get();
 
         $player = User::find($userId);
@@ -96,7 +96,7 @@ class ReportController extends Controller
             ->where('reports.member_name', $user_name)
             ->get();
 
-            return view('report.view', compact('reports'));
+        return view('report.view', compact('reports'));
     }
 
     private function makeJoinTable()

@@ -6,9 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\PlayerTransactionLogResource;
 use App\Models\Admin\PlayerTransactionLogs;
 use App\Models\Admin\TransferLog;
+use App\Traits\HttpResponses;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Traits\HttpResponses;
 
 class PlayerTransactionLogController extends Controller
 {
@@ -16,7 +16,7 @@ class PlayerTransactionLogController extends Controller
 
     public function index(Request $request)
     {
-     
+
         $transaction_log = TransferLog::whereBetween('created_at', [$request->fromDate, $request->toDate])
             ->when(isset($request->type), function ($query) use ($request) {
                 if ($request->type == 'deposit') {
@@ -26,6 +26,7 @@ class PlayerTransactionLogController extends Controller
                 }
             })
             ->where('to_user_id', Auth::id())->get();
+
         return $this->success(
             PlayerTransactionLogResource::collection($transaction_log)->additional(['type' => $request->type]),
             'Transactionlogs List Successfully'

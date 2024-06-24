@@ -5,8 +5,8 @@ namespace App\Models;
 use App\Enums\TransactionName;
 use App\Models\PlaceBet;
 use Bavix\Wallet\Models\Transaction as ModelsTransaction;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
 class Transaction extends ModelsTransaction
 {
@@ -19,7 +19,7 @@ class Transaction extends ModelsTransaction
         'wallet_id' => 'int',
         'confirmed' => 'bool',
         'meta' => 'json',
-        'name' => TransactionName::class
+        'name' => TransactionName::class,
     ];
 
     public function user()
@@ -50,7 +50,7 @@ class Transaction extends ModelsTransaction
     public function scopeFilterByDate($query, $startDate = null, $endDate = null)
     {
         if ($startDate !== null && $endDate !== null) {
-            $query = $query->between('created_at', [$startDate,$endDate]);
+            $query = $query->between('created_at', [$startDate, $endDate]);
         }
 
         return $query;

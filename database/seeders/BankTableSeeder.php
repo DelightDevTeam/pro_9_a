@@ -14,7 +14,7 @@ class BankTableSeeder extends Seeder
     {
         $bank = [
             [
-                'name' =>  'CB Bank',
+                'name' => 'CB Bank',
             ],
             [
                 'name' => 'AYA Bank',
@@ -48,10 +48,10 @@ class BankTableSeeder extends Seeder
             ],
             [
                 'name' => 'OK Dollar',
-            ]
-            ];
-       
+            ],
+        ];
+
         Bank::insert($bank);
- 
+
     }
 }

@@ -73,7 +73,6 @@ return [
     //'timezone' => 'Asia/Rangoon',
     'timezone' => 'UTC',
 
-
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -189,7 +188,6 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
-
     'wallet_config' => [
         'AG' => 1.5,
         'GB' => 1.5,
@@ -202,5 +200,5 @@ return [
         'PR' => 1.5,
         'RE' => 1.5,
         'S3' => 1.5,
-      ],
+    ],
 ];

@@ -1,35 +1,35 @@
 <?php
 
 use App\Http\Controllers\Admin\BannerTextController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\V1\BannerController;
 use App\Http\Controllers\Api\V1\Auth\AuthController;
 use App\Http\Controllers\Api\V1\Bank\BankController;
+use App\Http\Controllers\Api\V1\BannerController;
+use App\Http\Controllers\Api\V1\Game\GameController;
+use App\Http\Controllers\Api\V1\Game\LaunchGameController;
+use App\Http\Controllers\Api\V1\Player\PlayerTransactionLogController;
+use App\Http\Controllers\Api\V1\Player\TransactionController;
+use App\Http\Controllers\Api\V1\Player\WagerController;
+use App\Http\Controllers\Api\V1\Player\WithDrawController;
+use App\Http\Controllers\Api\V1\PromotionController;
 use App\Http\Controllers\Api\V1\Webhook\BonusController;
 use App\Http\Controllers\Api\V1\Webhook\BuyInController;
 use App\Http\Controllers\Api\V1\Webhook\BuyOutController;
-use App\Http\Controllers\Api\V1\Game\GameController;
-use App\Http\Controllers\Api\V1\PromotionController;
-use App\Http\Controllers\Api\V1\Webhook\RollbackController;
 use App\Http\Controllers\Api\V1\Webhook\CancelBetController;
 use App\Http\Controllers\Api\V1\Webhook\GameResultController;
 use App\Http\Controllers\Api\V1\Webhook\GetBalanceController;
 use App\Http\Controllers\Api\V1\Webhook\JackPotController;
-use App\Http\Controllers\Api\V1\Game\LaunchGameController;
 use App\Http\Controllers\Api\V1\Webhook\MobileLoginController;
-use App\Http\Controllers\Api\V1\Webhook\PushBetController;
-use App\Http\Controllers\Api\V1\Player\WithDrawController;
-use App\Http\Controllers\Api\V1\Player\PlayerTransactionLogController;
-use App\Http\Controllers\Api\V1\Player\TransactionController;
-use App\Http\Controllers\Api\V1\Player\WagerController;
 use App\Http\Controllers\Api\V1\Webhook\PlaceBetController;
+use App\Http\Controllers\Api\V1\Webhook\PushBetController;
+use App\Http\Controllers\Api\V1\Webhook\RollbackController;
 use App\Http\Controllers\TestController;
+use Illuminate\Support\Facades\Route;
 
 //login route post
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/player-change-password', [AuthController::class, 'playerChangePassword']);
 
-// logout 
+// logout
 Route::post('/logout', [AuthController::class, 'logout']);
 Route::get('promotion', [PromotionController::class, 'index']);
 Route::get('banner', [BannerController::class, 'index']);
@@ -41,9 +41,9 @@ Route::get('gameType', [GameController::class, 'gameType']);
 Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'gameList']);
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);
 
-Route::get("/test", TestController::class);
+Route::get('/test', TestController::class);
 
-Route::group(["prefix" => "Seamless"], function () {
+Route::group(['prefix' => 'Seamless'], function () {
     Route::post('GetBalance', [GetBalanceController::class, 'getBalance']);
 
     // Route::group(["middleware" => ["webhook_log"]], function(){
@@ -61,7 +61,7 @@ Route::group(["prefix" => "Seamless"], function () {
     // });
 });
 
-Route::group(["middleware" => ['auth:sanctum']], function () {
+Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('wager-logs', [WagerController::class, 'index']);
     Route::get('transactions', [TransactionController::class, 'index']);
 

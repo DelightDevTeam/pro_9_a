@@ -15,10 +15,10 @@ class SlotWebhookResponse extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            "ErrorCode" => $this->resource["ErrorCode"],
-            "ErrorMessage" => $this->resource["ErrorMessage"],
-            "Balance" => $this->resource["Balance"],
-            "BeforeBalance" => $this->resource["BeforeBalance"]
+            'ErrorCode' => $this->resource['ErrorCode'],
+            'ErrorMessage' => $this->resource['ErrorMessage'],
+            'Balance' => $this->resource['Balance'],
+            'BeforeBalance' => $this->resource['BeforeBalance'],
         ];
     }
 }

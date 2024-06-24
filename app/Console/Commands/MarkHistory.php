@@ -17,16 +17,20 @@ class MarkHistory extends Command
     protected $signature = 'make:mark-history';
 
     protected $operatorCode;
+
     protected $secretKey;
+
     public const VERSION_KEY = 1;
+
     public const IS_MARK = 1;
 
     public function __construct()
     {
         parent::__construct();
-        $this->operatorCode =   config('common.operatorcode');
-        $this->secretKey =  config('common.secret_key');
+        $this->operatorCode = config('common.operatorcode');
+        $this->secretKey = config('common.secret_key');
     }
+
     /**
      * The console command description.
      *
@@ -34,35 +38,32 @@ class MarkHistory extends Command
      */
     protected $description = 'Command description';
 
-
-
-
     /**
      * Execute the console command.
      */
     public function handle()
     {
         $baseUrl = 'http://gslog.336699bet.com/markbyjson.aspx';
-        
-        $signatureString = $this->operatorCode . $this->secretKey;
-        $signature = ApiHelper::generateSignature($signatureString);
-       
-        $bettingIds = ModelsBettingHistory::where('is_mark',0)->pluck('betting_id');
-        $stringValues = implode(',', $bettingIds->toArray());
-        
-            $param = [
-                'operatorcode' => $this->operatorCode,
-                'ticket' => $stringValues,
-                'signature' => $signature
-            ];
-            Http::withHeaders([
-                'Content-Type' => 'application/json',
-            ])->post($baseUrl, $param);
-            $result = explode(",", $stringValues);
 
-            ModelsBettingHistory::whereIn('betting_id',$result)->update(['is_mark' => self::IS_MARK]);
+        $signatureString = $this->operatorCode.$this->secretKey;
+        $signature = ApiHelper::generateSignature($signatureString);
+
+        $bettingIds = ModelsBettingHistory::where('is_mark', 0)->pluck('betting_id');
+        $stringValues = implode(',', $bettingIds->toArray());
+
+        $param = [
+            'operatorcode' => $this->operatorCode,
+            'ticket' => $stringValues,
+            'signature' => $signature,
+        ];
+        Http::withHeaders([
+            'Content-Type' => 'application/json',
+        ])->post($baseUrl, $param);
+        $result = explode(',', $stringValues);
+
+        ModelsBettingHistory::whereIn('betting_id', $result)->update(['is_mark' => self::IS_MARK]);
 
         $this->line('<fg=green>Mark History Created Successfully</>');
-        
+
     }
 }

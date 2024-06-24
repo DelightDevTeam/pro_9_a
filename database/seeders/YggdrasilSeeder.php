@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
-use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
 
 class YggdrasilSeeder extends Seeder
 {
@@ -13,7 +13,7 @@ class YggdrasilSeeder extends Seeder
      */
     public function run(): void
     {
-         $games = [
+        $games = [
             [
                 'code' => '880029',
                 'name' => 'Jokerizer',
@@ -175,7 +175,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880074.jpg',
             ],
-             [
+            [
                 'code' => '880075',
                 'name' => 'Wild Robo Factory',
                 'game_type_id' => 1,
@@ -483,7 +483,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880159.jpg',
             ],
-             [
+            [
                 'code' => '880160',
                 'name' => "Hanzo's Dojo",
                 'game_type_id' => 1,
@@ -651,7 +651,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880188.jpg',
             ],
-             [
+            [
                 'code' => '880211',
                 'name' => "Boilin' Pots",
                 'game_type_id' => 1,
@@ -896,7 +896,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880352.jpg',
             ],
-             [
+            [
                 'code' => '880029',
                 'name' => 'Jokerizer',
                 'game_type_id' => 2,
@@ -1050,7 +1050,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880072.jpg',
             ],
-             [
+            [
                 'code' => '880029',
                 'name' => 'Jokerizer',
                 'game_type_id' => 2,
@@ -1512,7 +1512,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880158.jpg',
             ],
-             [
+            [
                 'code' => '880159',
                 'name' => 'Pumpkin Smash',
                 'game_type_id' => 2,
@@ -1596,7 +1596,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880171.jpg',
             ],
-             [
+            [
                 'code' => '880172',
                 'name' => 'Arthur\'s Fortune',
                 'game_type_id' => 2,
@@ -1687,7 +1687,7 @@ class YggdrasilSeeder extends Seeder
                 'product_id' => 6,
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880188.jpg',
             ],
-             [
+            [
                 'code' => '880211',
                 'name' => 'Boilin\' Pots',
                 'game_type_id' => 2,

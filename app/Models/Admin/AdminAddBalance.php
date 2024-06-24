@@ -9,11 +9,13 @@ use Illuminate\Database\Eloquent\Model;
 class AdminAddBalance extends Model
 {
     use HasFactory;
+
     protected $fillable = [
-        'balance_up', 'user_id', 'remark'
+        'balance_up', 'user_id', 'remark',
     ];
 
-    public function user(){
+    public function user()
+    {
         return $this->belongsTo(User::class);
     }
 }

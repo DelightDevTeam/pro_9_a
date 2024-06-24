@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
-use App\Models\Admin\Permission;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
+use App\Models\Admin\Permission;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Validator;
 use Symfony\Component\HttpFoundation\Response;
 
 class PermissionController extends Controller
@@ -16,7 +16,8 @@ class PermissionController extends Controller
      */
     public function index()
     {
-       $permissions = Permission::all();
+        $permissions = Permission::all();
+
         return view('admin.permission.index', compact('permissions'));
     }
 
@@ -34,20 +35,20 @@ class PermissionController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-        'title' => 'required|unique:permissions,title',
+            'title' => 'required|unique:permissions,title',
 
-        //'body' => 'required|min:3'
-    ]);
+            //'body' => 'required|min:3'
+        ]);
 
-    if ($validator->fails()) {
-        return back()->with('toast_error', $validator->messages()->all()[0])->withInput();
-    }
+        if ($validator->fails()) {
+            return back()->with('toast_error', $validator->messages()->all()[0])->withInput();
+        }
 
         // store
         Permission::create([
-            'title' => $request->title
+            'title' => $request->title,
         ]);
-      
+
         return redirect()->route('admin.permissions.index')->with('toast_success', 'Permission created successfully.');
     }
 
@@ -64,24 +65,25 @@ class PermissionController extends Controller
      */
     public function edit(Permission $permission)
     {
-        
+
         return view('admin.permission.edit', compact('permission'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request,Permission $permission)
+    public function update(Request $request, Permission $permission)
     {
         /// validate the request
         $request->validate([
-            'title' => 'required|unique:permissions,title,' . $permission->id,
+            'title' => 'required|unique:permissions,title,'.$permission->id,
         ]);
 
         // update
         $permission->update([
-            'title' => $request->title
+            'title' => $request->title,
         ]);
+
         // redirect
         return redirect()->route('admin.permissions.index')->with('toast_success', 'Permission updated successfully.');
     }
@@ -92,6 +94,7 @@ class PermissionController extends Controller
     public function destroy(Permission $permission)
     {
         $permission->delete();
+
         return redirect()->route('admin.permissions.index')->with('toast_success', 'Permission deleted successfully.');
     }
 }

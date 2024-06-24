@@ -12,11 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('user_logs', function (Blueprint $table) {
-            $table->text("user_agent")->nullable();
+            $table->text('user_agent')->nullable();
         });
 
-        Schema::table("users", function(Blueprint $table){
-            $table->dropColumn("user_agent");
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('user_agent');
         });
     }
 

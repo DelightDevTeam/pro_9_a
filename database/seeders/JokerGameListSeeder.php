@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class JokerGameListSeeder extends Seeder
 {
@@ -14,7 +14,7 @@ class JokerGameListSeeder extends Seeder
      */
     public function run(): void
     {
-         $games = [
+        $games = [
             [
                 'code' => 'zcw3utgfzk75o',
                 'name' => 'Huang Fei Hong',
@@ -547,7 +547,7 @@ class JokerGameListSeeder extends Seeder
                 'product_id' => 3,
                 'image_url' => '//img.qiangmingbao.net/gameimages/landscape/bmr8675wqiigs.png',
             ],
-             [
+            [
                 'code' => 'kdn8ckjqfhsn4',
                 'name' => 'Pharaoh\'s Tomb',
                 'game_type_id' => 1,
@@ -953,7 +953,7 @@ class JokerGameListSeeder extends Seeder
                 'product_id' => 3,
                 'image_url' => '//img.qiangmingbao.net/gameimages/landscape/ebudnqj68h6d4.png',
             ],
-             [
+            [
                 'code' => 'bcizh7dipjiso',
                 'name' => 'Mulan',
                 'game_type_id' => 1,
@@ -1422,7 +1422,7 @@ class JokerGameListSeeder extends Seeder
                 'product_id' => 3,
                 'image_url' => '//img.qiangmingbao.net/gameimages/landscape/b6nuk4djp3zsa.png',
             ],
-             [
+            [
                 'code' => '3jxqtp7wssiks',
                 'name' => 'The Legend Of White Snake',
                 'game_type_id' => 1,

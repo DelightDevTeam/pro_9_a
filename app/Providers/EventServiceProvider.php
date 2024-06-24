@@ -24,11 +24,11 @@ class EventServiceProvider extends ServiceProvider
         ],
 
         UserCreatedEvent::class => [
-            CreateUserTreeListener::class
+            CreateUserTreeListener::class,
         ],
 
         TransactionCreatedEvent::class => [
-            UpdateFinicalReportListener::class
+            UpdateFinicalReportListener::class,
         ],
     ];
 

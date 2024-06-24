@@ -23,16 +23,16 @@ class PlayerTransactionLogs extends Model
         'sync_time',
         'remark',
         'trans_id',
-        'trans_time'
+        'trans_time',
     ];
 
     public function user()
     {
         return $this->belongsTo(User::class);
     }
+
     public function provider()
     {
         return $this->belongsTo(Provider::class);
     }
-
 }

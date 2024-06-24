@@ -2,41 +2,42 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Exception;
-use App\Models\Admin\Role;
-use App\Models\User;
 use App\Helpers\ApiHelper;
-use App\Models\Permission;
-use App\Services\ApiService;
-use Illuminate\Http\Request;
-use App\Http\Requests\UserRequest;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
-//use Gate;
+use App\Http\Requests\UserRequest;
+use App\Models\Admin\Role;
+use App\Models\Permission;
+use App\Models\User;
+use App\Services\ApiService;
+use Exception;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+//use Gate;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response;
 
 class UsersController extends Controller
 {
-
     protected $apiService;
+
     protected $operatorCode;
+
     protected $secretKey;
+
     protected $backendPassword;
-
-
 
     public function __construct(ApiService $apiService)
     {
 
         $this->apiService = $apiService;
         $this->operatorCode = config('common.operatorcode');
-        $this->secretKey  = config('common.secret_key');
-        $this->backendPassword  = config('common.backend_password');
+        $this->secretKey = config('common.secret_key');
+        $this->backendPassword = config('common.backend_password');
     }
+
     /**
      * Display a listing of the resource.
      */
@@ -50,6 +51,7 @@ class UsersController extends Controller
 
         // users data with order by id desc
         $users = User::where('agent_id', Auth()->user()->id)->orderBy('id', 'desc')->get();
+
         return response()->view('admin.users.index', compact('users'));
     }
 
@@ -58,7 +60,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        dd("here");
+        dd('here');
         abort_if(
             Gate::denies('user_create'),
             Response::HTTP_FORBIDDEN,
@@ -77,7 +79,7 @@ class UsersController extends Controller
         try {
             $inputs = $request->validated();
             $endpoint = '/createMember.aspx';
-            $signatureString = strtolower($this->operatorCode) . $inputs['user_name'] . $this->secretKey;
+            $signatureString = strtolower($this->operatorCode).$inputs['user_name'].$this->secretKey;
             $signature = ApiHelper::generateSignature($signatureString);
 
             $param = [
@@ -113,14 +115,14 @@ class UsersController extends Controller
             $operatorcode = $this->operatorCode; // operatorcode
             $username = $request->name;
             $secret_key = $this->secretKey;
-            $md5_hash = md5($operatorcode . $username . $secret_key); //signature
+            $md5_hash = md5($operatorcode.$username.$secret_key); //signature
             // change to UpperCase $md5_hash
             $md5_hash = strtoupper($md5_hash);
             $backend_password = $this->backendPassword;
-            $url = 'https://gsmd.336699bet.com/createMember.aspx?operatorcode=' . $operatorcode . '&username=' . $username . '&signature=' . $md5_hash;
+            $url = 'https://gsmd.336699bet.com/createMember.aspx?operatorcode='.$operatorcode.'&username='.$username.'&signature='.$md5_hash;
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_USERPWD, $operatorcode . ":" . $backend_password);
+            curl_setopt($ch, CURLOPT_USERPWD, $operatorcode.':'.$backend_password);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_TIMEOUT, 10);
             $output = curl_exec($ch);
@@ -140,13 +142,12 @@ class UsersController extends Controller
             return redirect()->route('admin.users.index')->with('success', 'Create New Player Successfully!');
         } catch (\Exception $e) {
             // Log the exception message
-            Log::error('Error creating user: ' . $e->getMessage());
+            Log::error('Error creating user: '.$e->getMessage());
 
             // Redirect back with an error message
             return redirect()->back()->with('error', 'There was an error creating the user. Please try again.');
         }
     }
-
 
     /**
      * Display the specified resource.
@@ -162,6 +163,7 @@ class UsersController extends Controller
         $user_detail = User::with(['roles', 'roles.permissions'])->findOrFail($id);
         $roles = Role::all();
         $permissions = Permission::all();
+
         return view('admin.users.show', compact('user_detail', 'roles', 'permissions'));
     }
 
@@ -178,6 +180,7 @@ class UsersController extends Controller
 
         $user_edit = User::find($id);
         $roles = Role::all()->pluck('title', 'id');
+
         return response()->view('admin.users.edit', compact('user_edit', 'roles'));
     }
 
@@ -189,6 +192,7 @@ class UsersController extends Controller
         $user = User::find($id);
         $user->update($request->all());
         $user->roles()->sync($request->input('roles', []));
+
         return redirect()->route('admin.users.index', $user->id)->with('toast_success', 'User updated successfully');
     }
 
@@ -205,13 +209,14 @@ class UsersController extends Controller
 
         $user = User::find($id);
         $user->delete();
+
         return redirect()->route('admin.users.index')->with('success', 'User deleted successfully');
     }
-
 
     public function massDestroy(Request $request)
     {
         User::whereIn('id', request('ids'))->delete();
+
         return response(null, 204);
     }
 
@@ -222,9 +227,10 @@ class UsersController extends Controller
         if (Auth::check() && Auth::id() == $id) {
             Auth::logout();
         }
+
         return redirect()->back()->with(
             'success',
-            'User ' . ($user->status == 1 ? 'activated' : 'banned') . ' successfully'
+            'User '.($user->status == 1 ? 'activated' : 'banned').' successfully'
         );
     }
 }

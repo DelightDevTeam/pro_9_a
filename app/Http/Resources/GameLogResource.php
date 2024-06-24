@@ -15,12 +15,12 @@ class GameLogResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'game_name' =>  $this->name_en,
+            'game_name' => $this->name_en,
             'game_type' => $this->description,
             'total_bet' => $this->total_bet,
-            'winlose' =>  $this->winlose,
+            'winlose' => $this->winlose,
             'play_time' => $this->play_time,
-            'player_name' => $this->player_name
+            'player_name' => $this->player_name,
         ];
     }
 }

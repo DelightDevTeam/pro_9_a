@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
-use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
 
 class RealTimeGamingSeeder extends Seeder
 {
@@ -406,7 +406,7 @@ class RealTimeGamingSeeder extends Seeder
                 'product_id' => 34,
                 'image_url' => 'http://prodmd.9977997.com/Image/RTG/en/CrystalWaters-200x200-en.jpg',
             ],
-             [
+            [
                 'code' => '1179876',
                 'name' => "Panda's Gold",
                 'game_type_id' => 1,
@@ -518,7 +518,7 @@ class RealTimeGamingSeeder extends Seeder
                 'product_id' => 34,
                 'image_url' => 'http://prodmd.9977997.com/Image/RTG/en/TheBigBopper®-200x200-en.jpg',
             ],
-             [
+            [
                 'code' => '1179901',
                 'name' => 'The Mariachi 5',
                 'game_type_id' => 1,
@@ -603,7 +603,7 @@ class RealTimeGamingSeeder extends Seeder
                 'image_url' => 'http://prodmd.9977997.com/Image/RTG/en/I,Zombie-200x200-en.jpg',
             ],
             [
-                'code' => "1179674",
+                'code' => '1179674',
                 'name' => "Aladdin's Wishes",
                 'game_type_id' => 1,
                 'product_id' => 34,
@@ -894,7 +894,6 @@ class RealTimeGamingSeeder extends Seeder
         foreach ($games as $gameData) {
             GameList::create($gameData);
         }
-
 
     }
 }

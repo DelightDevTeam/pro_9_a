@@ -13,7 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         DB::statement(
-            <<<SQL
+            <<<'SQL'
             ALTER TABLE transactions
             ADD COLUMN event_id VARCHAR(191) GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.event_id'))) STORED,
             ADD COLUMN seamless_transaction_id VARCHAR(191) GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.seamless_transaction_id'))) STORED

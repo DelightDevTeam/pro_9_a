@@ -17,7 +17,7 @@ return new class extends Migration
         });
 
         DB::statement(
-            <<<SQL
+            <<<'SQL'
             ALTER TABLE transactions
             ADD COLUMN wager_id BIGINT GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.wager_id'))) STORED,
             ADD COLUMN note TEXT GENERATED ALWAYS AS ( json_unquote(json_extract(meta, '$.note'))) STORED

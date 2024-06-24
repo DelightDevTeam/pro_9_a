@@ -23,12 +23,12 @@ class UserResource extends JsonResource
             'status' => $this->status,
             'bank' => $this->bank->name,
             'bank_account_name' => $this->bank_account_name,
-            'bank_account' => $this->bank_account
+            'bank_account' => $this->bank_account,
         ];
 
         return [
-            "user" => $user,
-            "token" => $this->createToken($this->user_name)->plainTextToken
+            'user' => $user,
+            'token' => $this->createToken($this->user_name)->plainTextToken,
         ];
     }
 }

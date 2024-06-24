@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class PragmaticPlaySeeder extends Seeder
 {
@@ -330,7 +330,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vswaysluckyfish.png',
             ],
-             [
+            [
                 'code' => 'vswaysmadame',
                 'name' => 'Madame Destiny Megaways',
                 'game_type_id' => 1,
@@ -484,7 +484,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs20mustanggld2.png',
             ],
-             [
+            [
                 'code' => 'vs20medusast',
                 'name' => "Medusa's Stone",
                 'game_type_id' => 1,
@@ -645,7 +645,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs40samurai3.png',
             ],
-             [
+            [
                 'code' => 'vswayslofhero',
                 'name' => 'Legend of Heroes Megaways',
                 'game_type_id' => 1,
@@ -806,7 +806,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vswaysfuryodin.png',
             ],
-             [
+            [
                 'code' => 'vswayslight',
                 'name' => 'Lucky Lightning',
                 'game_type_id' => 1,
@@ -1184,7 +1184,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs20excalibur.png',
             ],
-             [
+            [
                 'code' => 'vs20fparty2',
                 'name' => 'Fruit Party 2',
                 'game_type_id' => 1,
@@ -1527,7 +1527,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs10strawberry.png',
             ],
-             [
+            [
                 'code' => 'vs10trail',
                 'name' => 'Mustang Trail',
                 'game_type_id' => 1,
@@ -1723,7 +1723,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs243fortune.png',
             ],
-             [
+            [
                 'code' => 'vs20jewelparty',
                 'name' => 'Jewel Rush',
                 'game_type_id' => 1,
@@ -2115,7 +2115,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vswayswest.png',
             ],
-             [
+            [
                 'code' => 'vs1024butterfly',
                 'name' => 'Jade Butterfly',
                 'game_type_id' => 1,
@@ -2612,7 +2612,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs40madwheel.png',
             ],
-             [
+            [
                 'code' => 'vs20piggybank',
                 'name' => 'Piggy Bankers',
                 'game_type_id' => 1,
@@ -2773,7 +2773,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs20sknights.png',
             ],
-             [
+            [
                 'code' => 'vs20chicken',
                 'name' => 'The Great Chicken Escape',
                 'game_type_id' => 1,
@@ -3185,7 +3185,7 @@ class PragmaticPlaySeeder extends Seeder
                 'game_type_id' => 1,
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/vs5sh.png',
-            ],[
+            ], [
                 'code' => 'vs20fh',
                 'name' => 'Fire Hot 20',
                 'game_type_id' => 1,
@@ -3346,7 +3346,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/481.png',
             ],
-             [
+            [
                 'code' => '204',
                 'name' => 'Mega Roulette',
                 'game_type_id' => 2,
@@ -3556,7 +3556,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/430.png',
             ],
-             [
+            [
                 'code' => '428',
                 'name' => 'Speed Baccarat 10',
                 'game_type_id' => 2,
@@ -3633,7 +3633,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/203.png',
             ],
-             [
+            [
                 'code' => '225',
                 'name' => 'Auto Roulette',
                 'game_type_id' => 2,
@@ -4186,7 +4186,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/565.png',
             ],
-             [
+            [
                 'code' => '3046',
                 'name' => 'BlackjackX 11 - Emerald',
                 'game_type_id' => 2,
@@ -4382,7 +4382,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/600.png',
             ],
-             [
+            [
                 'code' => '521',
                 'name' => 'Blackjack 17 - Azure',
                 'game_type_id' => 2,
@@ -4487,7 +4487,7 @@ class PragmaticPlaySeeder extends Seeder
                 'product_id' => 1,
                 'image_url' => 'https://api-sg57.ppgames.net/game_pic/square/200/681.png',
             ],
-             [
+            [
                 'code' => '682',
                 'name' => 'Speed Blackjack 32 – Emerald',
                 'game_type_id' => 2,

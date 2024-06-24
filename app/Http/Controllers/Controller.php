@@ -13,6 +13,6 @@ class Controller extends BaseController
 
     protected function ifChildOfParent($prent_id, $child_id)
     {
-        return User::where("agent_id", $prent_id)->where("id", $child_id)->exists();
+        return User::where('agent_id', $prent_id)->where('id', $child_id)->exists();
     }
 }

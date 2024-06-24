@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class PGSoftGameListSeeder extends Seeder
 {
@@ -484,7 +484,7 @@ class PGSoftGameListSeeder extends Seeder
                 'product_id' => 31,
                 'image_url' => 'http://prodmd.9977997.com/Image/PGSoft/en/85.png',
             ],
-             [
+            [
                 'code' => '86',
                 'name' => 'Galactic Gems',
                 'game_type_id' => 1,
@@ -1009,7 +1009,7 @@ class PGSoftGameListSeeder extends Seeder
                 'product_id' => 31,
                 'image_url' => 'http://prodmd.9977997.com/Image/PGSoft/en/1717688.png',
             ],
-        
+
         ];
 
         foreach ($data as $gameData) {

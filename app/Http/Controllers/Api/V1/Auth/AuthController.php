@@ -18,33 +18,34 @@ use Illuminate\Support\Facades\Hash;
 class AuthController extends Controller
 {
     use HttpResponses;
+
     public function login(LoginRequest $request)
     {
         $credentials = $request->only('user_name', 'password');
 
         $user = User::where('user_name', $request->user_name)->first();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
-            return $this->error("", "Credentail does not match!", 401);
+        if (! $user || ! Hash::check($request->password, $user->password)) {
+            return $this->error('', 'Credentail does not match!', 401);
         }
 
         if ($user->is_changed_password == 0) {
-            return $this->error($user, "You have to change password", 200);
+            return $this->error($user, 'You have to change password', 200);
         }
 
-        if (!Auth::attempt($credentials)) {
-            return $this->error("", "Credentials do not match!", 401);
+        if (! Auth::attempt($credentials)) {
+            return $this->error('', 'Credentials do not match!', 401);
         }
 
         $user = User::where('user_name', $request->user_name)->first();
-        if (!$user->hasRole('Player')) {
-            return $this->error("", "You are not a player!", 401);
+        if (! $user->hasRole('Player')) {
+            return $this->error('', 'You are not a player!', 401);
         }
 
         UserLog::create([
             'ip_address' => $request->ip(),
             'user_id' => $user->id,
-            'user_agent' => $request->userAgent()
+            'user_agent' => $request->userAgent(),
         ]);
 
         return $this->success(new UserResource($user), 'User login successfully.');
@@ -53,8 +54,9 @@ class AuthController extends Controller
     public function logout()
     {
         Auth::user()->currentAccessToken()->delete();
+
         return $this->success([
-            'message' => 'Logged out successfully.'
+            'message' => 'Logged out successfully.',
         ]);
     }
 
@@ -69,12 +71,13 @@ class AuthController extends Controller
         if (Hash::check($request->current_password, $player->password)) {
             $player->update([
                 'password' => $request->password,
-                'status' => 1
+                'status' => 1,
 
             ]);
         } else {
             return $this->error('', 'Old Passowrd is incorrect', 401);
         }
+
         return $this->success($player, 'Password has been changed successfully.');
     }
 
@@ -82,14 +85,14 @@ class AuthController extends Controller
     {
         $request->validate([
             'password' => ['required', 'confirmed'],
-            'user_id' => ['required']
+            'user_id' => ['required'],
         ]);
         $player = User::where('id', $request->user_id)->first();
 
         if ($player) {
             $player->update([
                 'password' => Hash::make($request->password),
-                'is_changed_password' => true
+                'is_changed_password' => true,
             ]);
 
             return $this->success($player, 'Password has been changed successfully.');
@@ -104,7 +107,7 @@ class AuthController extends Controller
         $player = Auth::user();
         $player->update([
             'name' => $request->name,
-            'phone' => $request->phone
+            'phone' => $request->phone,
         ]);
 
         return $this->success(new PlayerResource($player), 'Update profile');

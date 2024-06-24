@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
-use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
 
 class SexyGamingSeeder extends Seeder
 {

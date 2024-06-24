@@ -33,18 +33,18 @@ class WalletService
     public static function buildTransferMeta(User $user, User $target_user, TransactionName $transaction_name, array $meta = [])
     {
         return array_merge([
-            "name" => $transaction_name,
-            "opening_balance" => $user->balanceFloat,
-            "target_user_id" => $target_user->id
+            'name' => $transaction_name,
+            'opening_balance' => $user->balanceFloat,
+            'target_user_id' => $target_user->id,
         ], $meta);
     }
 
     public static function buildDepositMeta(User $user, User $target_user, TransactionName $transaction_name, array $meta = [])
     {
         return array_merge([
-            "name" => $transaction_name->value,
-            "opening_balance" => $user->balanceFloat,
-            "target_user_id" => $target_user->id
+            'name' => $transaction_name->value,
+            'opening_balance' => $user->balanceFloat,
+            'target_user_id' => $target_user->id,
         ], $meta);
     }
 }

@@ -4,9 +4,8 @@ namespace App\Services;
 
 use Illuminate\Support\Facades\Http;
 
-Class ApiService{
-
-
+class ApiService
+{
     protected $baseUrl;
 
     public function __construct($baseUrl)
@@ -17,11 +16,10 @@ Class ApiService{
     public function get($endpoint, $params = [])
     {
 
-        $url = $this->baseUrl . $endpoint;
-       
+        $url = $this->baseUrl.$endpoint;
+
         $response = Http::get($url, $params);
 
         return $response->json();
     }
-
 }

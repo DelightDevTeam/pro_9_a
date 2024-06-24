@@ -4,18 +4,18 @@ namespace App\Http\Controllers\Admin\Agent;
 
 use App\Enums\TransactionName;
 use App\Enums\UserType;
-use App\Models\User;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\AgentRequest;
 use App\Http\Requests\TransferLogRequest;
 use App\Models\Admin\TransferLog;
+use App\Models\User;
 use App\Services\WalletService;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 use Exception;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -41,6 +41,7 @@ class AgentController extends Controller
             ->where('agent_id', auth()->id())
             ->orderBy('id', 'desc')
             ->get();
+
         //kzt
         return view('admin.agent.index', compact('users'));
     }
@@ -83,17 +84,17 @@ class AgentController extends Controller
             [
                 'password' => Hash::make($inputs['password']),
                 'agent_id' => Auth()->user()->id,
-                'type' => UserType::Admin
+                'type' => UserType::Admin,
             ]
         );
-        
+
         $agent = User::create($userPrepare);
         $agent->roles()->sync(self::AGENT_ROLE);
 
         if (isset($inputs['amount'])) {
             app(WalletService::class)->transfer($master, $agent, $inputs['amount'], TransactionName::CreditTransfer);
         }
-        
+
         return redirect()->back()
             ->with('success', 'Agent created successfully')
             ->with('password', $request->password)
@@ -112,9 +113,9 @@ class AgentController extends Controller
         );
 
         $user_detail = User::find($id);
+
         return view('admin.agent.show', compact('user_detail'));
     }
-
 
     /**
      * Show the form for editing the specified resource.
@@ -122,12 +123,13 @@ class AgentController extends Controller
     public function edit(string $id)
     {
         abort_if(
-            Gate::denies('agent_edit') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('agent_edit') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
 
         $agent = User::find($id);
+
         return view('admin.agent.edit', compact('agent'));
     }
 
@@ -137,22 +139,22 @@ class AgentController extends Controller
     public function update(Request $request, string $id)
     {
         abort_if(
-            Gate::denies('agent_update') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('agent_update') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
 
         $request->validate([
-            'name' => 'required|min:3|unique:users,name,' . $id,
+            'name' => 'required|min:3|unique:users,name,'.$id,
             'player_name' => 'required|string',
-            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,' . $id],
+            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,'.$id],
         ]);
 
         $user = User::find($id);
         $user->update([
             'name' => $request->name,
             'phone' => $request->phone,
-            'player_name' => $request->player_name
+            'player_name' => $request->player_name,
         ]);
 
         return redirect()->back()
@@ -162,7 +164,6 @@ class AgentController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-
     public function getCashIn(string $id)
     {
         abort_if(
@@ -172,6 +173,7 @@ class AgentController extends Controller
         );
 
         $agent = User::find($id);
+
         return view('admin.agent.cash_in', compact('agent'));
     }
 
@@ -186,7 +188,6 @@ class AgentController extends Controller
         // Assuming $id is the user ID
         $agent = User::findOrFail($id);
 
-
         return view('admin.agent.cash_out', compact('agent'));
     }
 
@@ -194,7 +195,7 @@ class AgentController extends Controller
     {
 
         abort_if(
-            Gate::denies('make_transfer') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('make_transfer') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
@@ -209,12 +210,13 @@ class AgentController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($admin, $agent, $request->validated("amount"), TransactionName::CreditTransfer, ['note' => $request->note]);
+            app(WalletService::class)->transfer($admin, $agent, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note]);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
 
             session()->flash('error', $e->getMessage());
+
             return redirect()->back()->with('error', $e->getMessage());
         }
     }
@@ -223,7 +225,7 @@ class AgentController extends Controller
     {
 
         abort_if(
-            Gate::denies('make_transfer') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('make_transfer') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
@@ -241,12 +243,13 @@ class AgentController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($agent, $admin, $request->validated("amount"), TransactionName::DebitTransfer,['note' => $inputs['note']]);
+            app(WalletService::class)->transfer($agent, $admin, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $inputs['note']]);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
 
             session()->flash('error', $e->getMessage());
+
             return redirect()->back()->with('error', $e->getMessage());
         }
 
@@ -257,7 +260,7 @@ class AgentController extends Controller
     public function getTransferDetail($id)
     {
         abort_if(
-            Gate::denies('make_transfer') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('make_transfer') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
@@ -267,17 +270,18 @@ class AgentController extends Controller
 
         return view('admin.agent.transfer_detail', compact('transfer_detail'));
     }
+
     private function generateRandomString()
     {
         $randomNumber = mt_rand(10000000, 99999999);
-        return 'TG-' . $randomNumber;
-    }
 
+        return 'TG-'.$randomNumber;
+    }
 
     public function banAgent($id)
     {
         abort_if(
-            !$this->ifChildOfParent(request()->user()->id, $id),
+            ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
@@ -287,34 +291,36 @@ class AgentController extends Controller
         if (Auth::check() && Auth::id() == $id) {
             Auth::logout();
         }
+
         return redirect()->back()->with(
             'success',
-            'User ' . ($user->status == 1 ? 'activated' : 'banned') . ' successfully'
+            'User '.($user->status == 1 ? 'activated' : 'banned').' successfully'
         );
     }
 
     public function getChangePassword($id)
     {
         abort_if(
-            Gate::denies('agent_change_password_access') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
 
         $agent = User::find($id);
+
         return view('admin.agent.change_password', compact('agent'));
     }
 
     public function makeChangePassword($id, Request $request)
     {
         abort_if(
-            Gate::denies('agent_change_password_access') || !$this->ifChildOfParent(request()->user()->id, $id),
+            Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
 
         $request->validate([
-            'password' => 'required|min:6|confirmed'
+            'password' => 'required|min:6|confirmed',
         ]);
 
         $agent = User::find($id);
