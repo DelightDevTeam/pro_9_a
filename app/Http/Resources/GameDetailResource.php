@@ -20,7 +20,7 @@ class GameDetailResource extends JsonResource
             'name' => $this->name,
             'click_count' => $this->click_count,
             'game_type_id' => $this->game_type_id,
-            'product_id' => $this->product_id,
+            'product_code' => $this->product->code,
             'image_url' => $this->image_url,
 
             //'game_id' =>  $this->game_id,
