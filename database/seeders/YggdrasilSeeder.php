@@ -2,8 +2,9 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Admin\GameList;
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class YggdrasilSeeder extends Seeder
 {
@@ -1932,6 +1933,10 @@ class YggdrasilSeeder extends Seeder
                 'image_url' => 'http://prodmd.9977997.com/Image/AT/en/880352.jpg',
             ],
         ];
+
+        foreach ($games as $gameData) {
+            GameList::create($gameData);
+        }
 
     }
 }
