@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
 
-            $this->call([
+        $this->call([
             BankTableSeeder::class,
             PermissionsTableSeeder::class,
             RolesTableSeeder::class,
@@ -31,15 +31,19 @@ class DatabaseSeeder extends Seeder
             PragmaticPlaySeeder::class,
             PGSoftGameListSeeder::class,
             JokerGameListSeeder::class,
-            HabaneroGameListTableSeeder::class,
-            DragonSoftGameListTableSeeder::class,
-            PlayStarGameListTableSeeder::class,
-            SBOGameListSeeder::class,
-            SkyWindGameListTableSeeder::class,
-            ReevoGameListTableSeeder::class,
-            PragmaticPlaySeeder::class,
-            AsiaGamingTablesSeeder::class
+            SexyGamingSeeder::class,
+            RealTimeGamingSeeder::class,
+            YggdrasilSeeder::class,
+            JDBTablesSeeder::class,
+            KAGamingTablesSeeder::class,
+            SpadeGamingTablesSeeder::class,
+            SpadeGamingFishingTablesSeeder::class,
+            PlayStarTablesSeeder::class,
+            PlayStarFishingTablesSeeder::class,
+            HabaneroGamingTablesSeeder::class,
+            MrSlottyTablesSeeder::class,
+
         ]);
-      
+
     }
 }

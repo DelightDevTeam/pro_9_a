@@ -1,0 +1,97 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "MX-LIVE-001",
+            "GameName": "Baccarat Classic",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-001.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-002",
+            "GameName": "Baccarat",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-002.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-009",
+            "GameName": "Roulette",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-009.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-010",
+            "GameName": "Red Blue Duel",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-010.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-011",
+            "GameName": "Teen Patti 2020",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-011.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-012",
+            "GameName": "Extra Andar Bahar",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-012.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-014",
+            "GameName": "Thai Hi Lo",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-014.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-015",
+            "GameName": "Thai Fish Prawn Crab",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-015.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-016",
+            "GameName": "Extra Sicbo",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-016.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "MX-LIVE-017",
+            "GameName": "Sedie",
+            "GameType": 2,
+            "Category": "Games",
+            "ImageUrl": "http://prodmd.9977997.com/Image/AWC/en/MX-LIVE-017.png",
+            "ProviderGameType": null,
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

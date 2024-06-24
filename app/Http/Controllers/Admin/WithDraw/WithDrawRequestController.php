@@ -17,8 +17,10 @@ class WithDrawRequestController extends Controller
     public function index()
     {
         $withdraws = WithDrawRequest::with(['user', 'bank'])->get();
+
         return view('admin.withdraw_request.index', compact('withdraws'));
     }
+
     public function show($id)
     {
         $withdraw = WithDrawRequest::find($id);
@@ -30,7 +32,7 @@ class WithDrawRequestController extends Controller
     {
 
         $request->validate([
-            'status' => 'required|in:0,1,2'
+            'status' => 'required|in:0,1,2',
         ]);
 
         try {
@@ -41,7 +43,7 @@ class WithDrawRequestController extends Controller
             }
 
             $withdraw->update([
-                'status' => $request->status
+                'status' => $request->status,
             ]);
             $agent->balance += $request->amount;
             $agent->save();
@@ -59,15 +61,17 @@ class WithDrawRequestController extends Controller
                 'to_user_id' => $player->id,
                 'refrence_id' => $this->getRefrenceId(),
                 'cash_out' => $request->amount,
-                'type' => 1
+                'type' => 1,
             ]);
+
             return back()->with('success', 'Admin status switch successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
     }
+
     private function getRefrenceId($prefix = 'TRF')
     {
-        return  uniqid($prefix);
+        return uniqid($prefix);
     }
 }

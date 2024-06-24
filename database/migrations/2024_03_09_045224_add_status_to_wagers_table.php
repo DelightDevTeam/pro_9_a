@@ -13,7 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('wagers', function (Blueprint $table) {
-            $table->string("status")->default(WagerStatus::Ongoing->value);
+            $table->string('status')->default(WagerStatus::Ongoing->value);
         });
     }
 

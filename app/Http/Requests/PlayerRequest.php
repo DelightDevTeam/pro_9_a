@@ -23,13 +23,13 @@ class PlayerRequest extends FormRequest
     {
         return [
             'user_name' => ['required', 'string', 'unique:users,user_name'],
-            'name' => ['required','min:3','string'],
-            'password' => ['required','min:6'],
-            'amount' => ['nullable','numeric'],
+            'name' => ['required', 'min:3', 'string'],
+            'password' => ['required', 'min:6'],
+            'amount' => ['nullable', 'numeric'],
             'phone' => ['required', 'string'],
             'bank_id' => ['required', 'integer'],
             'bank_account' => ['required'],
-            'bank_account_name' => ['required', 'string']
+            'bank_account_name' => ['required', 'string'],
         ];
     }
 }

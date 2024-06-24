@@ -14,28 +14,28 @@ class GameTypeTableSeeder extends Seeder
     {
         $data = [
             [
-                'name'  => 'Slot',
+                'name' => 'Slot',
                 'name_mm' => 'စလော့',
-                'code'  => '1',
+                'code' => '1',
                 'order' => '1',
                 'status' => 1,
-                'img' => 'slots.png'
+                'img' => 'slots.png',
             ],
             [
-                'name'  => 'Live Casino',
+                'name' => 'Live Casino',
                 'name_mm' => 'တိုက်ရိုက်ကာစီနို',
-                'code'  => '2',
+                'code' => '2',
                 'order' => '2',
                 'status' => 1,
-                'img'   => 'live_casino.png'
+                'img' => 'live_casino.png',
             ],
             [
-                'name'  => 'Sport Book',
+                'name' => 'Sport Book',
                 'name_mm' => 'အားကစား',
-                'code'  => '3',
+                'code' => '3',
                 'order' => '3',
                 'status' => 1,
-                'img'   => 'sportbook.png'
+                'img' => 'sportbook.png',
             ],
             [
                 'name' => 'Fishing',
@@ -43,7 +43,7 @@ class GameTypeTableSeeder extends Seeder
                 'code' => '8',
                 'order' => '4',
                 'status' => 1,
-                'img'  => 'fishing.png'
+                'img' => 'fishing.png',
             ],
             [
                 'name' => 'Other',
@@ -51,7 +51,7 @@ class GameTypeTableSeeder extends Seeder
                 'code' => '9',
                 'order' => '5',
                 'status' => 0,
-                'img'  => 'other.png'
+                'img' => 'other.png',
             ],
         ];
 

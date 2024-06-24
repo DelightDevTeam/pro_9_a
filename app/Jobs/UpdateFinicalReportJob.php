@@ -69,12 +69,12 @@ class UpdateFinicalReportJob implements ShouldBeUnique, ShouldQueue
                     $report_date = $this->reportDate($wager->created_at);
 
                     foreach ($user_tree as $user_tree_item) {
-                        if (!$user_tree_item) {
+                        if (! $user_tree_item) {
                             continue;
                         }
 
-                        $key = $report_date . '_' . $user_tree_item->parent_id;
-                        if (!isset($items[$key])) {
+                        $key = $report_date.'_'.$user_tree_item->parent_id;
+                        if (! isset($items[$key])) {
                             $items[$key] = [
                                 'date' => $report_date,
                                 'user_id' => $user_tree_item->parent_id,
@@ -101,7 +101,7 @@ class UpdateFinicalReportJob implements ShouldBeUnique, ShouldQueue
                                 TransactionName::Bonus,
                                 TransactionName::JackPot,
                                 TransactionName::Cancel,
-                                TransactionName::BuyOut
+                                TransactionName::BuyOut,
                             ])
                         ) {
                             $items[$key]['payout'] += $amount;
@@ -110,13 +110,13 @@ class UpdateFinicalReportJob implements ShouldBeUnique, ShouldQueue
                         if (
                             in_array($transaction->name, [
                                 TransactionName::BuyIn,
-                                TransactionName::Rollback
+                                TransactionName::Rollback,
                             ])
                         ) {
                             $items[$key]['payout'] -= $amount;
                         }
 
-                        $items[$key]["win_lose"] = $items[$key]["payout"] - $items[$key]["turnover"];
+                        $items[$key]['win_lose'] = $items[$key]['payout'] - $items[$key]['turnover'];
                     }
                 }
 
@@ -127,7 +127,7 @@ class UpdateFinicalReportJob implements ShouldBeUnique, ShouldQueue
                 $existing_report_keys = FinicalReport::whereIn('date', $report_dates)->select(DB::raw('CONCAT(date, "_", user_id) as unique_report_key'))->pluck('unique_report_key')->toArray();
 
                 $new_reports = collect($items)->filter(function ($item) use ($existing_report_keys) {
-                    return !in_array($item['date'] . '_' . $item['user_id'], $existing_report_keys);
+                    return ! in_array($item['date'].'_'.$item['user_id'], $existing_report_keys);
                 })->values();
 
                 if ($new_reports->count() > 0) {
@@ -135,7 +135,7 @@ class UpdateFinicalReportJob implements ShouldBeUnique, ShouldQueue
                 }
 
                 $update_reports = collect($items)->filter(function ($item) use ($existing_report_keys) {
-                    return in_array($item['date'] . '_' . $item['user_id'], $existing_report_keys);
+                    return in_array($item['date'].'_'.$item['user_id'], $existing_report_keys);
                 })->values();
 
                 foreach ($update_reports as $update_report) {

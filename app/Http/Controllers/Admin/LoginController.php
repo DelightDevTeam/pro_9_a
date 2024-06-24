@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
-
     public function showLogin()
     {
 
@@ -24,7 +23,7 @@ class LoginController extends Controller
     {
         $user = User::where('user_name', $request->user_name)->first();
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
+        if (! $user || ! Hash::check($request->password, $user->password)) {
             return back()->with('error', 'Invalid credentials. Please try again.');
         }
 
@@ -42,7 +41,7 @@ class LoginController extends Controller
             UserLog::create([
                 'ip_address' => $request->ip(),
                 'user_id' => Auth::id(), // Use Auth::id() for logged in user
-                'user_agent' => $request->userAgent()
+                'user_agent' => $request->userAgent(),
             ]);
 
             return redirect()->route('home');
@@ -54,6 +53,7 @@ class LoginController extends Controller
     public function logout(Request $request)
     {
         Auth::logout();
+
         return redirect('/login');
     }
 
@@ -66,10 +66,10 @@ class LoginController extends Controller
 
             $user->update([
                 'password' => Hash::make($request->password),
-                'is_changed_password' => true
+                'is_changed_password' => true,
             ]);
 
-            return redirect()->route('login')->with('success', "Password has been Updated.");
+            return redirect()->route('login')->with('success', 'Password has been Updated.');
         } catch (Exception $e) {
 
             return redirect()->back()->with('error', $e->getMessage());

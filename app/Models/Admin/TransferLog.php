@@ -3,12 +3,13 @@
 namespace App\Models\Admin;
 
 use App\Models\User;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
 class TransferLog extends Model
 {
     use HasFactory;
+
     protected $fillable = [
         'name',
         'phone',
@@ -22,10 +23,10 @@ class TransferLog extends Model
         'note',
         'sync',
         'sync_time',
-        'type'
+        'type',
     ];
+
     protected $dates = ['created_at', 'updated_at'];
-    
 
     /**
      * Get the user who initiated the transfer.
@@ -36,6 +37,7 @@ class TransferLog extends Model
     {
         return $this->belongsTo(User::class);
     }
+
     public function fromUser()
     {
         return $this->belongsTo(User::class, 'from_user_id');

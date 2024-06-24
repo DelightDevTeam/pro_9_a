@@ -15,12 +15,12 @@ class TransactionResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            "id" => $this->id,
-            "product_name" => $this->seamlessTransaction?->product?->name,
-            "closing_balance" => $this->amountFloat + $this->meta['opening_balance'],
-            "type" => $this->type,
-            "amount" => $this->amountFloat,
-            "datetime" => $this->created_at->format("Y-m-d H:i:s")
+            'id' => $this->id,
+            'product_name' => $this->seamlessTransaction?->product?->name,
+            'closing_balance' => $this->amountFloat + $this->meta['opening_balance'],
+            'type' => $this->type,
+            'amount' => $this->amountFloat,
+            'datetime' => $this->created_at->format('Y-m-d H:i:s'),
         ];
     }
 }

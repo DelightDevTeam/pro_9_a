@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('user_trees', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained();
-            $table->foreignId('parent_id')->constrained("users");
+            $table->foreignId('parent_id')->constrained('users');
             $table->tinyInteger('type');
             $table->tinyInteger('parent_type');
             $table->timestamps();

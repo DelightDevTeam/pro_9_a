@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use App\Models\Admin\Permission;
+use Illuminate\Database\Seeder;
 
 class PermissionsTableSeeder extends Seeder
 {
@@ -14,182 +14,182 @@ class PermissionsTableSeeder extends Seeder
     {
         $permissions = [
             [
-                'title'      => 'admin_access',
+                'title' => 'admin_access',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_access',
+                'title' => 'agent_access',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_access',
+                'title' => 'master_access',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'permission_index',
+                'title' => 'permission_index',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'permission_create',
+                'title' => 'permission_create',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'permission_edit',
+                'title' => 'permission_edit',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'permission_show',
+                'title' => 'permission_show',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'permission_delete',
+                'title' => 'permission_delete',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'role_index',
+                'title' => 'role_index',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'role_create',
+                'title' => 'role_create',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'role_edit',
+                'title' => 'role_edit',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'role_show',
+                'title' => 'role_show',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'role_delete',
+                'title' => 'role_delete',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_index',
+                'title' => 'player_index',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_create',
+                'title' => 'player_create',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_store',
+                'title' => 'player_store',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_edit',
+                'title' => 'player_edit',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_update',
+                'title' => 'player_update',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_show',
+                'title' => 'player_show',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'player_delete',
+                'title' => 'player_delete',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_index',
+                'title' => 'agent_index',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_create',
+                'title' => 'agent_create',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_store',
+                'title' => 'agent_store',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_edit',
+                'title' => 'agent_edit',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_update',
+                'title' => 'agent_update',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_show',
+                'title' => 'agent_show',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'agent_delete',
+                'title' => 'agent_delete',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'transfer_log',
+                'title' => 'transfer_log',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_index',
+                'title' => 'master_index',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_create',
+                'title' => 'master_create',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_store',
+                'title' => 'master_store',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_edit',
+                'title' => 'master_edit',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_update',
+                'title' => 'master_update',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_show',
+                'title' => 'master_show',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'master_delete',
+                'title' => 'master_delete',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'title'      => 'make_transfer',
+                'title' => 'make_transfer',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],

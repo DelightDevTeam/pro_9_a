@@ -36,7 +36,7 @@ class GenerateFakeFinicalReports extends Command
 
         $now = now();
 
-        $users = User::where("type", UserType::Player)->get();
+        $users = User::where('type', UserType::Player)->get();
 
         for ($x = 0; $x <= 31; $x++) {
             foreach ($users as $user) {
@@ -48,12 +48,12 @@ class GenerateFakeFinicalReports extends Command
                     $report_date = $this->reportDate($now->clone()->addDays($x));
 
                     foreach ($user_tree as $user_tree_item) {
-                        if (!$user_tree_item) {
+                        if (! $user_tree_item) {
                             continue;
                         }
 
-                        $key = $report_date . '_' . $user_tree_item->parent_id;
-                        if (!isset($items[$key])) {
+                        $key = $report_date.'_'.$user_tree_item->parent_id;
+                        if (! isset($items[$key])) {
                             $items[$key] = [
                                 'date' => $report_date,
                                 'user_id' => $user_tree_item->parent_id,
@@ -61,7 +61,7 @@ class GenerateFakeFinicalReports extends Command
                                 'payout' => 0,
                                 'win_lose' => 0,
                                 'commission' => 0,
-                                'parent_commission' => 0
+                                'parent_commission' => 0,
                             ];
                         }
 
@@ -74,14 +74,14 @@ class GenerateFakeFinicalReports extends Command
 
                             if ($luck >= 9) {
                                 $items[$key]['payout'] -= $amount;
-                            } else if ($luck >= 7) {
+                            } elseif ($luck >= 7) {
                                 $items[$key]['payout'] += $amount;
                             } else {
                                 $items[$key]['turnover'] += $amount;
                             }
                         }
 
-                        $items[$key]["win_lose"] = $items[$key]["payout"] - $items[$key]["turnover"];
+                        $items[$key]['win_lose'] = $items[$key]['payout'] - $items[$key]['turnover'];
                     }
                 }
             }
@@ -91,7 +91,7 @@ class GenerateFakeFinicalReports extends Command
             $existing_report_keys = FinicalReport::whereIn('date', $report_dates)->select(DB::raw('CONCAT(date, "_", user_id) as unique_report_key'))->pluck('unique_report_key')->toArray();
 
             $new_reports = collect($items)->filter(function ($item) use ($existing_report_keys) {
-                return !in_array($item['date'] . '_' . $item['user_id'], $existing_report_keys);
+                return ! in_array($item['date'].'_'.$item['user_id'], $existing_report_keys);
             })->values();
 
             if ($new_reports->count() > 0) {
@@ -99,7 +99,7 @@ class GenerateFakeFinicalReports extends Command
             }
 
             $update_reports = collect($items)->filter(function ($item) use ($existing_report_keys) {
-                return in_array($item['date'] . '_' . $item['user_id'], $existing_report_keys);
+                return in_array($item['date'].'_'.$item['user_id'], $existing_report_keys);
             })->values();
 
             foreach ($update_reports as $update_report) {

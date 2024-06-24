@@ -16,6 +16,5 @@ class RequestTransaction extends Data
         public ?float $TransactionAmount,
         public ?float $PayoutAmount,
         public ?float $ValidBetAmount,
-    ) {
-    }
+    ) {}
 }

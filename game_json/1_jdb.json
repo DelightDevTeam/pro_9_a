@@ -1,0 +1,1006 @@
+{
+    "ProviderGames": [
+        {
+            "GameCode": "14091",
+            "GameName": "Piggy Bank",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14091/14091_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14090",
+            "GameName": "Wealthway",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14090/14090_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14089",
+            "GameName": "Dragon Soar",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14089/14089_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14088",
+            "GameName": "Magic Ace",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14088/14088_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14086",
+            "GameName": "Open Sesame Mega",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14086/14086_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14087",
+            "GameName": "Pop Pop Candy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14087/14087_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14085",
+            "GameName": "Fruity Bonanza",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14085/14085_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14042",
+            "GameName": "Treasure Bowl",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14042/14042_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14041",
+            "GameName": "Mjolnir",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14041/14041_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14077",
+            "GameName": "Trump Card",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14077/14077_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14055",
+            "GameName": "Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14055/14055_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14084",
+            "GameName": "CaiShen Coming",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14084/14084_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14047",
+            "GameName": "Moneybags Man",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14047/14047_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14045",
+            "GameName": "Super Niubi Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14045/14045_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14065",
+            "GameName": "Blossom Of Wealth",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14065/14065_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14079",
+            "GameName": "Moneybags Man 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14079/14079_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14036",
+            "GameName": "Super Niubi",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14036/14036_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14061",
+            "GameName": "Maya Gold Crazy",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14061/14061_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14080",
+            "GameName": "Elemental Link Fire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14080/14080_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14030",
+            "GameName": "Triple King Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14030/14030_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14083",
+            "GameName": "CooCoo Farm",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14083/14083_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14082",
+            "GameName": "Elemental Link Water",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14082/14082_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14081",
+            "GameName": "Birds Party Deluxe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14081/14081_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14075",
+            "GameName": "Fortune Neko",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14075/14075_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14070",
+            "GameName": "Book of Mystery",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14070/14070_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14068",
+            "GameName": "Prosperity Tiger",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14068/14068_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14067",
+            "GameName": "Glamorous Girl",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14067/14067_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14064",
+            "GameName": "Boom Fiesta",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14064/14064_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14063",
+            "GameName": "Big Three Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14063/14063_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14060",
+            "GameName": "Lantern Wealth",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14060/14060_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14059",
+            "GameName": "Marvelous IV",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14059/14059_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14058",
+            "GameName": "Wonder Elephant",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14058/14058_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14054",
+            "GameName": "Lucky Diamond",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14054/14054_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14053",
+            "GameName": "Spindrift 2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14053/14053_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14052",
+            "GameName": "Jungle Jungle",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14052/14052_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14051",
+            "GameName": "Dragons Gate",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14051/14051_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14050",
+            "GameName": "Spindrift",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14050/14050_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14048",
+            "GameName": "Double Wilds",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14048/14048_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14046",
+            "GameName": "Miner Babe",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14046/14046_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14044",
+            "GameName": "Funky King Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14044/14044_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14043",
+            "GameName": "Golden Disco",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14043/14043_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14040",
+            "GameName": "Pirate Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14040/14040_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14039",
+            "GameName": "Fortune Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14039/14039_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14038",
+            "GameName": "Egypt Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14038/14038_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14035",
+            "GameName": "Dragons World",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14035/14035_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14034",
+            "GameName": "Go Lai Fu",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14034/14034_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14033",
+            "GameName": "Birds Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14033/14033_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14029",
+            "GameName": "Orient Animals",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14029/14029_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14027",
+            "GameName": "Lucky Seven",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14027/14027_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14025",
+            "GameName": "Lucky Racing",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14025/14025_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14022",
+            "GameName": "Mining Upstart",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14022/14022_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14021",
+            "GameName": "Rolling In Money",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14021/14021_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14018",
+            "GameName": "DaJi",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14018/14018_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14016",
+            "GameName": "Kingsman",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14016/14016_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14012",
+            "GameName": "Street Fighter",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14012/14012_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14010",
+            "GameName": "Dragon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14010/14010_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14008",
+            "GameName": "Dragon Warrior",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14008/14008_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14007",
+            "GameName": "One Punch Man",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14007/14007_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14006",
+            "GameName": "Billionaire",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14006/14006_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14005",
+            "GameName": "Mr. Bao",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14005/14005_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "14003",
+            "GameName": "Panda Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/14003/14003_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "15012",
+            "GameName": "Legendary 5",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/15012/15012_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "15010",
+            "GameName": "Chef Panda",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/15010/15010_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "15005",
+            "GameName": "Lucky Fuwa",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/15005/15005_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "15002",
+            "GameName": "Monkey King",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/15002/15002_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "15001",
+            "GameName": "Rooster In Love",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/15001/15001_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8020",
+            "GameName": "Open Sesame",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8020/8020_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8048",
+            "GameName": "OpenSesame II",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8048/8048_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8003",
+            "GameName": "Winning Mask",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8003/8003_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8047",
+            "GameName": "Winning Mask II",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8047/8047_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8051",
+            "GameName": "Xi Yang Yang",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8051/8051_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8050",
+            "GameName": "Fortune Horse",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8050/8050_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8049",
+            "GameName": "Flirting Scholar Tang II",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8049/8049_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8046",
+            "GameName": "Guan Gong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8046/8046_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8044",
+            "GameName": "Beauty And The Kingdom",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8044/8044_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8035",
+            "GameName": "Lucky Phoenix",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8035/8035_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8028",
+            "GameName": "Lucky Miner",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8028/8028_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8023",
+            "GameName": "Olympian Temple",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8023/8023_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8022",
+            "GameName": "MahJong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8022/8022_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8021",
+            "GameName": "Banana Saga",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8021/8021_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8019",
+            "GameName": "Four Treasures",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8019/8019_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8018",
+            "GameName": "Napoleon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8018/8018_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8017",
+            "GameName": "New Year",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8017/8017_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8015",
+            "GameName": "Moonlight Treasure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8015/8015_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8014",
+            "GameName": "Lucky Lion",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8014/8014_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8007",
+            "GameName": "Lucky Qilin",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8007/8007_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8006",
+            "GameName": "Formosa Bear",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8006/8006_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8005",
+            "GameName": "Llama Adventure",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8005/8005_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8004",
+            "GameName": "Wu Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8004/8004_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8002",
+            "GameName": "Flirting Scholar Tang",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8002/8002_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "8001",
+            "GameName": "Lucky Dragons",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/8001/8001_en.png",
+            "ProviderGameType": "0",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9021",
+            "GameName": "Mines2",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9021/9021_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9020",
+            "GameName": "Mole Crash",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9020/9020_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9019",
+            "GameName": "Dice",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9019/9019_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9018",
+            "GameName": "Plinko",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9018/9018_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9017",
+            "GameName": "HiLo",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9017/9017_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9016",
+            "GameName": "Goal",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9016/9016_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9015",
+            "GameName": "Firework Burst",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9015/9015_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9014",
+            "GameName": "Mines",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9014/9014_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9012",
+            "GameName": "Jogo Do Bicho",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9012/9012_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9013",
+            "GameName": "Galaxy Burst",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9013/9013_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9011",
+            "GameName": "CaiShen Party",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9011/9011_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9010",
+            "GameName": "Lucky Color Game",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9010/9010_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9009",
+            "GameName": "King Of Football",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9009/9009_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9008",
+            "GameName": "Crazy King Kong",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9008/9008_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9007",
+            "GameName": "Super Super Fruit",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9007/9007_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9006",
+            "GameName": "Huaguoshan Legends",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9006/9006_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9004",
+            "GameName": "Beer Tycoon",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9004/9004_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9002",
+            "GameName": "Happy New Year",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9002/9002_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9001",
+            "GameName": "Classic Mario",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9001/9001_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        },
+        {
+            "GameCode": "9003",
+            "GameName": "Birds And Animals",
+            "GameType": 1,
+            "Category": "Games",
+            "ImageUrl": "https://dlntdk2it99.anhuidingyue.com/jdb-assetsv3/games/9003/9003_en.png",
+            "ProviderGameType": "9",
+            "ProviderCode": null
+        }
+    ],
+    "GamesList": null,
+    "ErrorCode": 0,
+    "ErrorMessage": null
+}

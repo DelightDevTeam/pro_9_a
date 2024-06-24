@@ -50,7 +50,7 @@ class PushBetController extends Controller
             DB::rollBack();
 
             return response()->json([
-                "message" => $e->getMessage()
+                'message' => $e->getMessage(),
             ]);
         }
     }

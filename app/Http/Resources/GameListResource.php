@@ -14,7 +14,7 @@ class GameListResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        
+
         return [
             'id' => $this->id,
             'code' => $this->code,
@@ -23,7 +23,7 @@ class GameListResource extends JsonResource
                     'id' => $product->id,
                     'code' => $product->code,
                     'name' => $product->name,
-                    'image' => $product->getImgUrlAttribute()
+                    'image' => $product->getImgUrlAttribute(),
                 ];
             }),
         ];

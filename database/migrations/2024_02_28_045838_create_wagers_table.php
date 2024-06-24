@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('wagers', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger("seamless_wager_id")->unique();
+            $table->unsignedBigInteger('seamless_wager_id')->unique();
             $table->timestamps();
         });
     }

@@ -18,18 +18,17 @@ class BankAccountRule implements Rule
     public function passes($attribute, $value)
     {
         $bank = Bank::find($this->bankId);
-        
-        if ($this->bankId !== null &&  $bank !== null ) {
+
+        if ($this->bankId !== null && $bank !== null) {
             return strlen($value) === $bank->digit;
-       
-          
-           }
-             
+
+        }
+
         return true;
     }
 
     public function message()
     {
-        return 'The account number must have ' . Bank::find($this->bankId)->digit . ' digits.';
+        return 'The account number must have '.Bank::find($this->bankId)->digit.' digits.';
     }
 }

@@ -3,13 +3,14 @@
 namespace App\Policies;
 
 use App\Models\Admin\Admin;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Auth\Access\Response;
 use Illuminate\Auth\Access\HandlesAuthorization;
+use Illuminate\Auth\Access\Response;
+use Illuminate\Support\Facades\Log;
 
 class AgentPolicy
 {
     use HandlesAuthorization;
+
     /**
      * Determine whether the user can view any models.
      */
@@ -38,24 +39,27 @@ class AgentPolicy
         // Only Admin, Master, and Agent can create a User
         return $admin->hasRole('Admin') || $admin->hasRole('Master') || $admin->hasRole('Agent');
     }
-    
+
     // ... other methods for update, view, delete, etc.
-    // admin only view 
+    // admin only view
     public function viewAdminTransferLog(Admin $admin)
     {
         return $admin->hasRole('Admin');
     }
+
     // master only view
     public function viewMasterTransferLog(Admin $admin)
     {
         return $admin->hasRole('Master');
     }
+
     // agent only view
     public function viewAgentTransferLog(Admin $admin)
     {
         return $admin->hasRole('Agent');
     }
-    // admin only update balance 
+
+    // admin only update balance
     public function updateAdminBalance(Admin $admin)
     {
         return $admin->hasRole('Admin');

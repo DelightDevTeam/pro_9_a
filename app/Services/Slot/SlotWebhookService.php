@@ -6,12 +6,13 @@ use App\Enums\SlotWebhookResponseCode;
 
 class SlotWebhookService
 {
-    public static function buildResponse(SlotWebhookResponseCode $responseCode, $balance, $before_balance){
+    public static function buildResponse(SlotWebhookResponseCode $responseCode, $balance, $before_balance)
+    {
         return [
-            "ErrorCode" => $responseCode->value,
-            "ErrorMessage" => $responseCode->name,
-            "Balance" => $balance,
-            "BeforeBalance" => $before_balance
+            'ErrorCode' => $responseCode->value,
+            'ErrorMessage' => $responseCode->name,
+            'Balance' => $balance,
+            'BeforeBalance' => $before_balance,
         ];
     }
 }

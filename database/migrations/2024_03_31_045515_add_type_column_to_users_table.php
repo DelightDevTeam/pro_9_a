@@ -13,7 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string("type")->default(UserType::Player->value)->change();
+            $table->string('type')->default(UserType::Player->value)->change();
         });
     }
 

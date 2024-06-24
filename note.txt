@@ -4,3 +4,8 @@ php -r "file_put_contents('/var/www/html/shwe_dragon_slot_a/storage/logs/laravel
 
 BigGaming remove
 SBO - have no game list /need to use LaunchGame without the gameID
+YEE Bet - need to use LaunchGame without the gameID
+Vivo Gaming = There is no GetGameList for ProductID = 1035-VIVO_GAMING with game type = 1-SLOT
+Vivo Gaming = There is no GetGameList for ProductID = 1035-VIVO_GAMING with game type = 2-LIVE_CASINO
+
+King 855 = There is no GetGameList for ProductID = 1038-CT855 with game type = 2-LIVE_CASINO

@@ -28,23 +28,23 @@ class SlotWebhookRequest extends FormRequest
     {
         $transaction_rules = [];
 
-        if (in_array($this->getMethodName(), ["getbalance", "buyin", "buyout"])) {
-            $transaction_rules["Transactions"] = ["nullable"];
-            if ($this->getMethodName() !== "getbalance") {
-                $transaction_rules["Transaction"] = ["required"];
+        if (in_array($this->getMethodName(), ['getbalance', 'buyin', 'buyout'])) {
+            $transaction_rules['Transactions'] = ['nullable'];
+            if ($this->getMethodName() !== 'getbalance') {
+                $transaction_rules['Transaction'] = ['required'];
             }
         } else {
-            $transaction_rules["Transactions"] = ["required"];
+            $transaction_rules['Transactions'] = ['required'];
         }
 
         return [
-            "MemberName" => ["required"],
-            "OperatorCode" => ["required"],
-            "ProductID" => ["required"],
-            "MessageID" => ["required"],
-            "RequestTime" => ["required"],
-            "Sign" => ["required"],
-            ...$transaction_rules
+            'MemberName' => ['required'],
+            'OperatorCode' => ['required'],
+            'ProductID' => ['required'],
+            'MessageID' => ['required'],
+            'RequestTime' => ['required'],
+            'Sign' => ['required'],
+            ...$transaction_rules,
         ];
     }
 
@@ -57,8 +57,8 @@ class SlotWebhookRequest extends FormRequest
 
     public function getMember()
     {
-        if (!isset($this->member)) {
-            $this->member = User::where("user_name", $this->getMemberName())->first();
+        if (! isset($this->member)) {
+            $this->member = User::where('user_name', $this->getMemberName())->first();
         }
 
         return $this->member;
@@ -81,7 +81,7 @@ class SlotWebhookRequest extends FormRequest
 
     public function getMethodName()
     {
-        return strtolower(str($this->url())->explode("/")->last());
+        return strtolower(str($this->url())->explode('/')->last());
     }
 
     public function getOperatorCode()
@@ -101,13 +101,13 @@ class SlotWebhookRequest extends FormRequest
 
     public function getTransactions()
     {
-        $transactions = $this->get("Transactions", []);
+        $transactions = $this->get('Transactions', []);
 
         if ($transactions) {
             return $transactions;
         }
 
-        $transaction = $this->get("Transaction", []);
+        $transaction = $this->get('Transaction', []);
 
         if ($transaction) {
             return [$transaction];

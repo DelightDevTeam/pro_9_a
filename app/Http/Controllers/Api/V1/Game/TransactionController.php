@@ -1,12 +1,13 @@
 <?php
+
 namespace App\Http\Controllers\Api\V1\Game;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class TransactionController extends Controller
 {
@@ -43,13 +44,13 @@ class TransactionController extends Controller
         $operatorCode = Config::get('game.api.operator_code');
         $requestTime = now()->format('YmdHis');
         $secretKey = Config::get('game.api.secret_key');
-        $signature = md5($operatorCode . $requestTime . $secretKey);
+        $signature = md5($operatorCode.$requestTime.$secretKey);
 
         $data['Sign'] = $signature;
         $data['RequestTime'] = $requestTime;
 
         // API endpoint from the config
-        $apiUrl = Config::get('game.api.url') . '/Seamless/Transaction';
+        $apiUrl = Config::get('game.api.url').'/Seamless/Transaction';
 
         try {
             // Send the POST request to the API
@@ -73,8 +74,9 @@ class TransactionController extends Controller
             // Correct logging for exceptions with associative array as context
             Log::error('An unexpected error occurred.', [
                 'error' => $e->getMessage(),
-                'trace' => $e->getTraceAsString() // Consider logging the stack trace only if necessary
+                'trace' => $e->getTraceAsString(), // Consider logging the stack trace only if necessary
             ]);
+
             return response()->json(['error' => 'An unexpected error occurred', 'exception' => $e->getMessage()], 500);
         }
     }

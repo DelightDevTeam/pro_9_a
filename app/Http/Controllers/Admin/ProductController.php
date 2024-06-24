@@ -18,7 +18,7 @@ class ProductController extends Controller
     {
         $products = Product::all();
 
-       return view('admin.product.index', compact('products'));
+        return view('admin.product.index', compact('products'));
     }
 
     /**
@@ -38,17 +38,18 @@ class ProductController extends Controller
     {
         $image = $request->file('image');
         $ext = $image->getClientOriginalExtension();
-        $filename = uniqid('game_type') . '.' . $ext;
+        $filename = uniqid('game_type').'.'.$ext;
         $image->move(public_path('assets/img/game_logo/'), $filename);
 
         $product = Product::create([
             'name' => $request->name,
             'code' => $request->code,
-            'order' => $request->order
+            'order' => $request->order,
         ]);
 
         $product->gameTypes()->attach($request->game_type_id, [
-            'image' => $filename,'rate' => $request->rate]);
+            'image' => $filename, 'rate' => $request->rate]);
+
         return redirect()->back()->with('success', 'Product created successfully');
     }
 
@@ -80,7 +81,7 @@ class ProductController extends Controller
         $product->update([
             'name' => $request->name,
             'code' => $request->code,
-            'order' => $request->order
+            'order' => $request->order,
         ]);
 
         return redirect()->back()->with('success', 'Product updated successfully');

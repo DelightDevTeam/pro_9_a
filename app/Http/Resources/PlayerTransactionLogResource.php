@@ -15,9 +15,9 @@ class PlayerTransactionLogResource extends JsonResource
     public function toArray(Request $request): array
     {
 
-        $response =  [
+        $response = [
             'id' => $this->id,
-            'created_at' => date_format($this->created_at, 'Y-m-d H:i:s')
+            'created_at' => date_format($this->created_at, 'Y-m-d H:i:s'),
         ];
         if ($request->type == 'deposit') {
             $response['amount'] = $this->cash_in;
@@ -25,6 +25,7 @@ class PlayerTransactionLogResource extends JsonResource
         if ($request->type == 'withdraw') {
             $response['amount'] = $this->cash_out;
         }
+
         return $response;
     }
 }

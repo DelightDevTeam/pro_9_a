@@ -11,6 +11,7 @@ class FinicalReport extends Model
     use HasFactory;
 
     public $timestamps = false;
+
     protected $fillable = [
         'date',
         'user_id',
@@ -18,8 +19,9 @@ class FinicalReport extends Model
         'payout',
         'win_lose',
         'commission',
-        'parent_commission'
+        'parent_commission',
     ];
+
     protected $casts = [
         'user_type' => UserType::class,
     ];

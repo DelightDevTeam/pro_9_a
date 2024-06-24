@@ -2,27 +2,27 @@
 
 namespace App\Http\Controllers\Admin\TransferLog;
 
-use App\Models\User;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
 use App\Models\Admin\TransferLog;
 use App\Models\Transaction;
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class TransferLogController extends Controller
 {
     public function index(Request $request)
     {
-    
+
         $this->authorize('transfer_log', User::class);
         $transferLogs = Auth::user()->transactions()
-            ->with("targetUser")->when(isset($request->fromDate) && isset($request->toDate), function ($query) use ($request) {
-                $query->whereDate('created_at','>=',$request->fromDate )
-                ->whereDate('created_at','<=',$request->toDate );
+            ->with('targetUser')->when(isset($request->fromDate) && isset($request->toDate), function ($query) use ($request) {
+                $query->whereDate('created_at', '>=', $request->fromDate)
+                    ->whereDate('created_at', '<=', $request->toDate);
             })
             ->latest()->paginate();
-            
+
         return view('admin.trans_log.index', compact('transferLogs'));
     }
 
@@ -54,7 +54,7 @@ class TransferLogController extends Controller
 
     public function AdminToMasterMonthlyStatusTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewAdminTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -78,10 +78,9 @@ class TransferLogController extends Controller
         return view('admin.trans_log.monthly_admin_transfer_log', compact('transferLogs', 'totalCashIn', 'totalCashOut'));
     }
 
-
     public function MasterToAgentDailyStatusTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewMasterTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -107,7 +106,7 @@ class TransferLogController extends Controller
 
     public function MasterToAgentMonthlyStatusTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewMasterTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -133,7 +132,7 @@ class TransferLogController extends Controller
 
     public function AgentToUserDailyStatusTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewAgentTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -159,7 +158,7 @@ class TransferLogController extends Controller
 
     public function AgentToUserMonthlyStatusTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewAgentTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -185,7 +184,7 @@ class TransferLogController extends Controller
 
     public function MasterToAgentTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewMasterTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin
@@ -204,9 +203,10 @@ class TransferLogController extends Controller
         return view('admin.trans_log.master_transfer_log', compact('transferLogs'));
         //return response()->json($transferLogs);
     }
+
     public function AgentToUserTransferLog()
     {
-        // authorize 
+        // authorize
         $this->authorize('viewAgentTransferLog', User::class);
         // Get all TransferLog records
         $id = auth()->id(); // ID of the Admin

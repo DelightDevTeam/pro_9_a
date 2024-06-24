@@ -9,22 +9,24 @@ use Illuminate\Database\Eloquent\Model;
 class Wager extends Model
 {
     use HasFactory;
-    
+
     protected $fillable = [
         'user_id',
         'seamless_wager_id',
-        'status'
+        'status',
     ];
 
     protected $casts = [
-        "status" => WagerStatus::class
+        'status' => WagerStatus::class,
     ];
 
-    public function transactions(){
+    public function transactions()
+    {
         return $this->hasMany(SeamlessTransaction::class);
     }
 
-    public function latestTransaction(){
+    public function latestTransaction()
+    {
         return $this->hasOne(SeamlessTransaction::class)->latestOfMany();
     }
 }

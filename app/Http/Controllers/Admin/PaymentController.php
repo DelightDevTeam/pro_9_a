@@ -14,6 +14,7 @@ class PaymentController extends Controller
     public function index()
     {
         $payments = PaymentList::all();
+
         return view('admin.payments.index', compact('payments'));
     }
 
@@ -32,10 +33,11 @@ class PaymentController extends Controller
     {
         $request->validate([
             'payment_method' => 'required',
-            'phone' => "required",
-            "receiver_name" => 'required'
+            'phone' => 'required',
+            'receiver_name' => 'required',
         ]);
         PaymentList::create($request->all());
+
         return redirect()->route('admin.payments.index')->with('success', 'Payment method created successfully');
     }
 
@@ -62,10 +64,11 @@ class PaymentController extends Controller
     {
         $request->validate([
             'payment_method' => 'required',
-            'phone' => "required",
-            "receiver_name" => 'required'
+            'phone' => 'required',
+            'receiver_name' => 'required',
         ]);
         $payment->update($request->all());
+
         return redirect()->route('admin.payments.index')->with('success', 'Payment method updated successfully');
     }
 
@@ -75,6 +78,7 @@ class PaymentController extends Controller
     public function destroy(PaymentList $payment)
     {
         $payment->delete();
+
         return redirect()->back()->with('success', 'Payment method deleted successfully.');
     }
 }

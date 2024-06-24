@@ -22,7 +22,7 @@ class GameTypeProductController extends Controller
         $gameType = GameType::with([
             'products' => function ($query) use ($productId) {
                 $query->where('products.id', $productId);
-            }
+            },
         ])->where('id', $gameTypeId)->first();
 
         return view('admin.game_type.edit', compact('gameType', 'productId'));
@@ -32,7 +32,7 @@ class GameTypeProductController extends Controller
     {
         $image = $request->file('image');
         $ext = $image->getClientOriginalExtension();
-        $filename = uniqid('game_type') . '.' . $ext;
+        $filename = uniqid('game_type').'.'.$ext;
         $image->move(public_path('assets/img/game_logo/'), $filename);
 
         DB::table('game_type_product')->where('game_type_id', $gameTypeId)->where('product_id', $productId)

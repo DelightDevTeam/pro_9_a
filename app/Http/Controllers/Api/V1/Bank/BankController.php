@@ -12,12 +12,12 @@ use Illuminate\Support\Facades\Auth;
 
 class BankController extends Controller
 {
-     use HttpResponses;
+    use HttpResponses;
 
-     public function all()
-     {
-          $data = Bank::all();
-          return $this->success($data);
-     }
-     
+    public function all()
+    {
+        $data = Bank::all();
+
+        return $this->success($data);
+    }
 }
