@@ -43,7 +43,7 @@ class LaunchGameController extends Controller
             'Password' => $password,
             'ProductID' => $validatedData['productId'],
             'GameType' => $validatedData['gameType'],
-            'GameID	' => $validatedData['gameId'],
+            'GameID' => $validatedData['gameId'],
             'LanguageCode' => self::ENG_LANGUAGE_CODE,
             'Platform' => self::WEB_PLAT_FORM,
             'IPAddress' => $request->ip(),
