@@ -42,6 +42,8 @@ class DatabaseSeeder extends Seeder
             PlayStarFishingTablesSeeder::class,
             HabaneroGamingTablesSeeder::class,
             MrSlottyTablesSeeder::class,
+            TrueLabTablesSeeder::class,
+            BGamingTablesSeeder::class
 
         ]);
 

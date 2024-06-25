@@ -53,6 +53,24 @@ class GameTypeTableSeeder extends Seeder
                 'status' => 0,
                 'img' => 'other.png',
             ],
+
+            [
+                'name' => 'Other11',
+                'name_mm' => 'အခြားဂိမ်းများ',
+                'code' => '11',
+                'order' => '5',
+                'status' => 0,
+                'img' => 'other.png',
+            ],
+
+            [
+                'name' => 'Other12',
+                'name_mm' => 'အခြားဂိမ်းများ',
+                'code' => '12',
+                'order' => '5',
+                'status' => 0,
+                'img' => 'other.png',
+            ],
         ];
 
         GameType::insert($data);
