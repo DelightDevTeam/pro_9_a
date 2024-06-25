@@ -28,26 +28,26 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1013',
                 'name' => 'Joker',
-                'short_name' => 'JK',
+                'short_name' => 'Joker',
                 'order' => 12,
             ],
             [
                 'code' => '1016',
                 'name' => 'YEE Bet',
-                'short_name' => 'YB',
+                'short_name' => 'YEE Bet',
 
                 'order' => 13,
             ],
             [
                 'code' => '1020',
                 'name' => 'WM Casino',
-                'short_name' => 'WMC',
+                'short_name' => 'WM Casino',
                 'order' => 14,
             ],
             [
                 'code' => '1027',
                 'name' => 'Yggdrasil',
-                'short_name' => 'YG',
+                'short_name' => 'Yggdrasil',
 
                 'order' => 15,
             ],
@@ -68,7 +68,7 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1050',
                 'name' => 'PlayStar',
-                'short_name' => 'PS',
+                'short_name' => 'PlayStar',
 
                 'order' => 6,
             ],
@@ -82,7 +82,7 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1058',
                 'name' => 'BGaming',
-                'short_name' => 'BG',
+                'short_name' => 'BGaming',
 
                 'order' => 19,
             ],
@@ -103,14 +103,14 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1063',
                 'name' => 'Play Pearls',
-                'short_name' => 'P Pearls',
+                'short_name' => 'Play Pearls',
 
                 'order' => 22,
             ],
             [
                 'code' => '1064',
                 'name' => 'Net Game',
-                'short_name' => 'NG',
+                'short_name' => 'Net Game',
 
                 'order' => 23,
             ],
@@ -124,7 +124,7 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1067',
                 'name' => 'Red Rake',
-                'short_name' => 'R Rake',
+                'short_name' => 'Red Rake',
 
                 'order' => 25,
             ],
@@ -222,7 +222,7 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1007',
                 'name' => 'PG Soft',
-                'short_name' => 'PS',
+                'short_name' => 'PG Soft',
 
                 'order' => 2,
             ],
