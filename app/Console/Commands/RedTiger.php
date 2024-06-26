@@ -35,7 +35,7 @@ class RedTiger extends Command
         // Modify the data
         foreach ($data['ProviderGames'] as &$game) {
             $game['game_type_id'] = 1;
-            $game['product_id'] = 47;
+            $game['product_id'] = 46;
             // Remove ProviderGameType and ProviderCode if they exist
             if (isset($game['ProviderGameType'])) {
                 unset($game['ProviderGameType']);
