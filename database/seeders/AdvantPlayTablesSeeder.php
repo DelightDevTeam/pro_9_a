@@ -7,14 +7,14 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
-class AsiaGamingTablesSeeder extends Seeder
+class AdvantPlayTablesSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $json = File::get(base_path('app/Console/Commands/data/AsiaGamingModify.json'));
+        $json = File::get(base_path('app/Console/Commands/data/AdvantPlayModify.json'));
         $data = json_decode($json);
         foreach ($data->ProviderGames as $obj) {
             GameList::create([

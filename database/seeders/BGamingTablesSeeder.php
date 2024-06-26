@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\Admin\GameList;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class BGamingTablesSeeder extends Seeder
 {

@@ -222,7 +222,7 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1007',
                 'name' => 'PG Soft',
-                'short_name' => 'PG Soft',
+                'short_name' => 'PGSoft',
 
                 'order' => 2,
             ],
@@ -236,14 +236,14 @@ class ProductTableSeeder extends Seeder
             [
                 'code' => '1022',
                 'name' => 'Sexy Gaming',
-                'short_name' => 'SG',
+                'short_name' => 'SexyGaming',
 
                 'order' => 38,
             ],
             [
                 'code' => '1023',
                 'name' => 'Real Time Gaming',
-                'short_name' => 'RTG',
+                'short_name' => 'RealTimeGaming',
 
                 'order' => 39,
             ],
@@ -303,24 +303,24 @@ class ProductTableSeeder extends Seeder
 
                 'order' => 46,
             ],
-            [
-                'code' => '1052',
-                'name' => 'Dream Gaming',
-                'short_name' => 'DG',
+            // [
+            //     'code' => '1052',
+            //     'name' => 'Dream Gaming',
+            //     'short_name' => 'DG',
 
-                'order' => 48,
-            ],
+            //     'order' => 48,
+            // ],
             [
                 'code' => '1055',
                 'name' => 'Mr Slotty',
                 'short_name' => 'MrSlotty',
 
-                'order' => 49,
+                'order' => 48,
             ],
             [
-                'code' => '1049',
-                'name' => 'Evoplay',
-                'short_name' => 'Evoplay',
+                'code' => '1110',
+                'name' => 'Red Tiger',
+                'short_name' => 'RedTiger',
 
                 'order' => 50,
             ],
@@ -330,6 +330,14 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'SmartSoft',
 
                 'order' => 9,
+            ],
+
+            [
+                'code' => '1110',
+                'name' => 'Red Tiger',
+                'short_name' => 'RedTiger',
+
+                'order' => 50,
             ],
         ];
 
