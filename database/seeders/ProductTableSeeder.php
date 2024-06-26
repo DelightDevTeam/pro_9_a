@@ -331,14 +331,6 @@ class ProductTableSeeder extends Seeder
 
                 'order' => 9,
             ],
-
-            [
-                'code' => '1110',
-                'name' => 'Red Tiger',
-                'short_name' => 'RedTiger',
-
-                'order' => 50,
-            ],
         ];
 
         Product::insert($data);
