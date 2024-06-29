@@ -10,6 +10,7 @@ use App\Traits\HttpResponses;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class WithDrawController extends Controller
 {
@@ -21,10 +22,17 @@ class WithDrawController extends Controller
             $inputs = $request->validated();
             $player = Auth::user();
 
-            if ($player->balance < $inputs['amount']) {
-                return $this->error('', 'Insuffience Balance', 401);
+            if (! $player || ! Hash::check($request->password, $player->password)) {
+                return $this->error('', 'လျို့ဝှက်နံပါတ်ကိုက်ညီမှု မရှိပါ။', 401);
             }
-            $withdraw = ModelsWithDrawRequest::create(array_merge($inputs, ['user_id' => $player->id]));
+
+            $withdraw = ModelsWithDrawRequest::create(array_merge(
+                $inputs,
+                [
+                    'user_id' => $player->id,
+                    'agent_id' => $player->agent_id,
+                ]
+            ));
 
             return $this->success($withdraw, 'Withdraw Request Success');
         } catch (Exception $e) {

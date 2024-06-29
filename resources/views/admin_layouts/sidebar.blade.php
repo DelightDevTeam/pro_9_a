@@ -19,6 +19,30 @@
         <span class="sidenav-normal  ms-2  ps-1"> Win/lose Report </span>
       </a>
     </li>
+    @can('payment_type')
+        <li class="nav-item ">
+            <a class="nav-link text-white " href="{{ route('admin.userPayment.index') }}">
+              <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
+              <span class="sidenav-normal  ms-2  ps-1">Bank Account</span>
+            </a>
+          </li>
+    @endcan
+    @can('withdraw_requests')
+    <li class="nav-item">
+      <a class="nav-link text-white " href="{{ route('admin.agent.withdraw')}}">
+        <span class="sidenav-mini-icon"> <i class="fa-solid fa-user"></i> </span>
+        <span class="sidenav-normal  ms-2  ps-1">WithDraw Requests</span>
+      </a>
+    </li>
+    @endcan
+    @can('deposit_requests')
+    <li class="nav-item">
+      <a class="nav-link text-white " href="{{ route('admin.agent.deposit')}}">
+        <span class="sidenav-mini-icon"> <i class="fa-solid fa-user"></i> </span>
+        <span class="sidenav-normal  ms-2  ps-1">Deposit Requests</span>
+      </a>
+    </li>
+    @endcan
     @can('master_index')
     <li class="nav-item">
       <a class="nav-link text-white " href="{{ route('admin.master.index')}}">
@@ -59,7 +83,12 @@
       <div class="collapse " id="dashboardsExamples">
         <ul class="nav ">
 
-
+        <li class="nav-item ">
+            <a class="nav-link text-white " href="{{ route('admin.paymentType.index') }}">
+              <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
+              <span class="sidenav-normal  ms-2  ps-1"> Payment Type </span>
+            </a>
+          </li>
           <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.banners.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>

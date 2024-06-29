@@ -6,11 +6,14 @@ use App\Enums\TransactionStatus;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\Api\V1\SeamlessTransactionResource;
 use App\Http\Resources\TransactionResource;
+use App\Models\DepositRequest;
 use App\Models\SeamlessTransaction;
 use App\Models\Transaction;
 use App\Models\User;
+use App\Models\WithDrawRequest;
 use App\Traits\HttpResponses;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class TransactionController extends Controller
@@ -35,5 +38,23 @@ class TransactionController extends Controller
             ->paginate();
 
         return $this->success(TransactionResource::collection($transactions));
+    }
+
+    public function depositRequestLog()
+    {
+        $transactions = DepositRequest::with('user')->where('user_id', Auth::id())
+            ->orderBy('id', 'DESC')
+            ->paginate();
+
+        return $this->success($transactions);
+    }
+
+    public function withDrawRequestLog()
+    {
+        $transactions = WithDrawRequest::with('user')->where('user_id', Auth::id())
+            ->orderBy('id', 'DESC')
+            ->paginate();
+
+        return $this->success($transactions);
     }
 }

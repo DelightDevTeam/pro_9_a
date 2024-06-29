@@ -6,8 +6,11 @@ use App\Http\Controllers\Api\V1\Bank\BankController;
 use App\Http\Controllers\Api\V1\BannerController;
 use App\Http\Controllers\Api\V1\Game\GameController;
 use App\Http\Controllers\Api\V1\Game\LaunchGameController;
+use App\Http\Controllers\Api\V1\PaymentType\PaymentTypeController;
+use App\Http\Controllers\Api\V1\Player\DepositController;
 use App\Http\Controllers\Api\V1\Player\PlayerTransactionLogController;
 use App\Http\Controllers\Api\V1\Player\TransactionController;
+use App\Http\Controllers\Api\V1\Player\UserPaymentControler;
 use App\Http\Controllers\Api\V1\Player\WagerController;
 use App\Http\Controllers\Api\V1\Player\WithDrawController;
 use App\Http\Controllers\Api\V1\PromotionController;
@@ -61,6 +64,8 @@ Route::group(['prefix' => 'Seamless'], function () {
     // });
 });
 
+
+
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('wager-logs', [WagerController::class, 'index']);
     Route::get('transactions', [TransactionController::class, 'index']);
@@ -70,10 +75,17 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('logout', [AuthController::class, 'logout']);
     Route::post('changePassword', [AuthController::class, 'changePassword']);
     Route::post('profile', [AuthController::class, 'profile']);
+    Route::get('user-payment', [UserPaymentControler::class, 'index']);
+    Route::post('user-payment-create', [UserPaymentControler::class, 'create']);
+    Route::get('agent-payment-type', [UserPaymentControler::class, 'agentPayment']);
+    Route::get('payment-type', [PaymentTypeController::class, 'all']);
 
     Route::group(['prefix' => 'transaction'], function () {
         Route::post('withdraw', [WithDrawController::class, 'withdraw']);
+        Route::post('deposit', [DepositController::class, 'deposit']);
         Route::get('player-transactionlog', [PlayerTransactionLogController::class, 'index']);
+        Route::get('deposit-requestlog', [TransactionController::class, 'depositRequestLog']);
+        Route::get('withdraw-requestlog', [TransactionController::class, 'withDrawRequestLog']);
     });
 
     Route::group(['prefix' => 'bank'], function () {

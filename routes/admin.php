@@ -3,11 +3,13 @@
 use App\Http\Controllers\Admin\Agent\AgentController;
 use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Admin\BannerTextController;
+use App\Http\Controllers\Admin\Deposit\DepositRequestController;
 use App\Http\Controllers\Admin\GameTypeProductController;
 use App\Http\Controllers\Admin\GetBetDetailController;
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\Admin\Master\MasterController;
 use App\Http\Controllers\Admin\PaymentController;
+use App\Http\Controllers\Admin\PaymentTypeController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\Player\PlayerController;
 use App\Http\Controllers\Admin\ProductController;
@@ -15,6 +17,7 @@ use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\PromotionController;
 use App\Http\Controllers\Admin\RolesController;
 use App\Http\Controllers\Admin\TransferLog\TransferLogController;
+use App\Http\Controllers\Admin\UserPaymentController;
 use App\Http\Controllers\Admin\WithDraw\WithDrawRequestController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ReportController;
@@ -38,7 +41,10 @@ Route::group([
     Route::resource('roles', RolesController::class);
     // Players
     Route::delete('user/destroy', [PlayerController::class, 'massDestroy'])->name('user.massDestroy');
-
+        //Bank
+    Route::resource('userPayment', UserPaymentController::class);
+    Route::resource('paymentType', PaymentTypeController::class);
+    
     Route::put('player/{id}/ban', [PlayerController::class, 'banUser'])->name('player.ban');
     Route::resource('player', PlayerController::class);
     Route::get('player-cash-in/{player}', [PlayerController::class, 'getCashIn'])->name('player.getCashIn');
@@ -92,6 +98,11 @@ Route::group([
     Route::get('withdraw/{id}', [WithDrawRequestController::class, 'show'])->name('agent.withdrawshow');
 
     Route::post('withdraw/{withdraw}', [WithDrawRequestController::class, 'statusChange'])->name('agent.statusChange');
+
+    Route::get('deposit', [DepositRequestController::class, 'index'])->name('agent.deposit');
+    Route::get('deposit/{id}', [DepositRequestController::class, 'show'])->name('agent.depositshow');
+
+    Route::post('deposit/{deposit}', [DepositRequestController::class, 'updateStatus'])->name('agent.updateStatus');
 
     Route::get('transer-log', [TransferLogController::class, 'index'])->name('transferLog');
     Route::group(['prefix' => 'report'], function () {

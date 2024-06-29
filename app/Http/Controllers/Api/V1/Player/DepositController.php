@@ -1,0 +1,46 @@
+<?php
+
+namespace App\Http\Controllers\Api\V1\Player;
+
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Api\DepositRequest as ApiDepositRequest;
+use App\Models\DepositRequest;
+use App\Traits\HttpResponses;
+use Exception;
+use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\Auth;
+
+class DepositController extends Controller
+{
+    use HttpResponses;
+
+    public function deposit(ApiDepositRequest $request)
+    {
+        try {
+            $inputs = $request->validated();
+
+            $player = Auth::user();
+            $imageName = $this->generateUniqueImageName($request->image);
+            $request->image->move('assets/img/Deposit', $imageName);
+            
+            $deposit = DepositRequest::create(array_merge(
+                $inputs,
+                [
+                    'image' => $imageName,
+                    'user_id' => $player->id,
+                    'agent_id' => $player->agent_id,
+                ]
+            ));
+
+            return $this->success($deposit, 'Deposit Request Success');
+        } catch (Exception $e) {
+            $this->error('', $e->getMessage(), 401);
+        }
+    }
+
+    private function generateUniqueImageName(UploadedFile $image)
+    {
+        return time().'-'.uniqid().'.'.$image->getClientOriginalExtension();
+    }
+}

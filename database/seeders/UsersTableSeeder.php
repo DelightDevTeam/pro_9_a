@@ -42,7 +42,6 @@ class UsersTableSeeder extends Seeder
             'status' => 1,
             'is_changed_password' => 1,
             'type' => $type->value,
-            'bank_id' => 1,
         ]);
     }
 }
