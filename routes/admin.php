@@ -1,24 +1,25 @@
 <?php
 
-use App\Http\Controllers\Admin\Agent\AgentController;
-use App\Http\Controllers\Admin\BannerController;
-use App\Http\Controllers\Admin\BannerTextController;
-use App\Http\Controllers\Admin\GameTypeProductController;
-use App\Http\Controllers\Admin\GetBetDetailController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\Admin\LoginController;
-use App\Http\Controllers\Admin\Master\MasterController;
+use App\Http\Controllers\Admin\RolesController;
+use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Admin\PaymentController;
-use App\Http\Controllers\Admin\PermissionController;
-use App\Http\Controllers\Admin\Player\PlayerController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\PromotionController;
-use App\Http\Controllers\Admin\RolesController;
+use App\Http\Controllers\Admin\BannerTextController;
+use App\Http\Controllers\Admin\PermissionController;
+use App\Http\Controllers\Admin\Agent\AgentController;
+use App\Http\Controllers\Admin\GetBetDetailController;
+use App\Http\Controllers\Admin\Master\MasterController;
+use App\Http\Controllers\Admin\Player\PlayerController;
+use App\Http\Controllers\Admin\GameTypeProductController;
+use App\Http\Controllers\Admin\BannerAds\BannerAdsController;
 use App\Http\Controllers\Admin\TransferLog\TransferLogController;
 use App\Http\Controllers\Admin\WithDraw\WithDrawRequestController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ReportController;
-use Illuminate\Support\Facades\Route;
 
 Route::group([
     'prefix' => 'admin', 'as' => 'admin.',
@@ -60,6 +61,7 @@ Route::group([
     Route::put('/change-kpay-no', [ProfileController::class, 'KpayNoChange'])->name('changeKpayNo');
     Route::put('/change-join-date', [ProfileController::class, 'JoinDate'])->name('addJoinDate');
     Route::resource('banners', BannerController::class);
+    Route::resource('adsbanners', BannerAdsController::class);
     Route::resource('text', BannerTextController::class);
     Route::resource('/promotions', PromotionController::class);
     Route::resource('/payments', PaymentController::class);
