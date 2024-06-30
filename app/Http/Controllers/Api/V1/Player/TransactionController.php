@@ -37,6 +37,7 @@ class TransactionController extends Controller
             ->orderBy('id', 'DESC')
             ->paginate();
 
+        // return $this->success($transactions);
         return $this->success(TransactionResource::collection($transactions));
     }
 
