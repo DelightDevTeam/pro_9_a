@@ -13,6 +13,8 @@ use App\Http\Controllers\Admin\PromotionController;
 use App\Http\Controllers\Admin\BannerTextController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\Agent\AgentController;
+use App\Http\Controllers\Admin\PaymentTypeController;
+use App\Http\Controllers\Admin\UserPaymentController;
 use App\Http\Controllers\Admin\GetBetDetailController;
 use App\Http\Controllers\Admin\Master\MasterController;
 use App\Http\Controllers\Admin\Player\PlayerController;
@@ -39,6 +41,8 @@ Route::group([
     Route::resource('roles', RolesController::class);
     // Players
     Route::delete('user/destroy', [PlayerController::class, 'massDestroy'])->name('user.massDestroy');
+    Route::resource('userPayment', UserPaymentController::class);
+    Route::resource('paymentType', PaymentTypeController::class);
 
     Route::put('player/{id}/ban', [PlayerController::class, 'banUser'])->name('player.ban');
     Route::resource('player', PlayerController::class);
