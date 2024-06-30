@@ -95,6 +95,12 @@
               <span class="sidenav-normal  ms-2  ps-1"> Banner </span>
             </a>
           </li>
+                    <li class="nav-item ">
+            <a class="nav-link text-white " href="{{ route('admin.adsbanners.index') }}">
+              <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
+              <span class="sidenav-normal  ms-2  ps-1"> Ads Banner </span>
+            </a>
+          </li>
           <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.text.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
