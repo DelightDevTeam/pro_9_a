@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Admin\WithDraw;
 
+use App\Enums\TransactionName;
 use App\Http\Controllers\Controller;
-use App\Models\Admin\TransferLog;
 use App\Models\User;
 use App\Models\WithDrawRequest;
+use App\Services\WalletService;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,40 +37,21 @@ class WithDrawRequestController extends Controller
         try {
             $agent = Auth::user();
             $player = User::find($request->player);
-            if ($agent->balance < $request->amount) {
-                return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
+            if ($player->balanceFloat < $request->amount) {
+                return redirect()->back()->with('error', 'The Player do not have enough balance to transfer!');
             }
 
             $withdraw->update([
                 'status' => $request->status,
             ]);
-            $agent->balance += $request->amount;
-            $agent->save();
-            $player->balance -= $request->amount;
-            $player->save();
 
-            $userWallet = $player->userWallet;
-            $userWallet->wallet -= $request->amount;
-            $userWallet->save();
+            if ($request->status == 1) {
+                app(WalletService::class)->transfer($player, $agent, $request->amount, TransactionName::DebitTransfer);
+            }
 
-            TransferLog::create([
-                'name' => $player->name,
-                'phone' => $player->phone,
-                'from_user_id' => $agent->id,
-                'to_user_id' => $player->id,
-                'refrence_id' => $this->getRefrenceId(),
-                'cash_out' => $request->amount,
-                'type' => 1,
-            ]);
-
-            return back()->with('success', 'Admin status switch successfully!');
+            return back()->with('success', 'Withdraw Status changed successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
-    }
-
-    private function getRefrenceId($prefix = 'TRF')
-    {
-        return uniqid($prefix);
     }
 }

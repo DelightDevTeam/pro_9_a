@@ -100,6 +100,10 @@ Route::group([
 
     Route::post('withdraw/{withdraw}', [WithDrawRequestController::class, 'statusChange'])->name('agent.statusChange');
     Route::get('deposit', [DepositRequestController::class, 'index'])->name('agent.deposit');
+    Route::get('deposit/{id}', [DepositRequestController::class, 'show'])->name('agent.depositshow');
+
+    Route::post('deposit/{deposit}', [DepositRequestController::class, 'updateStatus'])->name('agent.updateStatus');
+
     Route::get('transer-log', [TransferLogController::class, 'index'])->name('transferLog');
     Route::group(['prefix' => 'report'], function () {
         Route::get('index', [ReportController::class, 'index'])->name('report.index');
