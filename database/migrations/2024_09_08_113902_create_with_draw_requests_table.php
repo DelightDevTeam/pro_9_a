@@ -15,14 +15,16 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('agent_id');
-            $table->unsignedBigInteger('user_payment_id');
+            $table->string('account_name');
+            $table->integer('account_no');
+            $table->unsignedBigInteger('payment_type_id');
             $table->unsignedBigInteger('amount');
             $table->tinyInteger('status')->default(0);
             $table->longText('note');
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('user_payment_id')->references('id')->on('user_payments')->onDelete('cascade');
+            $table->foreign('payment_type_id')->references('id')->on('payment_types')->onDelete('cascade');
         });
     }
 

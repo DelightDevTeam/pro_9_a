@@ -3,20 +3,18 @@
 namespace App\Http\Controllers\Admin\WithDraw;
 
 use App\Http\Controllers\Controller;
-use App\Models\Admin\PlayerTransactionLogs;
 use App\Models\Admin\TransferLog;
 use App\Models\User;
 use App\Models\WithDrawRequest;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 
 class WithDrawRequestController extends Controller
 {
     public function index()
     {
-        $withdraws = WithDrawRequest::with(['user', 'bank'])->get();
+        $withdraws = WithDrawRequest::with(['user', 'paymentType'])->get();
 
         return view('admin.withdraw_request.index', compact('withdraws'));
     }

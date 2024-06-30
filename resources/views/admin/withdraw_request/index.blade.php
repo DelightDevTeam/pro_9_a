@@ -49,7 +49,7 @@
           </td>
           <td>{{ $withdraw->user->phone }}</td>
           <td>{{ number_format($withdraw->amount) }}</td>
-          <td>{{ $withdraw->bank->name }}</td>
+          <td>{{ $withdraw->paymentType->name }}</td>
           <td>{{$withdraw->account_name}}</td>
           <td>{{$withdraw->account_name}}</td>
           <td>

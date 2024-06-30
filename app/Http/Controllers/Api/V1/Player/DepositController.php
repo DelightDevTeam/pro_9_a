@@ -23,7 +23,7 @@ class DepositController extends Controller
             $player = Auth::user();
             $imageName = $this->generateUniqueImageName($request->image);
             $request->image->move('assets/img/Deposit', $imageName);
-            
+        
             $deposit = DepositRequest::create(array_merge(
                 $inputs,
                 [
@@ -32,7 +32,7 @@ class DepositController extends Controller
                     'agent_id' => $player->agent_id,
                 ]
             ));
-
+                       
             return $this->success($deposit, 'Deposit Request Success');
         } catch (Exception $e) {
             $this->error('', $e->getMessage(), 401);

@@ -66,7 +66,6 @@ Route::group(['prefix' => 'Seamless'], function () {
 });
 
 
-
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('wager-logs', [WagerController::class, 'index']);
     Route::get('transactions', [TransactionController::class, 'index']);
@@ -76,10 +75,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('logout', [AuthController::class, 'logout']);
     Route::post('changePassword', [AuthController::class, 'changePassword']);
     Route::post('profile', [AuthController::class, 'profile']);
-    Route::get('user-payment', [UserPaymentControler::class, 'index']);
-    Route::post('user-payment-create', [UserPaymentControler::class, 'create']);
     Route::get('agent-payment-type', [UserPaymentControler::class, 'agentPayment']);
-    Route::get('payment-type', [PaymentTypeController::class, 'all']);
 
     Route::group(['prefix' => 'transaction'], function () {
         Route::post('withdraw', [WithDrawController::class, 'withdraw']);
