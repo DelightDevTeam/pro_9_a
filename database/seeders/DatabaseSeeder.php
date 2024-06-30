@@ -13,7 +13,6 @@ class DatabaseSeeder extends Seeder
     {
 
         $this->call([
-            BankTableSeeder::class,
             PermissionsTableSeeder::class,
             RolesTableSeeder::class,
             PermissionRoleTableSeeder::class,
@@ -22,6 +21,8 @@ class DatabaseSeeder extends Seeder
             GameTypeTableSeeder::class,
             ProductTableSeeder::class,
             GameTypeProductTableSeeder::class,
+            PaymentTypeTableSeeder::class,
+            UserPaymentTableSeeder::class,
             BannerSeeder::class,
             BannerTextSeeder::class,
             AsiaGamingTablesSeeder::class,

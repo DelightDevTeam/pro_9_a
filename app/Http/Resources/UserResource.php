@@ -22,9 +22,6 @@ class UserResource extends JsonResource
             'email' => $this->email,
             'balance' => $this->balanceFloat,
             'status' => $this->status,
-            'bank' => $this->bank->name,
-            'bank_account_name' => $this->bank_account_name,
-            'bank_account' => $this->bank_account,
         ];
 
         return [

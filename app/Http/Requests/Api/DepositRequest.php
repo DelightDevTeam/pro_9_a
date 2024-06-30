@@ -4,7 +4,7 @@ namespace App\Http\Requests\Api;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class WithdrawRequest extends FormRequest
+class DepositRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,8 +24,8 @@ class WithdrawRequest extends FormRequest
 
         return [
             'user_payment_id' => ['required'],
-            'amount' => ['required', 'integer'],
-            'password' => ['required', 'string'],
+            'amount' => ['required', 'integer', 'min:1000'],
+            'image' => ['required', 'image'],
             'note' => ['nullable', 'string']
         ];
     }

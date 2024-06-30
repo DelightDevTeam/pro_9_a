@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Api;
+namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class WithdrawRequest extends FormRequest
+class UserPaymentRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -21,12 +21,10 @@ class WithdrawRequest extends FormRequest
      */
     public function rules(): array
     {
-
         return [
-            'user_payment_id' => ['required'],
-            'amount' => ['required', 'integer'],
-            'password' => ['required', 'string'],
-            'note' => ['nullable', 'string']
+            'account_name' => 'required',
+            'account_no' => 'required',
+            'payment_type_id' => 'required',
         ];
     }
 }
