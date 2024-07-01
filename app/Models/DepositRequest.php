@@ -9,7 +9,7 @@ class DepositRequest extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['user_id', 'agent_id', 'user_payment_id', 'amount', 'image', 'status', 'note'];
+    protected $fillable = ['user_id', 'agent_id', 'user_payment_id', 'amount', 'refrence_no', 'status', 'note'];
 
     public function user()
     {

@@ -27,7 +27,6 @@ class DepositController extends Controller
             $deposit = DepositRequest::create(array_merge(
                 $inputs,
                 [
-                    'image' => $imageName,
                     'user_id' => $player->id,
                     'agent_id' => $player->agent_id,
                 ]

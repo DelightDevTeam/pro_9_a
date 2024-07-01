@@ -132,9 +132,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="input-group input-group-outline ">
-              <label class="form-label">Image</label>
-              <img src="{{ asset('assets/img/Deposit/'. $deposit->image)}}" alt="" width="100%">
+              <div class="input-group input-group-outline is-valid my-3">
+                <label class="form-label">RefrenceNo</label>
+                <input type="text" class="form-control" name="refrence_no" value="{{ $deposit->refrence_no }}" readonly>
               </div>
             </div>
           </div>
