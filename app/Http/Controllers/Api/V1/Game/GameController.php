@@ -64,7 +64,9 @@ class GameController extends Controller
     {
         //$gameLists = HotGame::all();
         $gameLists = GameList::where('product_id', $product_id)
-            ->where('game_type_id', $game_type_id)->get();
+            ->where('game_type_id', $game_type_id)
+            ->where('status', 1)
+            ->get();
         return $this->success(HotGameListResource::collection($gameLists), 'Hot Game Detail Successfully');
     }
 }
