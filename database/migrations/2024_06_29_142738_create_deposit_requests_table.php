@@ -19,7 +19,7 @@ return new class extends Migration
             $table->unsignedBigInteger('amount');
             $table->string('image');
             $table->tinyInteger('status')->default(0);
-            $table->longText('note');
+            $table->longText('note')->nullable();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('user_payment_id')->references('id')->on('user_payments')->onDelete('cascade');

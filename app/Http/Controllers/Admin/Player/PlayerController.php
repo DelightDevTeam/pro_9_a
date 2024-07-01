@@ -266,7 +266,7 @@ class PlayerController extends Controller
 
                 return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
             }
-
+            
             app(WalletService::class)->transfer($player, $agent, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $inputs['note'], 'payment_type' => 'withdraw']);
 
             return redirect()->back()
