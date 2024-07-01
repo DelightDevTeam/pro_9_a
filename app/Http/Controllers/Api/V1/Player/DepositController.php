@@ -21,8 +21,6 @@ class DepositController extends Controller
             $inputs = $request->validated();
 
             $player = Auth::user();
-            $imageName = $this->generateUniqueImageName($request->image);
-            $request->image->move('assets/img/Deposit', $imageName);
         
             $deposit = DepositRequest::create(array_merge(
                 $inputs,
@@ -36,10 +34,5 @@ class DepositController extends Controller
         } catch (Exception $e) {
             $this->error('', $e->getMessage(), 401);
         }
-    }
-
-    private function generateUniqueImageName(UploadedFile $image)
-    {
-        return time().'-'.uniqid().'.'.$image->getClientOriginalExtension();
     }
 }
