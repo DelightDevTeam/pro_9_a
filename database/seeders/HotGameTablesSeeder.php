@@ -236,7 +236,7 @@ class HotGameTablesSeeder extends Seeder
                 'name' => $game['GameName'],
                 'game_type_id' => $game['GameType'],
                 'image_url' => $game['ImageUrl'],
-                'product_id' => 4, // Assuming a static product_id for all entries
+                'product_id' => 1, // Assuming a static product_id for all entries
             ];
 
             // Insert into the GameList model
