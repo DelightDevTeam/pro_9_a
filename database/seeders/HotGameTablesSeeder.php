@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\HotGame;
 use App\Models\Admin\GameList;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class HotGameTablesSeeder extends Seeder
 {
@@ -239,7 +240,7 @@ class HotGameTablesSeeder extends Seeder
             ];
 
             // Insert into the GameList model
-            GameList::create($gameData);
+            HotGame::create($gameData);
         }
     }
 }

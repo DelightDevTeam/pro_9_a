@@ -11,16 +11,26 @@ class GameList extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['game_type_id', 'product_id', 'name', 'code', 'image_url', 'click_count'];
+    protected $fillable = ['game_type_id', 'product_id', 'name', 'code', 'image_url', 'click_count', 'status'];
 
-    public function product()
+    // public function product()
+    // {
+    //     return $this->belongsTo(Product::class);
+    // }
+
+    // public function gameType()
+    // {
+    //     return $this->belongsTo(GameType::class);
+    // }
+
+     public function product()
     {
-        return $this->belongsTo(Product::class);
+        return $this->belongsTo(Product::class, 'product_id');
     }
 
     public function gameType()
     {
-        return $this->belongsTo(GameType::class);
+        return $this->belongsTo(GameType::class, 'game_type_id');
     }
 
     public function getImgUrlAttribute()
