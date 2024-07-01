@@ -23,7 +23,6 @@ class HotGameListResource extends JsonResource
             'product_code' => $this->product->code,
             'image_url' => $this->image_url,
 
-            //'game_id' =>  $this->game_id,
         ];
     }
 }
