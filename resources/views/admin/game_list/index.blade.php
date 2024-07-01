@@ -21,7 +21,13 @@
    <div class="card-header pb-0">
     <div class="d-lg-flex">
      <div>
-      <h5 class="mb-0">Game List Dashboards</h5>
+      <h5 class="mb-0">Game List Dashboards
+        <span>
+            <p>
+                All Total Running Games on Site : {{ count($games) }}
+            </p>
+        </span>
+      </h5>
 
      </div>
      <div class="ms-auto my-auto mt-lg-0 mt-4">
@@ -74,7 +80,7 @@
                 @endif
             </td>
             <td>
-                <a href="{{ route('admin.gameLists.edit', $game->id) }}" class="btn btn-info btn-sm">Edit</a>
+                {{-- <a href="{{ route('admin.gameLists.edit', $game->id) }}" class="btn btn-info btn-sm">Edit</a> --}}
                  <form action="{{ route('admin.gameLists.toggleStatus', $game->id) }}" method="POST" style="display:inline;">
                     @csrf
                     @method('PATCH')
