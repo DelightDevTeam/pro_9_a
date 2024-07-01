@@ -53,9 +53,9 @@ class GameListController extends Controller
     public function HotGameStatus($id)
     {
         $game = GameList::findOrFail($id);
-        $game->hot_status = $game->status == 1 ? 0 : 1;
+        $game->hot_status = $game->hot_status == 1 ? 0 : 1;
         $game->save();
 
-        return redirect()->route('admin.gameLists.index')->with('success', 'Game status updated successfully.');
+        return redirect()->route('admin.gameLists.index')->with('success', 'HotGame status updated successfully.');
     }
 }
