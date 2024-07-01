@@ -62,7 +62,7 @@ class GameController extends Controller
 
     public function HotgameList()
     {
-        $gameLists = GameList::all();
+        $gameLists = HotGame::all();
         return $this->success(HotGameListResource::collection($gameLists), 'Hot Game Detail Successfully');
     }
 }
