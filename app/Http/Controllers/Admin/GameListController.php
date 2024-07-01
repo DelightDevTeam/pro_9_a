@@ -41,4 +41,21 @@ class GameListController extends Controller
 
         return redirect()->route('admin.gametypes.index');
     }
+
+     public function toggleStatus($id)
+    {
+        $game = GameList::findOrFail($id);
+        $game->status = $game->status == 1 ? 0 : 1;
+        $game->save();
+
+        return redirect()->route('admin.gameLists.index')->with('success', 'Game status updated successfully.');
+    }
+    public function HotGameStatus($id)
+    {
+        $game = GameList::findOrFail($id);
+        $game->status = $game->status == 1 ? 0 : 1;
+        $game->save();
+
+        return redirect()->route('admin.gameLists.index')->with('success', 'Game status updated successfully.');
+    }
 }

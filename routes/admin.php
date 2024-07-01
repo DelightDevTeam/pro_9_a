@@ -80,6 +80,11 @@ Route::group([
     Route::get('all-game-lists', [GameListController::class, 'index'])->name('gameLists.index');
     Route::get('all-game-lists/{id}', [GameListController::class, 'edit'])->name('gameLists.edit');
     Route::post('all-game-lists/{id}', [GameListController::class, 'update'])->name('gameLists.update');
+
+    Route::patch('gameLists/{id}/toggleStatus', [GameListController::class, 'toggleStatus'])->name('gameLists.toggleStatus');
+     Route::patch('hotgameLists/{id}/toggleStatus', [GameListController::class, 'HotGameStatus'])->name('HotGame.toggleStatus');
+
+
     // game list end
 
     Route::resource('agent', AgentController::class);
