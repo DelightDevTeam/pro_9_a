@@ -82,6 +82,7 @@ Route::group([
     Route::post('all-game-lists/{id}', [GameListController::class, 'update'])->name('gameLists.update');
 
     Route::patch('gameLists/{id}/toggleStatus', [GameListController::class, 'toggleStatus'])->name('gameLists.toggleStatus');
+    
      Route::patch('hotgameLists/{id}/toggleStatus', [GameListController::class, 'HotGameStatus'])->name('HotGame.toggleStatus');
 
 
