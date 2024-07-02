@@ -16,24 +16,48 @@ class PaymentTypeTableSeeder extends Seeder
     {
         $types = [
             [
-                'name' => 'Kpay Account',
+                'name' => 'KBZ Pay',
                 'image' => 'kpay.png',
             ],
             [
-                'name' => 'Wave Account',
+                'name' => 'Wave Pay',
                 'image' => 'wave.png',
             ],
+            [
+                'name' => 'AYA Pay',
+                'image' => 'ayapay'
+            ],
+            [
+                'name' => 'AYA Bank',
+                'name' => 'ayabank'
+            ],
+            [
+                'name' => 'CB Bank',
+                'image' => 'cbbank'
+            ],
+            [
+                'name' => 'CB Pay',
+                'image' => 'cbpay'
+            ],
+            [
+                'name' => 'MAB Bank',
+                'image' => 'mabbank'
+            ],
+            [
+                'name' => 'UAB Bank',
+                'image' => 'uabbank'
+            ],
+            [
+                'name' => 'UAB Pay',
+                'image' => 'uabpay'
+            ],
+            [
+                'name' => 'Yoma Bank',
+                'image' => 'yomabank'
+            ]
+
         ];
 
         DB::table('payment_types')->insert($types);
-
-        $types = PaymentType::all();
-
-        foreach ($types as $type) {
-            PaymentImage::create([
-                'payment_type_id' => $type->id,
-                'image' => 'kpay.png',
-            ]);
-        }
     }
 }

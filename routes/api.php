@@ -77,6 +77,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('changePassword', [AuthController::class, 'changePassword']);
     Route::post('profile', [AuthController::class, 'profile']);
     Route::get('agent-payment-type', [UserPaymentControler::class, 'agentPayment']);
+    Route::get('payment-type', [UserPaymentControler::class, 'paymentType']);
 
     Route::group(['prefix' => 'transaction'], function () {
         Route::post('withdraw', [WithDrawController::class, 'withdraw']);
