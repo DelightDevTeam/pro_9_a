@@ -29,7 +29,7 @@ class PaymentTypeTableSeeder extends Seeder
             ],
             [
                 'name' => 'AYA Bank',
-                'name' => 'ayabank.png'
+                'image' => 'ayabank.png'
             ],
             [
                 'name' => 'CB Bank',
