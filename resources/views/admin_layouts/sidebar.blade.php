@@ -126,6 +126,13 @@
               <span class="sidenav-normal  ms-2  ps-1"> GameType </span>
             </a>
           </li>
+
+          <li class="nav-item ">
+            <a class="nav-link text-white " href="{{ route('admin.gameLists.index') }}">
+            <span class="sidenav-mini-icon">G L</span>
+              <span class="sidenav-normal  ms-2  ps-1"> gameList </span>
+            </a>
+          </li>
         </ul>
       </div>
     </li>

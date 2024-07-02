@@ -43,7 +43,7 @@ Route::get('gameTypeProducts/{id}', [GameController::class, 'gameTypeProducts'])
 Route::get('allGameProducts', [GameController::class, 'allGameProducts']);
 Route::get('gameType', [GameController::class, 'gameType']);
 Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'gameList']);
-Route::get('hotgamelist/{product_id}/{game_type_id}', [GameController::class, 'HotgameList']);
+Route::get('hotgamelist', [GameController::class, 'HotgameList']);
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);
 
 Route::get('/test', TestController::class);
@@ -65,7 +65,6 @@ Route::group(['prefix' => 'Seamless'], function () {
     Route::post('MobileLogin', [MobileLoginController::class, 'MobileLogin']);
     // });
 });
-
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('wager-logs', [WagerController::class, 'index']);

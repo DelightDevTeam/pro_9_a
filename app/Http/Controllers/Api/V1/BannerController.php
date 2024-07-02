@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Api\V1;
 
+use App\Http\Controllers\Controller;
 use App\Models\Admin\Banner;
-use App\Traits\HttpResponses;
 use App\Models\Admin\BannerAds;
 use App\Models\Admin\BannerText;
-use App\Http\Controllers\Controller;
+use App\Traits\HttpResponses;
 
 class BannerController extends Controller
 {

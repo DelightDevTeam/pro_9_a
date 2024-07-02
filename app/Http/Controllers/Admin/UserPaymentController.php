@@ -48,10 +48,7 @@ class UserPaymentController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Bank $bank)
-    {
-
-    }
+    public function show(Bank $bank) {}
 
     /**
      * Show the form for editing the specified resource.

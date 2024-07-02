@@ -21,7 +21,7 @@ class DepositController extends Controller
             $inputs = $request->validated();
 
             $player = Auth::user();
-        
+
             $deposit = DepositRequest::create(array_merge(
                 $inputs,
                 [
@@ -29,7 +29,7 @@ class DepositController extends Controller
                     'agent_id' => $player->agent_id,
                 ]
             ));
-                       
+
             return $this->success($deposit, 'Deposit Request Success');
         } catch (Exception $e) {
             $this->error('', $e->getMessage(), 401);

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin\BannerAds;
 
-use Illuminate\Http\Request;
-use App\Models\Admin\BannerAds;
 use App\Http\Controllers\Controller;
+use App\Models\Admin\BannerAds;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class BannerAdsController extends Controller
@@ -51,46 +51,46 @@ class BannerAdsController extends Controller
      * Display the specified resource.
      */
     public function show(BannerAds $adsbanner)
-{
-    if (!$adsbanner->exists) {
-        return redirect()->route('admin.adsbanners.index')->with('error', 'Banner not found');
+    {
+        if (! $adsbanner->exists) {
+            return redirect()->route('admin.adsbanners.index')->with('error', 'Banner not found');
+        }
+
+        return view('admin.banner_ads.show', compact('adsbanner'));
     }
-    return view('admin.banner_ads.show', compact('adsbanner'));
-}
 
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(BannerAds $adsbanner)
-{
-    return view('admin.banner_ads.edit', compact('adsbanner'));
-}
-
-public function update(Request $request, BannerAds $adsbanner)
-{
-    if (!$adsbanner) {
-        return redirect()->back()->with('error', 'Ads Banner Not Found');
+    {
+        return view('admin.banner_ads.edit', compact('adsbanner'));
     }
-    $request->validate([
-        'image' => 'required',
-    ]);
 
-    // Remove banner from local storage
-    File::delete(public_path('assets/img/banners_ads/' . $adsbanner->image));
+    public function update(Request $request, BannerAds $adsbanner)
+    {
+        if (! $adsbanner) {
+            return redirect()->back()->with('error', 'Ads Banner Not Found');
+        }
+        $request->validate([
+            'image' => 'required',
+        ]);
 
-    // image
-    $image = $request->file('image');
-    $ext = $image->getClientOriginalExtension();
-    $filename = uniqid('banner') . '.' . $ext; // Generate a unique filename
-    $image->move(public_path('assets/img/banners_ads/'), $filename); // Save the file
+        // Remove banner from local storage
+        File::delete(public_path('assets/img/banners_ads/'.$adsbanner->image));
 
-    $adsbanner->update([
-        'image' => $filename,
-    ]);
+        // image
+        $image = $request->file('image');
+        $ext = $image->getClientOriginalExtension();
+        $filename = uniqid('banner').'.'.$ext; // Generate a unique filename
+        $image->move(public_path('assets/img/banners_ads/'), $filename); // Save the file
 
-    return redirect(route('admin.adsbanners.index'))->with('success', 'Ads Banner Image Updated.');
-}
+        $adsbanner->update([
+            'image' => $filename,
+        ]);
 
+        return redirect(route('admin.adsbanners.index'))->with('success', 'Ads Banner Image Updated.');
+    }
 
     /**
      * Remove the specified resource from storage.

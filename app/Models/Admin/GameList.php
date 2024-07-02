@@ -11,7 +11,7 @@ class GameList extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['game_type_id', 'product_id', 'name', 'code', 'image_url', 'click_count', 'status'];
+    protected $fillable = ['game_type_id', 'product_id', 'name', 'code', 'image_url', 'click_count', 'status', 'hot_status'];
 
     // public function product()
     // {
@@ -23,7 +23,7 @@ class GameList extends Model
     //     return $this->belongsTo(GameType::class);
     // }
 
-     public function product()
+    public function product()
     {
         return $this->belongsTo(Product::class, 'product_id');
     }

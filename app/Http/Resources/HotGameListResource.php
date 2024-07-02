@@ -14,7 +14,7 @@ class HotGameListResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-         return [
+        return [
             'id' => $this->id,
             'code' => $this->code,
             'name' => $this->name,
@@ -22,6 +22,8 @@ class HotGameListResource extends JsonResource
             'game_type_id' => $this->game_type_id,
             'product_code' => $this->product->code,
             'image_url' => $this->image_url,
+            'status' => $this->status,
+            'hot_status' => $this->hot_status,
 
         ];
     }
