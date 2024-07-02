@@ -66,7 +66,6 @@ Route::group(['prefix' => 'Seamless'], function () {
     // });
 });
 
-
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('wager-logs', [WagerController::class, 'index']);
     Route::get('transactions', [TransactionController::class, 'index']);

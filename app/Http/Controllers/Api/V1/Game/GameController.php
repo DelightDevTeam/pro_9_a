@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Api\V1\Game;
 
-use App\Models\HotGame;
-use App\Traits\HttpResponses;
+use App\Http\Controllers\Controller;
+use App\Http\Resources\GameDetailResource;
+use App\Http\Resources\GameListResource;
+use App\Http\Resources\HotGameListResource;
 use App\Models\Admin\GameList;
 use App\Models\Admin\GameType;
-use App\Http\Controllers\Controller;
-use App\Http\Resources\GameListResource;
-use App\Http\Resources\GameDetailResource;
-use App\Http\Resources\HotGameListResource;
+use App\Models\HotGame;
+use App\Traits\HttpResponses;
 
 class GameController extends Controller
 {
@@ -67,6 +67,7 @@ class GameController extends Controller
         //$gameLists = HotGame::all();
         $gameLists = GameList::where('hot_status', 1)
             ->get();
+
         return $this->success(HotGameListResource::collection($gameLists), 'Hot Game Detail Successfully');
     }
 }

@@ -49,7 +49,7 @@
         <th class="bg-success text-white">Game Type</th>
         <th class="bg-danger text-white">Product</th>
         <th class="bg-info text-white">Game Name</th>
-        {{-- <th class="bg-warning text-white">Image</th> --}}
+        <th class="bg-warning text-white">Image</th>
         <th class="bg-success text-white">Game Status</th>
         <th class="bg-info text-white">HotGameStatus</th>
         <th class="bg-primary text-white">Actions</th>
@@ -62,9 +62,9 @@
             <td>{{ $game->gameType->name ?? 'N/A' }}</td>
             <td>{{ $game->product->name ?? 'N/A' }}</td>
             <td>{{ $game->name }}</td>
-            {{-- <td>
+            <td>
                 <img src="{{ $game->image_url }}" alt="{{ $game->name }}" width="100px">
-            </td> --}}
+            </td>
             <td>
                 @if($game->status == 1)
                 <p>Running Game</p>
@@ -100,7 +100,16 @@
     @endforeach
 </tbody>
 </table>
+ {{ $games->links() }}
 @endcan
+   </div>
+
+   <div class="card mt-4">
+    <div class="card-body">
+    
+       
+
+    </div>
    </div>
   </div>
  </div>

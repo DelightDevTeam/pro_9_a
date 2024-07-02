@@ -47,7 +47,7 @@ class AuthController extends Controller
             'user_id' => $user->id,
             'user_agent' => $request->userAgent(),
         ]);
-     
+
         return $this->success(new UserResource($user), 'User login successfully.');
     }
 

@@ -8,14 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class BannerAds extends Model
 {
     use HasFactory;
+
     protected $fillable = [
         'image',
     ];
 
-
     protected $appends = ['img_url'];
-    
-    protected $table = 'banner_ads'; 
+
+    protected $table = 'banner_ads';
 
     public function getImgUrlAttribute()
     {
