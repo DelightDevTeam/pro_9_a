@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Contact;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -67,7 +68,7 @@ class DatabaseSeeder extends Seeder
             YesGetRichTablesSeeder::class,
             Live22SMTablesSeeder::class,
             BannerAdsSeeder::class,
-
+            ContactTableSeeder::class
         ]);
 
     }

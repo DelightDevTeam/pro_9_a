@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\BannerTextController;
 use App\Http\Controllers\Api\V1\Auth\AuthController;
 use App\Http\Controllers\Api\V1\Bank\BankController;
 use App\Http\Controllers\Api\V1\BannerController;
+use App\Http\Controllers\Api\V1\ContactController;
 use App\Http\Controllers\Api\V1\Game\GameController;
 use App\Http\Controllers\Api\V1\Game\LaunchGameController;
 use App\Http\Controllers\Api\V1\PaymentType\PaymentTypeController;
@@ -26,6 +27,7 @@ use App\Http\Controllers\Api\V1\Webhook\PlaceBetController;
 use App\Http\Controllers\Api\V1\Webhook\PushBetController;
 use App\Http\Controllers\Api\V1\Webhook\RollbackController;
 use App\Http\Controllers\TestController;
+use App\Models\Admin\Role;
 use Illuminate\Support\Facades\Route;
 
 //login route post
@@ -45,7 +47,7 @@ Route::get('gameType', [GameController::class, 'gameType']);
 Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'gameList']);
 Route::get('hotgamelist', [GameController::class, 'HotgameList']);
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);
-
+Route::get('contact', [ContactController::class, 'index']);
 Route::get('/test', TestController::class);
 
 Route::group(['prefix' => 'Seamless'], function () {

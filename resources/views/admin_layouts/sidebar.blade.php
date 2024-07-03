@@ -74,7 +74,7 @@
       </a>
     </li>
     <hr class="horizontal light mt-0">
-    @can('admin_access')
+
     <li class="nav-item">
       <a data-bs-toggle="collapse" href="#dashboardsExamples" class="nav-link text-white " aria-controls="dashboardsExamples" role="button" aria-expanded="false">
         <i class="material-icons py-2">settings</i>
@@ -82,20 +82,31 @@
       </a>
       <div class="collapse " id="dashboardsExamples">
         <ul class="nav ">
-
+        @can('payment_type')
         <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.paymentType.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
               <span class="sidenav-normal  ms-2  ps-1"> Payment Type </span>
             </a>
           </li>
+        @endcan
+        @can('contact')
+        <li class="nav-item ">
+            <a class="nav-link text-white " href="{{ route('admin.contact.index') }}">
+              <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
+              <span class="sidenav-normal  ms-2  ps-1"> Contact </span>
+            </a>
+          </li>
+        @endcan
+        @can('admin_access')
           <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.banners.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
               <span class="sidenav-normal  ms-2  ps-1"> Banner </span>
             </a>
           </li>
-                    <li class="nav-item ">
+
+          <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.adsbanners.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
               <span class="sidenav-normal  ms-2  ps-1"> Ads Banner </span>
@@ -107,7 +118,6 @@
               <span class="sidenav-normal  ms-2  ps-1"> Banner Text </span>
             </a>
           </li>
-         
           <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.promotions.index') }}">
               <span class="sidenav-mini-icon"> <i class="fas fa-gift"></i> </span>
@@ -137,6 +147,7 @@
       </div>
     </li>
     @endcan
+
     <li class="nav-item">
       <a href="{{ route('logout') }}" onclick="event.preventDefault();
       document.getElementById('logout-form').submit();" class="nav-link text-white">

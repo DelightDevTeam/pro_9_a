@@ -41,6 +41,7 @@ class PermissionRoleTableSeeder extends Seeder
             'transfer_log',
             'make_transfer',
             'game_type_access',
+            'contact'
         ]);
         Role::findOrFail(1)->permissions()->sync($admin_permissions->pluck('id'));
         // Admin permissions
@@ -86,6 +87,7 @@ class PermissionRoleTableSeeder extends Seeder
             'payment_type',
             'withdraw_requests',
             'deposit_requests',
+            'contact'
         ])->pluck('id');
         Role::findOrFail(3)->permissions()->sync($agent_permissions);
     }

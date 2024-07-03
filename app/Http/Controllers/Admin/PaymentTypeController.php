@@ -7,6 +7,7 @@ use App\Models\PaymentType;
 use App\Models\UserPayment;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
 class PaymentTypeController extends Controller
@@ -16,7 +17,7 @@ class PaymentTypeController extends Controller
      */
     public function index()
     {
-        $paymentTypes = UserPayment::with('paymentType')->get();
+        $paymentTypes = UserPayment::with('paymentType')->where('user_id', Auth::id())->get();
 
         return view('admin.paymentType.index', compact('paymentTypes'));
     }
@@ -59,34 +60,9 @@ class PaymentTypeController extends Controller
     {
         $paymentType = PaymentType::findOrFail($id);
 
-        $this->updatePaymentTypeImages($paymentType, $request->image);
+        $paymentType->update($request->all());
 
         return redirect()->route('admin.paymentType.index');
-    }
-
-    private function updatePaymentTypeImages(PaymentType $paymentType, $images)
-    {
-        if (! $images) {
-            return;
-        }
-
-        $paymentType->paymentImages()->delete();
-
-        foreach ($images as $image) {
-            $imageName = $this->generateUniqueImageName($image);
-            $image->move('assets/img/paymentType/banners', $imageName);
-            $paymentImages[] = [
-                'payment_type_id' => $paymentType->id,
-                'image' => $imageName,
-            ];
-        }
-
-        $paymentType->paymentImages()->createMany($paymentImages);
-    }
-
-    private function generateUniqueImageName(UploadedFile $image)
-    {
-        return time().'-'.uniqid().'.'.$image->getClientOriginalExtension();
     }
 
     /**

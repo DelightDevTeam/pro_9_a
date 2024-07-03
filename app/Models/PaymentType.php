@@ -17,9 +17,4 @@ class PaymentType extends Model
     {
         return asset('assets/img/paymentType/'.$this->image);
     }
-
-    public function paymentImages()
-    {
-        return $this->hasMany(PaymentImage::class, 'payment_type_id');
-    }
 }
