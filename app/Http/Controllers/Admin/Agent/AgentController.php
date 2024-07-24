@@ -275,7 +275,7 @@ class AgentController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'TG-'.$randomNumber;
+        return 'MKA'.$randomNumber;
     }
 
     public function banAgent($id)

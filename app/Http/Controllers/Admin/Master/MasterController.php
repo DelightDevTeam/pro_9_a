@@ -111,7 +111,7 @@ class MasterController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'TGM-'.$randomNumber;
+        return 'MKM-'.$randomNumber;
     }
 
     /**
