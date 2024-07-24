@@ -2,20 +2,21 @@
 
 namespace App\Http\Controllers\Admin\Player;
 
-use App\Enums\TransactionName;
+use Exception;
+use App\Models\User;
 use App\Enums\UserType;
+use App\Models\Admin\Bank;
+use App\Models\PaymentType;
+use Illuminate\Http\Request;
+use App\Enums\TransactionName;
+use App\Services\WalletService;
+use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PlayerRequest;
-use App\Http\Requests\TransferLogRequest;
-use App\Models\Admin\Bank;
-use App\Models\User;
-use App\Services\WalletService;
-use Exception;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log;
+use App\Http\Requests\TransferLogRequest;
 use Illuminate\Validation\ValidationException;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -56,7 +57,8 @@ class PlayerController extends Controller
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
         $player_name = $this->generateRandomString();
-        $banks = Bank::all();
+        //$banks = Bank::all();
+        $banks = PaymentType::all();
 
         return view('admin.player.create', compact('player_name', 'banks'));
     }
