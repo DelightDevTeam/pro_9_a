@@ -35,9 +35,7 @@
             <h5 class="mb-0">Player Get Bet Detail</h5>
           </div>
           <div class="ms-auto my-auto mt-lg-0 mt-4">
-            <div class="ms-auto my-auto">
-              <button class="btn btn-outline-primary btn-sm export mb-0 mt-sm-0 mt-1" data-type="csv" type="button" name="button">Export</button>
-            </div>
+
           </div>
 
         </div>

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->unsignedBigInteger('payment_type_id');
             $table->unsignedBigInteger('amount');
             $table->tinyInteger('status')->default(0);
-            $table->longText('note');
+            $table->longText('note')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

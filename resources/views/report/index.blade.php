@@ -44,9 +44,7 @@
             <h5 class="mb-0">Win/lose Report</h5>
           </div>
           <div class="ms-auto my-auto mt-lg-0 mt-4">
-            <div class="ms-auto my-auto">
-              <button class="btn btn-outline-primary btn-sm export mb-0 mt-sm-0 mt-1" data-type="csv" type="button" name="button">Export</button>
-            </div>
+
           </div>
 
         </div>
@@ -69,13 +67,13 @@
             <div class="col-md-3">
               <button class="btn btn-sm btn-primary" id="search">Search</button>
             </div>
-            
+
         </form>
       </div>
     </div>
 
 
-   
+
     <div class="table-responsive">
       <table class="table table-flush" id="users-search">
         <thead class="thead-light bg-gradient-info  ">
@@ -88,7 +86,7 @@
         </thead>
         <tbody>
           @foreach ($reports as $rep)
-          <tr> 
+          <tr>
             <td>{{ $rep->product_name}}</td>
             <td>{{ $rep->total_valid_bet_amount}}</td>
             <td>{{ $rep->total_bet_amount}}</td>

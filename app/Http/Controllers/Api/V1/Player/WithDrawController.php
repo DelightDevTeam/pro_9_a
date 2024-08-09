@@ -25,6 +25,9 @@ class WithDrawController extends Controller
             if (! $player || ! Hash::check($request->password, $player->password)) {
                 return $this->error('', 'လျို့ဝှက်နံပါတ်ကိုက်ညီမှု မရှိပါ။', 401);
             }
+            if($player->balance < $inputs['amount']){
+                return $this->error('','Insufficient balance', 401);
+            }
 
             $withdraw = ModelsWithDrawRequest::create(array_merge(
                 $inputs,
@@ -36,7 +39,7 @@ class WithDrawController extends Controller
 
             return $this->success($withdraw, 'Withdraw Request Success');
         } catch (Exception $e) {
-            $this->error('', $e->getMessage(), 401);
+            return $this->error('', $e->getMessage(), 401);
         }
     }
 }
