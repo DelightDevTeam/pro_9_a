@@ -108,9 +108,9 @@
             <div class="custom-form-group">
               <label for="title">Bank Name <span class="text-danger">*</span></label>
               <div class="custom-select-wrapper">
-                <select name="bank_id" class="form-control custom-select">
-                  @foreach ($banks as $bank)
-                  <option value="{{$bank->id}}" {{ $bank->id == $player->bank_id ? 'selected' : '' }}>{{$bank->name}}</option>
+                <select name="payment_type_id" class="form-control custom-select">
+                  @foreach ($paymentTypes as $paymentType)
+                  <option value="{{$paymentType->id}}" {{ $paymentType->id == $player->payment_type_id ? 'selected' : '' }}>{{$paymentType->name}}</option>
                   @endforeach
                 </select>
               </div>
@@ -120,15 +120,15 @@
             </div>
             <div class="custom-form-group">
               <label for="title">Bank Account Name <span class="text-danger">*</span></label>
-              <input type="text" name="bank_account_name" class="form-control" value="{{$player->bank_account_name}}">
-              @error('bank_account_name')
+              <input type="text" name="account_name" class="form-control" value="{{$player->account_name}}">
+              @error('account_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
-              <label for="title">Bank Account <span class="text-danger">*</span></label>
-              <input type="text" name="bank_account" class="form-control" value="{{$player->bank_account}}">
-              @error('bank_account')
+              <label for="title">Bank Account No<span class="text-danger">*</span></label>
+              <input type="text" name="account_no" class="form-control" value="{{$player->account_no}}">
+              @error('account_no')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>

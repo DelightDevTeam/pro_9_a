@@ -151,46 +151,32 @@
             </div>
                
             <div class="custom-form-group">
-            <label for="title">Bank Name <span class="text-danger">*</span></label>
+            <label for="title">Bank Name<span class="text-danger">*</span></label>
             <div class="custom-select-wrapper">
-                <select name="bank_id" class="form-control custom-select">
-                    @foreach ($banks as $bank)
-                    <option value="{{$bank->id}}">{{$bank->name}}</option>
+                <select name="payment_type_id" class="form-control custom-select">
+                    @foreach ($paymentTypes as $paymentType)
+                    <option value="{{$paymentType->id}}">{{$paymentType->name}}</option>
                     @endforeach
                 </select>
             </div>
-            @error('status')
+            @error('payment_type_id')
             <span class="text-danger d-block">*{{ $message }}</span>
             @enderror
           </div>
             <div class="custom-form-group">
               <label for="title">Bank Account Name <span class="text-danger">*</span></label>
-              <input type="text"  name="bank_account_name" class="form-control" value="{{old('bank_account_name')}}" >
-              @error('bank_account_name')
+              <input type="text"  name="account_name" class="form-control" value="{{old('account_name')}}" >
+              @error('account_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
-              <label for="title">Bank Account <span class="text-danger">*</span></label>
-              <input type="text"  name="bank_account" class="form-control" value="{{old('bank_account')}}" >
+              <label for="title">Bank Account No <span class="text-danger">*</span></label>
+              <input type="text"  name="account_no" class="form-control" value="{{old('account_no')}}" >
               @error('bank_account')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            <div class="custom-form-group">
-            <label for="title">Status <span class="text-danger">*</span></label>
-            <div class="custom-select-wrapper">
-                <select name="status" class="form-control custom-select">
-                    <option value="1">Active</option>
-                    <option value="0">Inactive</option>
-                </select>
-            </div>
-            @error('status')
-            <span class="text-danger d-block">*{{ $message }}</span>
-            @enderror
-          </div>
-
-           
             <div class="custom-form-group">
               <button class="btn btn-info" type="button" id="resetFormButton">Reset</button>
 

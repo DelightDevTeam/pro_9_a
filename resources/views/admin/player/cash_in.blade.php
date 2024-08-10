@@ -81,15 +81,15 @@
               </tr>
               <tr>
                 <th>Bank Name</th>
-                <td>{!! $player->bank->name !!}</td>
+                <td>{!! $player->paymentType->name !!}</td>
               </tr>
               <tr>
                 <th>Bank Account Name</th>
-                <td>{!! $player->bank_account_name !!}</td>
+                <td>{!! $player->account_name !!}</td>
               </tr>
               <tr>
                 <th>Bank Account</th>
-                <td>{!! $player->bank_account !!}</td>
+                <td>{!! $player->account_no !!}</td>
               </tr>
             </tbody>
           </table>

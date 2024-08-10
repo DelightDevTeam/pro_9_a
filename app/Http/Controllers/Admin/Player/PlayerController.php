@@ -58,9 +58,9 @@ class PlayerController extends Controller
         );
         $player_name = $this->generateRandomString();
         //$banks = Bank::all();
-        $banks = PaymentType::all();
+        $paymentTypes = PaymentType::all();
 
-        return view('admin.player.create', compact('player_name', 'banks'));
+        return view('admin.player.create', compact('player_name', 'paymentTypes'));
     }
 
     /**
@@ -142,9 +142,9 @@ class PlayerController extends Controller
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
-        $banks = Bank::all();
+        $paymentTypes = PaymentType::all();
 
-        return response()->view('admin.player.edit', compact('player', 'banks'));
+        return response()->view('admin.player.edit', compact('player', 'paymentTypes'));
     }
 
     /**

@@ -82,7 +82,7 @@
       </a>
       <div class="collapse " id="dashboardsExamples">
         <ul class="nav ">
-        @can('payment_type')
+        @can('admin_access')
         <li class="nav-item ">
             <a class="nav-link text-white " href="{{ route('admin.paymentType.index') }}">
               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>

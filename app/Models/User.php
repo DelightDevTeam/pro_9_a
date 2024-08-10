@@ -39,6 +39,9 @@ class User extends Authenticatable implements Wallet
         'status',
         'type',
         'is_changed_password',
+        'payment_type_id',
+        'account_name',
+        'account_no'
     ];
 
     protected $dispatchesEvents = [
@@ -154,8 +157,8 @@ class User extends Authenticatable implements Wallet
         return $query;
     }
 
-    public function bank()
+    public function paymentType()
     {
-        return $this->belongsTo(Bank::class);
+        return $this->belongsTo(PaymentType::class);
     }
 }
