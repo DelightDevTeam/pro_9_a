@@ -59,7 +59,7 @@
               <td>
               <small class="badge bg-gradient-{{ $user->status == 1 ? 'success' : 'danger' }}">{{ $user->status == 1 ? "active" : "inactive" }}</small>
               </td>
-              <td>{{number_format($user->balanceFloat,2) }} MMK</td>
+              <td>{{number_format($user->balanceFloat,2) }} </td>
               <td>
                 @if ($user->status == 1)
                 <a onclick="event.preventDefault(); document.getElementById('banUser-{{ $user->id }}').submit();" class="me-2" href="#" data-bs-toggle="tooltip" data-bs-original-title="Active Player">
@@ -97,10 +97,7 @@
                 <i class="fas fa-minus text-white me-1"></i>
                   WDL
                 </a>
-                <a href="{{ route('admin.report.view', $user->user_name) }}" data-bs-toggle="tooltip" data-bs-original-title="Reports" class="btn btn-info btn-sm">
-                  <i class="fas fa-line-chart text-white me-1"></i>
-                  Reports
-                </a>
+           
                 <a href="{{ route('admin.logs', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Reports" class="btn btn-info btn-sm">
                   <i class="fas fa-right-left text-white me-1"></i>
                   Logs

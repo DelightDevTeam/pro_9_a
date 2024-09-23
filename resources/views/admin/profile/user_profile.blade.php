@@ -54,7 +54,7 @@
                         <h6 class="text-center mb-0">Total Balance</h6>
                         <!-- <span class="text-xs">Freelance Payment</span> -->
                         <hr class="horizontal dark my-3">
-                        <h5 class="mb-0"> {{ Auth::user()->balance }} MMK</h5>
+                        <h5 class="mb-0"> {{ Auth::user()->balance }} </h5>
                     </div>
                 </div>
 
