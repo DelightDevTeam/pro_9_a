@@ -75,13 +75,16 @@ class PullReport extends Command
             if ($data['Wagers'] != null) {
                 $data = $response['Wagers'];
                 foreach ($data as $report) {
-            
 
-                $agent_commission = null; 
+
+                $agent_commission = null;
                 $user = User::where('user_name', $report['MemberName'])->first();
 
                 if ($user && $user->agent_id) {
                     $agent = User::where('id', $user->agent_id)->first();
+
+        Log::info($agent);
+
 
                     if ($agent) {
                         $agent_commission = $agent->commission; // Get the agent's commission
