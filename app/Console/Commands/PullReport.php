@@ -140,6 +140,7 @@ class PullReport extends Command
                             'modified_on' => $report['ModifiedOn'],
                             'settlement_date' => $report['SettlementDate'],
                             'agent_id' => $user->agent_id, // Store the agent_id
+                            'master_id' => $master->id, // Store the agent_id
                             'agent_commission' => $grossCommission,
                         ]);
                     } else {
@@ -161,6 +162,7 @@ class PullReport extends Command
                             'modified_on' => $report['ModifiedOn'],
                             'settlement_date' => $report['SettlementDate'],
                             'agent_id' => $user->agent_id, // Store the agent_id
+                            'master_id' => $master->id, // Store the agent_id
                             'agent_commission' => $grossCommission,
 
                         ]);
