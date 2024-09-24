@@ -358,6 +358,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'MrSlotty',
 
                 'order' => 48,
+                 'status' => 1,
             ],
             [
                 'code' => '1110',
@@ -365,6 +366,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'RedTiger',
 
                 'order' => 50,
+                 'status' => 1,
             ],
             [
                 'code' => '1100',
@@ -381,6 +383,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'RTiger',
 
                 'order' => 50,
+                 'status' => 1,
             ],
         ];
 
