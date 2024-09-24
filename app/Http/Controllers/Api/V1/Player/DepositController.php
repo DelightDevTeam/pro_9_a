@@ -29,37 +29,38 @@ class DepositController extends Controller
                     'agent_id' => $player->agent_id,
                 ]
             ));
-            $secretKey = Config::get('scanner.secretKey');
-            $token = Config::get('scanner.token');
+            
+            // $secretKey = Config::get('scanner.secretKey');
+            // $token = Config::get('scanner.token');
 
-            $param = [
-                'agentId' => "TEST",
-                'playerId' =>"TESt",
-                'orderId' => '345433432',
-                'bankAccount' => '34324324',
-                'amount' => "100",
-                'trxId' => "34534",
-                'paymentType' => 'KBZ',
-            ];
+            // $param = [
+            //     'agentId' => "TEST",
+            //     'playerId' =>"TESt",
+            //     'orderId' => '345433432',
+            //     'bankAccount' => '34324324',
+            //     'amount' => "100",
+            //     'trxId' => "34534",
+            //     'paymentType' => 'KBZ',
+            // ];
 
-            $requestString = implode('|', $param);
-            $encryptedData = $this->encrypt($requestString, $secretKey);
+            // $requestString = implode('|', $param);
+            // $encryptedData = $this->encrypt($requestString, $secretKey);
 
-            $client = new Client();
+            // $client = new Client();
 
-            $response = $client->request('POST', 'https://mm-paydash.store/api/order', [
-                'headers' => [
-                    'token' => $token,
-                ],
-                'form_params' => $param,
-            ]);
-            $responseBody = json_decode($response->getBody(), true);
-            if($response->getStatusCode() == 200 && $responseBody['result']['data']['isPassed'] == true){
-                $deposit->update([
-                    'status' => 1,
-                    'type' => 'scanner'
-                ]);
-            }
+            // $response = $client->request('POST', 'https://mm-paydash.store/api/order', [
+            //     'headers' => [
+            //         'token' => $token,
+            //     ],
+            //     'form_params' => $param,
+            // ]);
+            // $responseBody = json_decode($response->getBody(), true);
+            // if($response->getStatusCode() == 200 && $responseBody['result']['data']['isPassed'] == true){
+            //     $deposit->update([
+            //         'status' => 1,
+            //         'type' => 'scanner'
+            //     ]);
+            // }
             return $this->success($deposit, 'Deposit Request Success');
         } catch (Exception $e) {
 
