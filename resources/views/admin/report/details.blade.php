@@ -27,51 +27,53 @@
                             <h3>WinLoseDetail </h3>
                         </div>
                         <div class="card-body">
-                            <table class="table table-flush" id="users-search">
+                            <div class="table-responsive">
+                                <table class="table table-flush" id="users-search">
 
-                                <thead>
-                                    <tr>
-                                        <th>Wager ID</th>
-                                        <th>Member Name</th>
-                                        {{-- <th>Agent Name</th> --}}
-                                        <th>Product Name</th>
-                                        <th>Game Name</th>
-                                        <th>Bet Amount</th>
-                                        <th>Valid Bet Amount</th>
-                                        <th>Payout</th>
-                                        <th>Win/Loss</th>
-                                        <th>Settlement Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach ($details as $detail)
+                                    <thead>
                                         <tr>
-                                            {{-- <td>{{ $detail->wager_id }}</td> --}}
-                                            <td>
-                                                <a href="https://prodmd.9977997.com/Report/BetDetail?agentCode=E822&WagerID={{ $detail->wager_id }}"
-                                                    target="_blank"
-                                                    style="color: blueviolet; text-decoration: underline;">{{ $detail->wager_id }}</a>
-                                            </td>
-                                            <td style="font-size: 10px">
-                                                Agent: {{ $detail->agent_name }} <br>
-                                                Member:
-                                                {{ $detail->agent_name }}
-                                                @
-                                                {{ $detail->member_name }}
-                                            </td>
-
-                                            {{-- <td>{{ $detail->agent_name }}</td> --}}
-                                            <td>{{ $detail->product_name }}</td>
-                                            <td>{{ $detail->game_name }}</td>
-                                            <td>{{ $detail->bet_amount }}</td>
-                                            <td>{{ $detail->valid_bet_amount }}</td>
-                                            <td>{{ $detail->payout }}</td>
-                                            <td>{{ $detail->win_loss }}</td>
-                                            <td>{{ $detail->settle_match_date }}</td>
+                                            <th>Wager ID</th>
+                                            <th>Member Name</th>
+                                            {{-- <th>Agent Name</th> --}}
+                                            <th>Product Name</th>
+                                            <th>Game Name</th>
+                                            <th>Bet Amount</th>
+                                            <th>Valid Bet Amount</th>
+                                            <th>Payout</th>
+                                            <th>Win/Loss</th>
+                                            <th>Settlement Date</th>
                                         </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
+                                    </thead>
+                                    <tbody>
+                                        @foreach ($details as $detail)
+                                            <tr>
+                                                {{-- <td>{{ $detail->wager_id }}</td> --}}
+                                                <td>
+                                                    <a href="https://prodmd.9977997.com/Report/BetDetail?agentCode=E822&WagerID={{ $detail->wager_id }}"
+                                                        target="_blank"
+                                                        style="color: blueviolet; text-decoration: underline;">{{ $detail->wager_id }}</a>
+                                                </td>
+                                                <td style="font-size: 10px">
+                                                    Agent: {{ $detail->agent_name }} <br>
+                                                    Member:
+                                                    {{ $detail->agent_name }}
+                                                    @
+                                                    {{ $detail->member_name }}
+                                                </td>
+
+                                                {{-- <td>{{ $detail->agent_name }}</td> --}}
+                                                <td>{{ $detail->product_name }}</td>
+                                                <td>{{ $detail->game_name }}</td>
+                                                <td>{{ $detail->bet_amount }}</td>
+                                                <td>{{ $detail->valid_bet_amount }}</td>
+                                                <td>{{ $detail->payout }}</td>
+                                                <td>{{ $detail->win_loss }}</td>
+                                                <td>{{ $detail->settle_match_date }}</td>
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                         <!-- /.card-body -->
                     </div>

@@ -18,7 +18,7 @@ class PermissionRoleTableSeeder extends Seeder
         $admin_permissions = Permission::whereIn('title', [
             'admin_access',
             'master_access',
-            'agent_access',
+            //'agent_access',
             'role_index',
             'role_create',
             'role_store',

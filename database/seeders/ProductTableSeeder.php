@@ -50,6 +50,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'Yggdrasil',
 
                 'order' => 15,
+                'status' => 0
             ],
             [
                 'code' => '1034',
@@ -71,6 +72,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'PlayStar',
 
                 'order' => 6,
+                'status' => 0
             ],
             [
                 'code' => '1056',
@@ -78,6 +80,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'TL',
 
                 'order' => 18,
+                'status' => 0
             ],
             [
                 'code' => '1058',
@@ -85,6 +88,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'BGaming',
 
                 'order' => 19,
+                'status' => 0
             ],
             [
                 'code' => '1060',
@@ -183,6 +187,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'KA',
 
                 'order' => 7,
+                'status' => 0,
             ],
             [
                 'code' => '1109',
@@ -218,6 +223,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'BG',
 
                 'order' => 10,
+                'status' => 0
             ],
             [
                 'code' => '1007',
@@ -330,6 +336,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'SmartSoft',
 
                 'order' => 9,
+                'status' => 0
             ],
 
             [

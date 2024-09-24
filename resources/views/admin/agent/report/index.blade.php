@@ -47,15 +47,15 @@
                                         @foreach ($data as $report)
                                             <tr>
                                                 <td>
-                                                    <a href="{{ route('admin.report.detail', $report->product_name) }}"
+                                                    <a href="{{ route('admin.agent_report.detail', $report->product_name) }}"
                                                         style="color: blue;">
                                                         {{ $report->product_name }}
                                                     </a>
                                                 </td>
                                                 <td style="font-size: 10px">
-                                                    Master: {{ $report->master_user_name }} <br>
-                                                    Agent:
-                                                    {{ $report->master_user_name }}
+                                                    {{-- Master: {{ $report->master_user_name }} <br>
+                                                Agent:
+                                                {{ $report->master_user_name }} --}}
                                                     @
                                                     {{ $report->agent_user_name }}
                                                 </td>
@@ -68,8 +68,7 @@
                                                 {{-- <td>{{ $report->total_win_lose }}</td> --}}
                                                 <td>
                                                     @if ($report->total_win_lose < 0)
-                                                        <span
-                                                            style="color: red;">-{{ abs($report->total_win_lose) }}</span>
+                                                        <span style="color: red;">-{{ abs($report->total_win_lose) }}</span>
                                                     @else
                                                         <span style="color: green;">+{{ $report->total_win_lose }}</span>
                                                     @endif

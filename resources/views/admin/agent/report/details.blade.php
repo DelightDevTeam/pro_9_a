@@ -6,7 +6,7 @@
                 <div class="col-12">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                        <li class="breadcrumb-item active">GSC Win/Lose</li>
+                        <li class="breadcrumb-item active">WinLoseDetail</li>
                     </ol>
                 </div>
             </div>
@@ -19,63 +19,57 @@
             <div class="row">
                 <div class="col-12">
                     <div class="d-flex justify-content-end mb-3">
-                        {{-- <a href="{{ route('admin.banners.create') }}" class="btn bg-gradient-success btn-sm mb-0">+&nbsp;
-                            New Banner</a> --}}
+                        <a href="{{ route('admin.agent_report.index') }}"
+                            class="btn bg-gradient-success btn-sm mb-0">+&nbsp;
+                            Back</a>
                     </div>
                     <div class="card " style="border-radius: 20px;">
-
+                        <div class="card-header">
+                            <h3>WinLoseDetail </h3>
+                        </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-flush" id="users-search">
 
                                     <thead>
                                         <tr>
+                                            <th>Wager ID</th>
+                                            <th>Member Name</th>
+                                            {{-- <th>Agent Name</th> --}}
                                             <th>Product Name</th>
-                                            <th>AgentName</th>
-                                            <th>Total Record</th>
-                                            <th>Total Bet</th>
-                                            <th>Total Valid Bet</th>
-                                            {{-- <th>Total Progressive JP</th> --}}
-                                            <th>Total Payout</th>
-                                            <th>Total Win/Loss</th>
-                                            {{-- <th>Member Commission</th> --}}
-                                            <th>Upline Commission</th>
-
+                                            <th>Game Name</th>
+                                            <th>Bet Amount</th>
+                                            <th>Valid Bet Amount</th>
+                                            <th>Payout</th>
+                                            <th>Win/Loss</th>
+                                            <th>Settlement Date</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($data as $report)
+                                        @foreach ($details as $detail)
                                             <tr>
+                                                {{-- <td>{{ $detail->wager_id }}</td> --}}
                                                 <td>
-                                                    <a href="{{ route('admin.report.detail', $report->product_name) }}"
-                                                        style="color: blue;">
-                                                        {{ $report->product_name }}
-                                                    </a>
+                                                    <a href="https://prodmd.9977997.com/Report/BetDetail?agentCode=E822&WagerID={{ $detail->wager_id }}"
+                                                        target="_blank"
+                                                        style="color: blueviolet; text-decoration: underline;">{{ $detail->wager_id }}</a>
                                                 </td>
                                                 <td style="font-size: 10px">
-                                                    Master: {{ $report->master_user_name }} <br>
-                                                    Agent:
-                                                    {{ $report->master_user_name }}
+                                                    Agent: {{ $detail->agent_name }} <br>
+                                                    Member:
+                                                    {{ $detail->agent_name }}
                                                     @
-                                                    {{ $report->agent_user_name }}
+                                                    {{ $detail->member_name }}
                                                 </td>
 
-                                                <td>{{ $report->total_record }}</td>
-                                                <td>{{ $report->total_bet }}</td>
-                                                <td>{{ $report->total_valid_bet }}</td>
-                                                {{-- <td>{{ $report->total_prog_jp }}</td> --}}
-                                                <td>{{ $report->total_payout }}</td>
-                                                {{-- <td>{{ $report->total_win_lose }}</td> --}}
-                                                <td>
-                                                    @if ($report->total_win_lose < 0)
-                                                        <span
-                                                            style="color: red;">-{{ abs($report->total_win_lose) }}</span>
-                                                    @else
-                                                        <span style="color: green;">+{{ $report->total_win_lose }}</span>
-                                                    @endif
-                                                </td>
-                                                {{-- <td>{{ $report->member_comm }}</td> --}}
-                                                <td>{{ $report->upline_comm }}</td>
+                                                {{-- <td>{{ $detail->agent_name }}</td> --}}
+                                                <td>{{ $detail->product_name }}</td>
+                                                <td>{{ $detail->game_name }}</td>
+                                                <td>{{ $detail->bet_amount }}</td>
+                                                <td>{{ $detail->valid_bet_amount }}</td>
+                                                <td>{{ $detail->payout }}</td>
+                                                <td>{{ $detail->win_loss }}</td>
+                                                <td>{{ $detail->settle_match_date }}</td>
                                             </tr>
                                         @endforeach
                                     </tbody>

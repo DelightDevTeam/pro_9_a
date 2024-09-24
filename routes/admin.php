@@ -24,6 +24,8 @@ use App\Http\Controllers\Admin\UserPaymentController;
 use App\Http\Controllers\Admin\WithDraw\WithDrawRequestController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ReportController;
+use App\Http\Controllers\Admin\Agent\AgentReportController;
+
 use App\Models\Admin\Role;
 use Illuminate\Support\Facades\Route;
 
@@ -120,8 +122,12 @@ Route::group([
 
     Route::get('transer-log', [TransferLogController::class, 'index'])->name('transferLog');
     Route::group(['prefix' => 'report'], function () {
+        // admin
         Route::get('index', [ReportController::class, 'index'])->name('report.index');
         Route::get('/detail/{product_name}', [ReportController::class, 'detail'])->name('report.detail');
+        // agent
+        Route::get('agent_index', [AgentReportController::class, 'index'])->name('agent_report.index');
+        Route::get('/detail/{product_name}', [AgentReportController::class, 'detail'])->name('agent_report.detail');
 
     });
 
