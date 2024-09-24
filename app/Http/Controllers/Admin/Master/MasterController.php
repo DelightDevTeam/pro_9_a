@@ -285,13 +285,6 @@ class MasterController extends Controller
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
 
-        $request->validate([
-            'name' => 'required|min:3|unique:users,name,'.$id,
-            'player_name' => 'required|string',
-            'phone' => ['required', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,'.$id],
-            'password' => 'nullable|min:6|confirmed',
-        ]);
-
         $user = User::find($id);
         $user->update([
             'name' => $request->name,

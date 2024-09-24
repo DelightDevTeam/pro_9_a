@@ -23,7 +23,7 @@
      <!-- after login -->
      <div class="d-flex justify-content-around align-items-center me-3">
       @auth
-        <a href="#topupModal" role="button" data-bs-toggle="modal" class="btn-login text-decoration-none"> {{number_format(Auth::user()->balance,2)}}MMK</a>
+        <a href="#topupModal" role="button" data-bs-toggle="modal" class="btn-login text-decoration-none"> {{number_format(Auth::user()->balance,2)}}</a>
       @endauth
        <a href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" class="text-decoration-none mx-2"><img src="{{ asset('slot_app/images/user_avatar.png') }}" alt="" style="border-radius: 50%" /></a>
        <ul class="dropdown-menu dropdown-menu-end dropdowns">

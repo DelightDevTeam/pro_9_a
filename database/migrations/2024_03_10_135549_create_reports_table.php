@@ -29,7 +29,10 @@ return new class extends Migration
             $table->datetime('created_on');
             $table->datetime('settlement_date');
             $table->datetime('modified_on');
+             $table->unsignedBigInteger('agent_id')->nullable();
+             $table->decimal('agent_commission', 15, 2)->default(0.00)->comment('The commission amount earned by the agent');
             $table->timestamps();
+            $table->foreign('agent_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

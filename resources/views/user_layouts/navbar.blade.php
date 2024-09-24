@@ -83,7 +83,7 @@
                 </a>
                
                 <small class="text-purple">
-                    <i class="fas fa-wallet text-purple"></i> :  MMK 
+                    <i class="fas fa-wallet text-purple"></i> :   
                 </small>
             </div>
         </div>

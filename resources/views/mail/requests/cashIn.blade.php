@@ -69,7 +69,7 @@ Thanks,<br>
         <p>Your request status: <strong>{{ $mail['status'] }}</strong></p>
 
             <p>Username: <span style="color: goldenrod;">{{ $mail['name'] }}</span></p>
-            <p>Balance: <span style="color: goldenrod;">{{ number_format($mail['balance']) }} MMK</span></p>
+            <p>Balance: <span style="color: goldenrod;">{{ number_format($mail['balance']) }} </span></p>
 
         <table>
             <tr>
@@ -84,7 +84,7 @@ Thanks,<br>
                     {{ $mail['phone'] }}
                 </td>
                 <td>
-                    {{ number_format($mail['amount']) }} MMK
+                    {{ number_format($mail['amount']) }} 
                 </td>
                 <td>
                     {{ $mail['payment_method'] }}
