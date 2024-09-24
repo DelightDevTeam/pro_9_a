@@ -83,7 +83,7 @@ class PullReport extends Command
                 if ($user && $user->agent_id) {
                     $agent = User::where('id', $user->agent_id)->first();
 
-        Log::info($agent);
+                //Log::info($agent);
 
 
                     if ($agent) {
@@ -109,7 +109,15 @@ class PullReport extends Command
                     $agent_commission = null; // Handle case where user is not found or has no agent
                 }
 
-                    $wagerId = Report::where('wager_id', $report['WagerID'])->first();
+                 // Get the master agent (the agent's agent)
+            $master = User::where('id', $agent->agent_id)->first();
+            $masterAgentId = $master->agent_id;
+            Log::info($masterAgentId);
+            Log::warning("Master agent not found for agent: " . $master->user_name);
+            Log::warning("Master agent not found for agent: " . $agent->user_name);
+
+
+                $wagerId = Report::where('wager_id', $report['WagerID'])->first();
 
                     if ($wagerId) {
                         $wagerId->update([
