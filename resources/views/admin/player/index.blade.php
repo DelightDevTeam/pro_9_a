@@ -80,13 +80,13 @@
                 <a class="me-1" href="{{ route('admin.player.edit', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Edit Player">
                   <i class="fas fa-pen-to-square text-info" style="font-size: 20px;"></i>
                 </a>
-                <form class="d-inline" action="{{ route('admin.player.destroy', $user->id) }}" method="POST">
+                <!-- <form class="d-inline" action="{{ route('admin.player.destroy', $user->id) }}" method="POST">
                   @csrf
                   @method('DELETE')
                   <button type="submit" class="transparent-btn" data-bs-toggle="tooltip" data-bs-original-title="Delete Player">
                     <i class="fas fa-trash text-danger" style="font-size: 20px;"></i>
                   </button>
-                </form>
+                </form> -->
               </td>
               <td>
                 <a href="{{ route('admin.player.getCashIn', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Deposit To Player" class="btn btn-info btn-sm">

@@ -84,15 +84,15 @@
             @method('PUT')
             <div class="custom-form-group">
               <label for="title">Master Name <span class="text-danger">*</span></label>
-              <input type="text"  name="name" class="form-control" value="{{$master->user_name}}" readonly>
+              <input type="text"  name="user_name" class="form-control" value="{{$master->user_name}}" readonly>
               @error('name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
             <div class="custom-form-group">
               <label for="title">Name <span class="text-danger">*</span></label>
-              <input type="text"  name="player_name" class="form-control" value="{{$master->name}}">
-              @error('player_name')
+              <input type="text"  name="name" class="form-control" value="{{$master->name}}">
+              @error('name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
