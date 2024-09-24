@@ -196,7 +196,8 @@ class MasterController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($admin, $master, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $inputs['note']]);
+            app(WalletService::class)->transfer($admin, $master, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note ?? ''
+    ]);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
@@ -227,9 +228,8 @@ class MasterController extends Controller
 
                 return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
             }
-
             // Transfer money
-            app(WalletService::class)->transfer($master, $admin, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $inputs['note'], 'payment_type' => 'withdraw']);
+            app(WalletService::class)->transfer($master, $admin, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $request->note ?? '' ]);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
@@ -289,7 +289,6 @@ class MasterController extends Controller
         $user->update([
             'name' => $request->name,
             'phone' => $request->phone,
-            'player_name' => $request->player_name,
         ]);
 
         return redirect()->back()

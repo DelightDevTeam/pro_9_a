@@ -36,8 +36,8 @@
         <table class="table table-flush" id="users-search">
           <thead class="thead-light">
             <th>#</th>
-            <th>AgentName</th>
             <th>Name</th>
+            <th>AgentId</th>
             <th>Phone</th>
             <th>Status</th>
             <th>Balance</th>

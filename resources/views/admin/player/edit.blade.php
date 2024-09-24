@@ -86,7 +86,7 @@
             @method('PUT')
             <div class="custom-form-group">
               <label for="title">PlayerName <span class="text-danger">*</span></label>
-              <input type="text" name="user_name" class="form-control" value="{{$player->name}}" readonly>
+              <input type="text" name="user_name" class="form-control" value="{{$player->user_name}}" readonly>
               @error('user_name')
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
@@ -150,29 +150,25 @@
 
 <script src="{{ asset('admin_app/assets/js/plugins/choices.min.js') }}"></script>
 <script src="{{ asset('admin_app/assets/js/plugins/quill.min.js') }}"></script>
-<script>
-  if (document.getElementById('choices-roles')) {
-    var role = document.getElementById('choices-roles');
-    const examples = new Choices(role, {
-      removeItemButton: true
-    });
 
-    examples.setChoices(
-      [{
-          value: 'One',
-          label: 'Expired',
-          disabled: true
-        },
-        {
-          value: 'Two',
-          label: 'Out of Role',
-          selected: false
-        }
-      ],
-      'value',
-      'label',
-      false,
-    );
-  }
+<script>
+  var errorMessage = @json(session('error'));
+  var successMessage = @json(session('success'));
+  @if(session() -> has('success'))
+  Swal.fire({
+    title: successMessage,
+    icon: "success",
+    showConfirmButton: false,
+    showCloseButton: true,
+    
+  });
+  @elseif(session()->has('error'))
+  Swal.fire({
+    icon: 'error',
+    title: errorMessage,
+    showConfirmButton: false,
+    timer: 1500
+  })
+  @endif
 </script>
 @endsection

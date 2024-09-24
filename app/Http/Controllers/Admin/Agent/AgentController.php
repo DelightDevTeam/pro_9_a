@@ -143,18 +143,11 @@ class AgentController extends Controller
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
-
-        $request->validate([
-            'name' => 'required|min:3|unique:users,name,'.$id,
-            'player_name' => 'required|string',
-            'phone' => ['nullable', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'unique:users,phone,'.$id],
-        ]);
-
+        
         $user = User::find($id);
         $user->update([
             'name' => $request->name,
             'phone' => $request->phone,
-            'player_name' => $request->player_name,
         ]);
 
         return redirect()->back()
@@ -210,7 +203,7 @@ class AgentController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($admin, $agent, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note]);
+            app(WalletService::class)->transfer($admin, $agent, $request->validated('amount'), TransactionName::CreditTransfer, ['note' => $request->note ?? '']);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
@@ -243,7 +236,7 @@ class AgentController extends Controller
             }
 
             // Transfer money
-            app(WalletService::class)->transfer($agent, $admin, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $inputs['note']]);
+            app(WalletService::class)->transfer($agent, $admin, $request->validated('amount'), TransactionName::DebitTransfer, ['note' => $request->note ?? '']);
 
             return redirect()->back()->with('success', 'Money fill request submitted successfully!');
         } catch (Exception $e) {
