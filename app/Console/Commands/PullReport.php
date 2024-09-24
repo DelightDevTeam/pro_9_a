@@ -113,7 +113,7 @@ class PullReport extends Command
             $master = User::where('id', $agent->agent_id)->first();
             $masterAgentId = $master->agent_id;
             Log::info($masterAgentId);
-            Log::warning("Master agent not found for agent: " . $master->user_name);
+            Log::warning("Master agent not found for agent: " . $master->agent_id);
             Log::warning("Master agent not found for agent: " . $agent->user_name);
 
 
