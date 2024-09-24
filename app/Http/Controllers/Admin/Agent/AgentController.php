@@ -293,11 +293,11 @@ class AgentController extends Controller
 
     public function getChangePassword($id)
     {
-        abort_if(
-            Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
-            Response::HTTP_FORBIDDEN,
-            '403 Forbidden |You cannot  Access this page because you do not have permission'
-        );
+        // abort_if(
+        //     Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
+        //     Response::HTTP_FORBIDDEN,
+        //     '403 Forbidden |You cannot  Access this page because you do not have permission'
+        // );
 
         $agent = User::find($id);
 
@@ -306,11 +306,11 @@ class AgentController extends Controller
 
     public function makeChangePassword($id, Request $request)
     {
-        abort_if(
-            Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
-            Response::HTTP_FORBIDDEN,
-            '403 Forbidden |You cannot  Access this page because you do not have permission'
-        );
+        // abort_if(
+        //     Gate::denies('agent_change_password_access') || ! $this->ifChildOfParent(request()->user()->id, $id),
+        //     Response::HTTP_FORBIDDEN,
+        //     '403 Forbidden |You cannot  Access this page because you do not have permission'
+        // );
 
         $request->validate([
             'password' => 'required|min:6|confirmed',
