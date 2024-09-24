@@ -42,6 +42,8 @@ class PermissionRoleTableSeeder extends Seeder
             'make_transfer',
             'game_type_access',
             'contact',
+            'agent_change_password_access'
+
         ]);
         Role::findOrFail(1)->permissions()->sync($admin_permissions->pluck('id'));
         // master permissions
