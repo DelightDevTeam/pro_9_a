@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="d-flex justify-content-end mb-3">
-                        <a href="{{ route('admin.GscReport.index') }}" class="btn bg-gradient-success btn-sm mb-0">+&nbsp;
+                        <a href="{{ route('admin.report.index') }}" class="btn bg-gradient-success btn-sm mb-0">+&nbsp;
                             Back</a>
                     </div>
                     <div class="card " style="border-radius: 20px;">
@@ -27,7 +27,7 @@
                             <h3>WinLoseDetail </h3>
                         </div>
                         <div class="card-body">
-                        <table class="table table-flush" id="users-search">
+                            <table class="table table-flush" id="users-search">
 
                                 <thead>
                                     <tr>
@@ -48,13 +48,13 @@
                                         <tr>
                                             {{-- <td>{{ $detail->wager_id }}</td> --}}
                                             <td>
-                                                <a href="https://prodmd.9977997.com/Report/BetDetail?agentCode=E829&WagerID={{ $detail->wager_id }}"
+                                                <a href="https://prodmd.9977997.com/Report/BetDetail?agentCode=E822&WagerID={{ $detail->wager_id }}"
                                                     target="_blank"
                                                     style="color: blueviolet; text-decoration: underline;">{{ $detail->wager_id }}</a>
                                             </td>
-                                            <td>
-                                                AgentName: {{ $detail->agent_name }} <br>
-                                                MemberName:
+                                            <td style="font-size: 10px">
+                                                Agent: {{ $detail->agent_name }} <br>
+                                                Member:
                                                 {{ $detail->agent_name }}
                                                 @
                                                 {{ $detail->member_name }}
@@ -83,38 +83,38 @@
 @endsection
 
 @section('scripts')
-<script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script>
-  if (document.getElementById('users-search')) {
-    const dataTableSearch = new simpleDatatables.DataTable("#users-search", {
-      searchable: false,
-      fixedHeight: false,
-      perPage: 7
-    });
+    <script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script>
+        if (document.getElementById('users-search')) {
+            const dataTableSearch = new simpleDatatables.DataTable("#users-search", {
+                searchable: false,
+                fixedHeight: false,
+                perPage: 7
+            });
 
-    document.querySelectorAll(".export").forEach(function(el) {
-      el.addEventListener("click", function(e) {
-        var type = el.dataset.type;
+            document.querySelectorAll(".export").forEach(function(el) {
+                el.addEventListener("click", function(e) {
+                    var type = el.dataset.type;
 
-        var data = {
-          type: type,
-          filename: "material-" + type,
+                    var data = {
+                        type: type,
+                        filename: "material-" + type,
+                    };
+
+                    if (type === "csv") {
+                        data.columnDelimiter = "|";
+                    }
+
+                    dataTableSearch.export(data);
+                });
+            });
         };
-
-        if (type === "csv") {
-          data.columnDelimiter = "|";
-        }
-
-        dataTableSearch.export(data);
-      });
-    });
-  };
-</script>
-<script>
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-</script>
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 @endsection
