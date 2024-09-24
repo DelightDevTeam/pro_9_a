@@ -44,7 +44,7 @@ class PermissionRoleTableSeeder extends Seeder
             'contact',
         ]);
         Role::findOrFail(1)->permissions()->sync($admin_permissions->pluck('id'));
-        // Admin permissions
+        // master permissions
         $master_permissions = Permission::whereIn('title', [
             'master_access',
             'role_index',
@@ -89,6 +89,7 @@ class PermissionRoleTableSeeder extends Seeder
             'withdraw_requests',
             'deposit_requests',
             'contact',
+            'agent_change_password_access'
         ])->pluck('id');
         Role::findOrFail(3)->permissions()->sync($agent_permissions);
     }
