@@ -138,7 +138,8 @@ class PullReport extends Command
                             'status' => $report['Status'],
                             'created_on' => $report['CreatedOn'],
                             'modified_on' => $report['ModifiedOn'],
-                            'settlement_date' => $report['SettlementDate'],
+                            //'settlement_date' => $report['SettlementDate'],
+                            'settlement_date' => $report['SettlementDate'] ?? now(),
                             'agent_id' => $user->agent_id, // Store the agent_id
                             'master_id' => $master->id, // Store the agent_id
                             'agent_commission' => $grossCommission,
@@ -160,7 +161,8 @@ class PullReport extends Command
                             'status' => $report['Status'],
                             'created_on' => $report['CreatedOn'],
                             'modified_on' => $report['ModifiedOn'],
-                            'settlement_date' => $report['SettlementDate'],
+                            //'settlement_date' => $report['SettlementDate'],
+                            'settlement_date' => $report['SettlementDate'] ?? now(),
                             'agent_id' => $user->agent_id, // Store the agent_id
                             'master_id' => $master->id, // Store the agent_id
                             'agent_commission' => $grossCommission,
