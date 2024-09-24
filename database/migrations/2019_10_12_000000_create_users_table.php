@@ -28,6 +28,7 @@ return new class extends Migration
             $table->unsignedBigInteger('payment_type_id')->nullable(); // Assuming ID in banks is also an unsigned integer
             $table->string('account_name')->nullable();
             $table->string('account_no')->nullable();
+            $table->decimal('commission')->default('0.00');
             $table->rememberToken();
             $table->timestamps();
 
