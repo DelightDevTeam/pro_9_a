@@ -2,6 +2,8 @@
 php -r "file_put_contents('/var/www/html/shwe_dragon_slot_a/storage/logs/laravel.log', '');"
 // created dev branch for kzt
 
+dead lock = show variables like '%dead%'; /  set global innodb_print_all_deadlocks=ON;
+
 BigGaming remove
 SBO - have no game list /need to use LaunchGame without the gameID
 YEE Bet - need to use LaunchGame without the gameID
