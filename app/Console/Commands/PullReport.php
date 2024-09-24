@@ -114,7 +114,7 @@ class PullReport extends Command
             $masterAgentId = $master->id;
             Log::info($masterAgentId);
             Log::warning("Master Name: " . $master->user_name);
-             Log::warning("Master ID: " . $master->agent_id);
+             Log::warning("Master ID: " . $master->id);
             Log::warning("Agent Name: " . $agent->user_name);
              Log::warning("Agent ID: " . $user->agent_id);
 
