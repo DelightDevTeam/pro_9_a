@@ -7,6 +7,7 @@ use App\Models\Admin\GameList;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
+
 class GameListController extends Controller
 {
     //     public function index()
@@ -29,6 +30,7 @@ class GameListController extends Controller
         $games = GameList::with(['gameType', 'product'])->get();
         if ($request->ajax()) {
             $data = GameList::with(['gameType', 'product']);
+
             return Datatables::of($data)
                 ->addIndexColumn() // This will automatically add a column called DT_RowIndex
                 ->addColumn('game_type', function ($row) {
@@ -44,16 +46,17 @@ class GameListController extends Controller
                     return $row->hot_status == 1 ? 'This Game is Hot' : 'Game is Normal';
                 })
                 ->addColumn('action', function ($row) {
-                    $btn = '<form action="' . route('admin.gameLists.toggleStatus', $row->id) . '" method="POST" style="display:inline;">
-                                ' . csrf_field() . '
-                                ' . method_field('PATCH') . '
+                    $btn = '<form action="'.route('admin.gameLists.toggleStatus', $row->id).'" method="POST" style="display:inline;">
+                                '.csrf_field().'
+                                '.method_field('PATCH').'
                                 <button type="submit" class="btn btn-warning btn-sm">GameStatus</button>
                             </form>';
-                    $btn .= '<form action="' . route('admin.HotGame.toggleStatus', $row->id) . '" method="POST" style="display:inline;">
-                                ' . csrf_field() . '
-                                ' . method_field('PATCH') . '
+                    $btn .= '<form action="'.route('admin.HotGame.toggleStatus', $row->id).'" method="POST" style="display:inline;">
+                                '.csrf_field().'
+                                '.method_field('PATCH').'
                                 <button type="submit" class="btn btn-success btn-sm">HotGame</button>
                             </form>';
+
                     return $btn;
                 })
                 ->rawColumns(['action'])

@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers\Api\V1\Webhook;
 
-use Illuminate\Support\Facades\Redis;
 use App\Enums\SlotWebhookResponseCode;
 use App\Enums\TransactionName;
+use App\Http\Controllers\Api\V1\Webhook\Traits\RedisUseWebhook;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Slot\SlotWebhookRequest;
+use App\Models\User;
 use App\Services\Slot\SlotWebhookService;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use App\Http\Controllers\Api\V1\Webhook\Traits\RedisUseWebhook;
-use App\Models\User;
+use Illuminate\Support\Facades\Redis;
 
 class RedisPlaceBetController extends Controller
 {
@@ -31,13 +31,13 @@ class RedisPlaceBetController extends Controller
 
             // Cache event in Redis before processing
             $ttl = 600; // Time-to-live for Redis cache (in seconds)
-            Redis::setex('event:' . $request->getMessageID(), $ttl, json_encode($request->all()));
+            Redis::setex('event:'.$request->getMessageID(), $ttl, json_encode($request->all()));
 
             // Log the event being cached
-            Log::info('Event cached in Redis', ['key' => 'event:' . $request->getMessageID(), 'value' => json_encode($request->all())]);
+            Log::info('Event cached in Redis', ['key' => 'event:'.$request->getMessageID(), 'value' => json_encode($request->all())]);
 
             // Retrieve cached data from Redis
-            $cachedData = Redis::get('event:' . $request->getMessageID());
+            $cachedData = Redis::get('event:'.$request->getMessageID());
             Log::info('Redis get event', ['cachedData' => $cachedData]);
 
             // Convert cached data back to array

@@ -68,7 +68,7 @@ class DatabaseSeeder extends Seeder
             YesGetRichTablesSeeder::class,
             Live22SMTablesSeeder::class,
             BannerAdsSeeder::class,
-            ContactTableSeeder::class
+            ContactTableSeeder::class,
         ]);
 
     }

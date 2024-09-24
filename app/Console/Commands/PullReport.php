@@ -2,13 +2,13 @@
 
 namespace App\Console\Commands;
 
-use App\Models\User;
 use App\Models\Report;
+use App\Models\User;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class PullReport extends Command
 {
@@ -76,50 +76,47 @@ class PullReport extends Command
                 $data = $response['Wagers'];
                 foreach ($data as $report) {
 
+                    $agent_commission = null;
+                    $user = User::where('user_name', $report['MemberName'])->first();
 
-                $agent_commission = null;
-                $user = User::where('user_name', $report['MemberName'])->first();
+                    if ($user && $user->agent_id) {
+                        $agent = User::where('id', $user->agent_id)->first();
 
-                if ($user && $user->agent_id) {
-                    $agent = User::where('id', $user->agent_id)->first();
+                        //Log::info($agent);
 
-                //Log::info($agent);
+                        if ($agent) {
+                            $agent_commission = $agent->commission; // Get the agent's commission
 
+                            $agentData = DB::table('reports')
+                                ->join('users', 'reports.agent_id', '=', 'users.id')
+                                ->where('reports.agent_id', $agent->id)
+                                ->select(
+                                    DB::raw('SUM(reports.valid_bet_amount) as total_valid_bets'),
+                                    DB::raw('MAX(users.commission) as commission_rate') // or use groupBy('users.commission')
+                                )
+                                ->first();
 
-                    if ($agent) {
-                        $agent_commission = $agent->commission; // Get the agent's commission
-
-                       $agentData = DB::table('reports')
-                        ->join('users', 'reports.agent_id', '=', 'users.id')
-                        ->where('reports.agent_id', $agent->id)
-                        ->select(
-                            DB::raw('SUM(reports.valid_bet_amount) as total_valid_bets'),
-                            DB::raw('MAX(users.commission) as commission_rate') // or use groupBy('users.commission')
-                        )
-                        ->first();
-
-                    // Calculate the gross commission
-                    $grossCommission = $agentData->total_valid_bets * ($agentData->commission_rate / 100);
+                            // Calculate the gross commission
+                            $grossCommission = $agentData->total_valid_bets * ($agentData->commission_rate / 100);
+                        } else {
+                            Log::warning('Agent not found for agent_id: '.$user->agent_id);
+                            $agent_commission = null; // Handle case where agent is not found
+                        }
                     } else {
-                        Log::warning("Agent not found for agent_id: " . $user->agent_id);
-                        $agent_commission = null; // Handle case where agent is not found
+                        Log::warning('User not found or user does not have an agent: '.$report['MemberName']);
+                        $agent_commission = null; // Handle case where user is not found or has no agent
                     }
-                } else {
-                    Log::warning("User not found or user does not have an agent: " . $report['MemberName']);
-                    $agent_commission = null; // Handle case where user is not found or has no agent
-                }
 
-                 // Get the master agent (the agent's agent)
-            $master = User::where('id', $agent->agent_id)->first();
-           // $masterAgentId = $master->id;
-            // Log::info($masterAgentId);
-            // Log::warning("Master Name: " . $master->user_name);
-            //  Log::warning("Master ID: " . $master->id);
-            // Log::warning("Agent Name: " . $agent->user_name);
-            //  Log::warning("Agent ID: " . $user->agent_id);
+                    // Get the master agent (the agent's agent)
+                    $master = User::where('id', $agent->agent_id)->first();
+                    // $masterAgentId = $master->id;
+                    // Log::info($masterAgentId);
+                    // Log::warning("Master Name: " . $master->user_name);
+                    //  Log::warning("Master ID: " . $master->id);
+                    // Log::warning("Agent Name: " . $agent->user_name);
+                    //  Log::warning("Agent ID: " . $user->agent_id);
 
-
-                $wagerId = Report::where('wager_id', $report['WagerID'])->first();
+                    $wagerId = Report::where('wager_id', $report['WagerID'])->first();
 
                     if ($wagerId) {
                         $wagerId->update([

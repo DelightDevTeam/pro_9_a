@@ -184,8 +184,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         'WinLose' => App\Helpers\WinLoseHelper::class,
-        'Redis' => Illuminate\Support\Facades\Redis::class
-
+        'Redis' => Illuminate\Support\Facades\Redis::class,
 
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),

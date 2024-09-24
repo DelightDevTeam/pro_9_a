@@ -25,36 +25,36 @@ class PaymentTypeTableSeeder extends Seeder
             ],
             [
                 'name' => 'AYA Pay',
-                'image' => 'ayapay.png'
+                'image' => 'ayapay.png',
             ],
             [
                 'name' => 'AYA Bank',
-                'image' => 'ayabank.png'
+                'image' => 'ayabank.png',
             ],
             [
                 'name' => 'CB Bank',
-                'image' => 'cbbank.png'
+                'image' => 'cbbank.png',
             ],
             [
                 'name' => 'CB Pay',
-                'image' => 'cbpay.png'
+                'image' => 'cbpay.png',
             ],
             [
                 'name' => 'MAB Bank',
-                'image' => 'mabbank.png'
+                'image' => 'mabbank.png',
             ],
             [
                 'name' => 'UAB Bank',
-                'image' => 'uabbank.png'
+                'image' => 'uabbank.png',
             ],
             [
                 'name' => 'UAB Pay',
-                'image' => 'uabpay.png'
+                'image' => 'uabpay.png',
             ],
             [
                 'name' => 'Yoma Bank',
-                'image' => 'yomabank.png'
-            ]
+                'image' => 'yomabank.png',
+            ],
 
         ];
 

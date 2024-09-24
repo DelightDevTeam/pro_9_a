@@ -3,8 +3,8 @@
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Route;
 
 require_once __DIR__.'/admin.php';
 

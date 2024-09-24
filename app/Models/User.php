@@ -42,7 +42,7 @@ class User extends Authenticatable implements Wallet
         'payment_type_id',
         'account_name',
         'account_no',
-        'commission'
+        'commission',
     ];
 
     protected $dispatchesEvents = [

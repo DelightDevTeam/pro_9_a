@@ -37,7 +37,7 @@ class ContactController extends Controller
             'facebook' => $request->facebook,
             'telegram' => $request->telegram,
             'viber' => $request->viber,
-            'user_id' => Auth::id()
+            'user_id' => Auth::id(),
         ]);
 
         return redirect()->route('admin.contact.index');
@@ -56,7 +56,7 @@ class ContactController extends Controller
      */
     public function edit(Contact $contact)
     {
-       return view('admin.contact.edit', compact('contact'));
+        return view('admin.contact.edit', compact('contact'));
     }
 
     /**
@@ -64,9 +64,9 @@ class ContactController extends Controller
      */
     public function update(Request $request, Contact $contact)
     {
-       $contact->update($request->all());
+        $contact->update($request->all());
 
-       return redirect()->route('admin.contact.index');
+        return redirect()->route('admin.contact.index');
 
     }
 
@@ -76,7 +76,7 @@ class ContactController extends Controller
     public function destroy(Contact $contact)
     {
         $contact->delete();
-        
+
         return redirect()->route('admin.contact.index');
     }
 }

@@ -23,7 +23,6 @@ class UserPaymentControler extends Controller
 
     }
 
-
     public function paymentType()
     {
         $types = PaymentType::all();

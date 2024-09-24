@@ -23,7 +23,7 @@ class TransferLogRequest extends FormRequest
     {
         return [
             'name' => 'required|min:3',
-            'amount' => 'required|numeric'
+            'amount' => 'required|numeric',
         ];
     }
 }

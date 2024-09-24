@@ -29,7 +29,7 @@ class DepositController extends Controller
                     'agent_id' => $player->agent_id,
                 ]
             ));
-            
+
             // $secretKey = Config::get('scanner.secretKey');
             // $token = Config::get('scanner.token');
 
@@ -68,7 +68,7 @@ class DepositController extends Controller
         }
     }
 
-    private  function encrypt($data, $password)
+    private function encrypt($data, $password)
     {
         $iv = substr(sha1(mt_rand()), 0, 16);
         $password = sha1($password);

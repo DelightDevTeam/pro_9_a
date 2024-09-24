@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
-
 class LaunchGameController extends Controller
 {
     private const WEB_PLAT_FORM = 0;
@@ -69,7 +68,6 @@ class LaunchGameController extends Controller
         }
     }
 }
-
 
 // class LaunchGameController extends Controller
 // {

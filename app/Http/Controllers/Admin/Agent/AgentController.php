@@ -143,7 +143,7 @@ class AgentController extends Controller
             Response::HTTP_FORBIDDEN,
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
-        
+
         $user = User::find($id);
         $user->update([
             'name' => $request->name,

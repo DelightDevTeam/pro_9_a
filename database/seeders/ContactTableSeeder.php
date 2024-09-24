@@ -17,7 +17,7 @@ class ContactTableSeeder extends Seeder
             'facebook' => 'https://www.facebook.com/',
             'telegram' => '@mawite22',
             'viber' => '093453456798',
-            'user_id' => 1
+            'user_id' => 1,
         ]);
     }
 }
