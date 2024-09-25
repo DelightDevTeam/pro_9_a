@@ -124,7 +124,7 @@ Route::group([
     Route::group(['prefix' => 'report'], function () {
         // admin
         Route::get('index', [ReportController::class, 'index'])->name('report.index');
-        Route::get('/detail/{product_name}', [ReportController::class, 'detail'])->name('report.detail');
+        Route::get('/detail/{product}', [ReportController::class, 'detail'])->name('report.detail');
         // agent
         Route::get('agent_index', [AgentReportController::class, 'index'])->name('agent_report.index');
         Route::get('/detail/{product_name}', [AgentReportController::class, 'detail'])->name('agent_report.detail');
