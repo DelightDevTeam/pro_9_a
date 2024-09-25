@@ -55,7 +55,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'Yggdrasil',
 
                 'order' => 15,
-                'status' => 0
+                'status' => 1
             ],
             [
                 'code' => '1034',
@@ -79,7 +79,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'PlayStar',
 
                 'order' => 6,
-                'status' => 0
+                'status' => 1
             ],
             [
                 'code' => '1056',
@@ -95,7 +95,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'BGaming',
 
                 'order' => 19,
-                'status' => 0
+                'status' => 1
             ],
             [
                 'code' => '1060',
@@ -374,7 +374,7 @@ class ProductTableSeeder extends Seeder
                 'short_name' => 'SmartSoft',
 
                 'order' => 9,
-                'status' => 0
+                'status' => 1
             ],
 
             [
