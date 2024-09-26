@@ -27,10 +27,6 @@ class LoginController extends Controller
             return back()->with('error', 'Invalid credentials. Please try again.');
         }
 
-        if ($user->is_changed_password == 0) {
-            return view('auth.passwords.index', compact('user'));
-        }
-
         if (Auth::attempt($request->only('user_name', 'password'))) {
             // Check for unauthorized roles
             if ($request->user()->hasRole('Player')) {

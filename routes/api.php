@@ -32,7 +32,6 @@ use Illuminate\Support\Facades\Route;
 
 //login route post
 Route::post('/login', [AuthController::class, 'login']);
-Route::post('/player-change-password', [AuthController::class, 'playerChangePassword']);
 
 // logout
 Route::post('/logout', [AuthController::class, 'logout']);
@@ -48,7 +47,6 @@ Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'game
 Route::get('hotgamelist', [GameController::class, 'HotgameList']);
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);
 Route::get('contact', [ContactController::class, 'index']);
-Route::get('/test', TestController::class);
 
 Route::group(['prefix' => 'Seamless'], function () {
     Route::post('GetBalance', [GetBalanceController::class, 'getBalance']);

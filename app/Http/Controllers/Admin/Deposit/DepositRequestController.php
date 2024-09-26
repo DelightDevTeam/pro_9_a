@@ -13,9 +13,15 @@ use Illuminate\Support\Facades\Auth;
 
 class DepositRequestController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $deposits = DepositRequest::with(['user', 'userPayment'])->where('agent_id', Auth::id())->orderBy('id', 'desc')->get();
+        $deposits = DepositRequest::with(['user', 'userPayment'])
+                ->where('agent_id', Auth::id())
+                ->when($request->filled('status') && $request->input('status') !== 'all', function ($query) use ($request) {
+                    $query->where('status', $request->input('status'));
+                })
+                ->orderBy('id', 'desc')
+                ->get();
 
         return view('admin.deposit_request.index', compact('deposits'));
     }
@@ -69,5 +75,11 @@ class DepositRequestController extends Controller
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
+    }
+
+
+    public  function show(DepositRequest $deposit)
+    {
+        return view('admin.deposit_request.show', compact('deposit'));
     }
 }

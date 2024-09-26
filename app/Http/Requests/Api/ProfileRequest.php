@@ -25,9 +25,10 @@ class ProfileRequest extends FormRequest
     {
         return [
             'name' => 'required|min:3|string',
-            'phone' => [
-                'required', 'regex:/^([0-9\s\-\+\(\)]*)$/', Rule::unique('users')->ignore(Auth::id()),
-            ],
+            'phone' => ['required'],
+            'payment_type_id' => 'required',
+            'account_name' => 'required',
+            'account_no' => 'required'
         ];
     }
 }

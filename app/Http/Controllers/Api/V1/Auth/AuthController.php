@@ -77,26 +77,6 @@ class AuthController extends Controller
         return $this->success($player, 'Password has been changed successfully.');
     }
 
-    public function playerChangePassword(Request $request)
-    {
-        $request->validate([
-            'password' => ['required', 'confirmed'],
-            'user_id' => ['required'],
-        ]);
-        $player = User::where('id', $request->user_id)->first();
-
-        if ($player) {
-            $player->update([
-                'password' => Hash::make($request->password),
-                'is_changed_password' => true,
-            ]);
-
-            return $this->success($player, 'Password has been changed successfully.');
-        } else {
-            return $this->error('', 'Not Found Player', 401);
-        }
-    }
-
     public function profile(ProfileRequest $request)
     {
 
@@ -104,6 +84,9 @@ class AuthController extends Controller
         $player->update([
             'name' => $request->name,
             'phone' => $request->phone,
+            'payment_type_id' => $request->payment_type_id,
+            'account_name' => $request->account_name,
+            'account_no' => $request->account_no
         ]);
 
         return $this->success(new PlayerResource($player), 'Update profile');

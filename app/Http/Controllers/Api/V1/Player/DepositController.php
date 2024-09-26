@@ -21,12 +21,18 @@ class DepositController extends Controller
             $inputs = $request->validated();
 
             $player = Auth::user();
-
+            // image
+            $image = $request->file('image');
+            $ext = $image->getClientOriginalExtension();
+            $filename = uniqid('deposit').'.'.$ext; // Generate a unique filename
+            $image->move(public_path('assets/img/deposit/'), $filename); // Save the file
+            
             $deposit = DepositRequest::create(array_merge(
                 $inputs,
                 [
                     'user_id' => $player->id,
                     'agent_id' => $player->agent_id,
+                    'image' => $filename
                 ]
             ));
 

@@ -117,6 +117,7 @@ Route::group([
     Route::post('withdraw/reject/{withdraw}', [WithDrawRequestController::class, 'statusChangeReject'])->name('agent.withdrawStatusreject');
 
     Route::get('deposit', [DepositRequestController::class, 'index'])->name('agent.deposit');
+    Route::get('deposit/{deposit}', [DepositRequestController::class, 'show'])->name('agent.depositShow');
     Route::post('deposit/{deposit}', [DepositRequestController::class, 'statusChangeIndex'])->name('agent.depositStatusUpdate');
     Route::post('deposit/reject/{deposit}', [DepositRequestController::class, 'statusChangeReject'])->name('agent.depositStatusreject');
 
