@@ -83,10 +83,7 @@ class AuthController extends Controller
         $player = Auth::user();
         $player->update([
             'name' => $request->name,
-            'phone' => $request->phone,
-            'payment_type_id' => $request->payment_type_id,
-            'account_name' => $request->account_name,
-            'account_no' => $request->account_no
+            'phone' => $request->phone
         ]);
 
         return $this->success(new PlayerResource($player), 'Update profile');

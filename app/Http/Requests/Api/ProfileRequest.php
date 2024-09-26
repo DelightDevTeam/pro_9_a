@@ -26,9 +26,6 @@ class ProfileRequest extends FormRequest
         return [
             'name' => 'required|min:3|string',
             'phone' => ['required'],
-            'payment_type_id' => 'required',
-            'account_name' => 'required',
-            'account_no' => 'required'
         ];
     }
 }
