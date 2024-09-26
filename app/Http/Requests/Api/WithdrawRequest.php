@@ -24,7 +24,7 @@ class WithdrawRequest extends FormRequest
 
         return [
             'account_name' => ['required'],
-            'account_no' => ['required'],
+            'account_no' => ['required', 'regex:/^[0-9]+$/'],
             'payment_type_id' => ['required'],
             'amount' => ['required', 'integer'],
             'password' => ['required', 'string'],
