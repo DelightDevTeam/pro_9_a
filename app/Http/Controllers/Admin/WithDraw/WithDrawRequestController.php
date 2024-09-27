@@ -23,7 +23,7 @@ class WithDrawRequestController extends Controller
     public function statusChangeIndex(Request $request, WithDrawRequest $withdraw)
     {
         $request->validate([
-            'status' => 'required|in:0,1,2',
+            'status' => 'required|in:0,1',
             'amount' => 'required|numeric|min:0',
             'player' => 'required|exists:users,id',
         ]);
@@ -41,7 +41,7 @@ class WithDrawRequestController extends Controller
             ]);
 
             if ($request->status == 1) {
-                app(WalletService::class)->transfer($agent, $player, $request->amount, TransactionName::DebitTransfer);
+                app(WalletService::class)->transfer($player, $agent, $request->amount, TransactionName::DebitTransfer);
             }
 
             return redirect()->route('admin.agent.withdraw')->with('success', 'Withdraw status updated successfully!');
