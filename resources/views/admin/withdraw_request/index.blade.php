@@ -95,38 +95,36 @@
     </div>
 @endsection
 @section('scripts')
-    <script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
 
-    <script>
-        if (document.getElementById('users-search')) {
-            const dataTableSearch = new simpleDatatables.DataTable("#users-search", {
-                searchable: true,
-                fixedHeight: false,
-                perPage: 7
-            });
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 
-            document.querySelectorAll(".export").forEach(function(el) {
-                el.addEventListener("click", function(e) {
-                    var type = el.dataset.type;
+<script src="{{ asset('admin_app/assets/js/plugins/choices.min.js') }}"></script>
+<script src="{{ asset('admin_app/assets/js/plugins/quill.min.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var errorMessage =  @json(session('error'));
+    var successMessage =  @json(session('success'));
+   
 
-                    var data = {
-                        type: type,
-                        filename: "material-" + type,
-                    };
-
-                    if (type === "csv") {
-                        data.columnDelimiter = "|";
-                    }
-
-                    dataTableSearch.export(data);
-                });
-            });
-        };
-    </script>
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    </script>
+    @if(session()->has('success'))
+    Swal.fire({
+      icon: 'success',
+      title: successMessage,
+      text: '{{ session('
+      SuccessRequest ') }}',
+      timer: 3000,
+      showConfirmButton: false
+    });
+    @elseif(session()->has('error'))
+    Swal.fire({
+      icon: 'error',
+      title: '',
+      text: errorMessage,
+      timer: 3000,
+      showConfirmButton: false
+    });
+    @endif
+  });
+</script>
 @endsection

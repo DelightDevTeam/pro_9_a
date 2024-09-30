@@ -33,7 +33,8 @@ class WithDrawRequestController extends Controller
             $player = User::find($request->player);
 
             if ($request->status == 1 && $agent->balanceFloat < $request->amount || $player->balanceFloat < $request->amount) {
-                return redirect()->route('admin.agent.withdraw')->with('error', 'You do not have enough balance to transfer!'); 
+
+                return redirect()->back()->with('error', 'Insufficient Balance!');
             }
            
             $withdraw->update([
@@ -44,7 +45,7 @@ class WithDrawRequestController extends Controller
                 app(WalletService::class)->transfer($player, $agent, $request->amount, TransactionName::DebitTransfer);
             }
 
-            return redirect()->route('admin.agent.withdraw')->with('success', 'Withdraw status updated successfully!');
+            return redirect()->back()->with('success', 'Withdraw status updated successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
@@ -61,7 +62,7 @@ class WithDrawRequestController extends Controller
                 'status' => $request->status,
             ]);
 
-            return redirect()->route('admin.agent.withdraw')->with('success', 'Withdraw status updated successfully!');
+            return redirect()->back()->with('success', 'Withdraw status updated successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
