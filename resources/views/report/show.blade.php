@@ -52,7 +52,7 @@
         <div class="card-body dflex-row">
             <form method="GET" action="{{ route('admin.report.index') }}">
                 <label for="start_date">Start Date:</label>
-                <input type="date" id="start_date" name="start_date" value="{{ request('start_date') }}" >
+                <input type="date" id="start_date" name="start_date" value="{{ request('start_date') }}">
 
                 <label for="end_date">End Date:</label>
                 <input type="date" id="end_date" name="end_date" value="{{ request('end_date') }}">
@@ -60,7 +60,8 @@
                 <label for="month_year">MemberAccount:</label>
                 <input type="text" id="text" name="member_name" value="{{ request('member_name') }}" >
 
-                <button type="submit">Filter</button>
+                <button type="submit" class="btn btn-success">Filter</button>
+                <a href="{{route('admin.report.index')}}" class="btn btn-primary">refresh</a>
             </form>
 
         </div>
@@ -95,30 +96,13 @@
                     <td>{{ $report->stake_count }}</td> <!-- Placeholder for stake count -->
                     <td>0</td>
                     
-                    <!-- Win/Loss for Member -->
                     <td class="{{ $report->win_or_lose < 0 ? 'lose' : 'win' }}">
                         {{ number_format($report->win_or_lose, 2) }}
                     </td>
                     <td>0 </td>
-                    <td>{{ number_format($report->win_or_lose + $report->total_commission_amount, 2) }}</td> <!-- Member Total -->
+                    <td>{{ number_format($report->win_or_lose + $report->total_commission_amount, 2) }}</td>
                     
-                    <td>--</td> <!-- Downline W/L Placeholder -->
-                    <td>0</td> <!-- Downline Comm Placeholder -->
-                    <td>--</td> <!-- Downline Total Placeholder -->
-                    
-                    <!-- Win/Loss for Myself -->
-                    <td class="{{ $report->win_or_lose < 0 ? 'lose' : 'win' }}">
-                        {{ number_format($report->win_or_lose, 2) }}
-                    </td>
-                    <td>0</td> <!-- Myself Comm -->
-                    <td>{{ number_format($report->win_or_lose + $report->total_commission_amount, 2) }}</td> <!-- Myself Total -->
-                    
-                    <!-- Win/Loss for Upline -->
-                    <td class="{{ $report->win_or_lose < 0 ? 'lose' : 'win' }}">
-                        {{ number_format($report->win_or_lose, 2) }}
-                    </td>
-                    <td>0</td> <!-- Upline Comm -->
-                    <td>{{ number_format($report->win_or_lose + $report->total_commission_amount, 2) }}</td> <!-- Upline Total -->
+        
                     <td>
                     <a href="{{ route('admin.report.detail', $report->user_name) }}" class="btn btn-info">
                         View Detail

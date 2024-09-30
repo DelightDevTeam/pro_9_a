@@ -92,7 +92,7 @@
             {data: 'created_at', name: 'created_at'
             },
             {data: 'product_name', name: 'product_name'},
-            {data: 'game_name', name: 'game_name'},
+            {data: 'gamename', name: 'gamename'},
             {
                 data: 'wager_id',
                 name: 'wager_id',
