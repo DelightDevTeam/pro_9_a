@@ -105,33 +105,7 @@
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            <div class="custom-form-group">
-              <label for="title">Bank Name <span class="text-danger">*</span></label>
-              <div class="custom-select-wrapper">
-                <select name="payment_type_id" class="form-control custom-select">
-                  @foreach ($paymentTypes as $paymentType)
-                  <option value="{{$paymentType->id}}" {{ $paymentType->id == $player->payment_type_id ? 'selected' : '' }}>{{$paymentType->name}}</option>
-                  @endforeach
-                </select>
-              </div>
-              @error('status')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Bank Account Name <span class="text-danger">*</span></label>
-              <input type="text" name="account_name" class="form-control" value="{{$player->account_name}}">
-              @error('account_name')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Bank Account No<span class="text-danger">*</span></label>
-              <input type="text" name="account_no" class="form-control" value="{{$player->account_no}}">
-              @error('account_no')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
+          
             <div class="custom-form-group">
               <button class="btn btn-primary" type="submit">Update</button>
             </div>

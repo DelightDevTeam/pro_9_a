@@ -30,6 +30,7 @@
                     <table class="table table-flush" id="users-search">
                         <thead class="thead-light">
                         <th>#</th>
+                        <th>PlayerId</th>
                         <th>PlayerName</th>
                         <th>Requested Amount</th>
                         <th>Payment Method</th>
@@ -43,6 +44,7 @@
                         @foreach ($withdraws as $withdraw)
                             <tr>
                                 <td>{{ $loop->iteration }}</td>
+                                <td>{{$withdraw->user->user_name}}</td>
                                 <td>
                                     <span class="d-block">{{ $withdraw->user->name }}</span>
                                 </td>
@@ -97,15 +99,31 @@
 @section('scripts')
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
 
-<script src="{{ asset('admin_app/assets/js/plugins/choices.min.js') }}"></script>
-<script src="{{ asset('admin_app/assets/js/plugins/quill.min.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+<script src="{{ asset('admin_app/assets/js/plugins/datatables.js') }}"></script>
+<script>
+  if (document.getElementById('users-search')) {
+    const dataTableSearch = new simpleDatatables.DataTable("#users-search", {
+      searchable: true,
+      fixedHeight: false,
+      perPage: 7
+    });
+
+  };
+</script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var errorMessage =  @json(session('error'));
     var successMessage =  @json(session('success'));
-   
 
     @if(session()->has('success'))
     Swal.fire({

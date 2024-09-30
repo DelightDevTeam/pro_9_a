@@ -22,11 +22,7 @@ class PlayerResource extends JsonResource
             'email' => $this->email,
             'profile' => asset('assets/img/player_profile/'.$this->profile),
             'balance' => $this->balanceFloat,
-            'status' => $this->status,
-            'payment_type__id' => $this->payment_type_id,
-            'payment_type' => $this->paymentType->name,
-            'account_name' => $this->account_name,
-            'account_no' => $this->account_no
+            'status' => $this->status
         ];
     }
 }

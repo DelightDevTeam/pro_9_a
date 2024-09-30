@@ -2,111 +2,73 @@
 
 namespace App\Http\Controllers;
 
-use App\Enums\UserType;
-use App\Models\Admin\GameType;
 use App\Models\Admin\Product;
-use App\Models\FinicalReport;
-use App\Models\Report;
-use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Yajra\DataTables\Facades\DataTables;
 
 class ReportController extends Controller
 {
-    public function index()
-    {
-        $data = $this->makeJoinTable();
-
-        return view('admin.report.index', compact('data'));
-    }
-
-    // v2
-    private function makeJoinTable()
+    public function index(Request $request)
     {
         $query = DB::table('reports')
-            ->select([
-                'products.name as product_name',
-                DB::raw('COUNT(reports.id) as total_record'), // Total Record
-                DB::raw('SUM(reports.bet_amount) as total_bet'), // Total Bet
-                DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet'), // Total Valid Bet
-                DB::raw('SUM(reports.jp_bet) as total_prog_jp'), // Total Progressive JP Bet
-                DB::raw('SUM(reports.payout_amount) as total_payout'), // Total Payout
-                DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as total_win_lose'), // Total Win/Loss
+            ->join('users', 'reports.member_name', '=', 'users.user_name')
+            ->select(
+                'users.name as member_name',
+                'users.user_name as user_name',
+                DB::raw('COUNT(DISTINCT reports.id) as qty'),
+                DB::raw('SUM(reports.bet_amount) as total_bet_amount'),
+                DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet_amount'),
+                DB::raw('SUM(reports.payout_amount) as total_payout_amount'),
+                DB::raw('SUM(reports.commission_amount) as total_commission_amount'),
+                DB::raw('SUM(reports.jack_pot_amount) as total_jack_pot_amount'),
+                DB::raw('SUM(reports.jp_bet) as total_jp_bet'),
+                DB::raw('(SUM(reports.payout_amount) - SUM(reports.valid_bet_amount)) as win_or_lose'),
+                DB::raw('COUNT(*) as stake_count')
+            );
+            $query->when($request->start_date && $request->end_date , function ($query) use ($request) {
+                $query->whereBetween('reports.created_at', [$request->start_date.' 00:00:00', $request->end_date.' 23:59:59']);
+            });
+            $query->when($request->member_name, function($query) use($request) {
+                $query->where('reports.member_name', $request->member_name);
+            });
 
-                // Agent-related columns
-                'agents.user_name as agent_user_name', // Agent Username
-                'masters.user_name as master_user_name', // Master Username
+            if (! Auth::user()->hasRole('Admin')) {
+                $query->where('reports.agent_id', Auth::id());
+            }
 
-                // Member-related columns
-                DB::raw('SUM(reports.agent_commission) as member_comm'), // Member Commission
+        $agentReports = $query->groupBy('reports.member_name', 'users.name', 'users.user_name')->get();
 
-                // Upline-related columns
-                DB::raw('SUM(reports.agent_commission) as upline_comm'), // Upline Commission
-                DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as upline_total'), // Upline Win/Loss
-            ])
-            ->join('products', 'reports.product_code', '=', 'products.code') // Join reports with products
-            ->join('users as agents', 'reports.agent_id', '=', 'agents.id') // Join reports with agent's user name
-            ->join('users as masters', 'reports.master_id', '=', 'masters.id') // Join reports with master's user name
-            ->where('reports.status', '101') // Filter by status '101'
-            ->groupBy('products.name', 'agents.user_name', 'masters.user_name'); // Group by product name and agent/master usernames
-
-        return $query->get();
+        return view('report.show', compact('agentReports'));
     }
 
-    // v1
-
-    //     private function makeJoinTable()
-    // {
-    //     $query = DB::table('reports')
-    //         ->select([
-    //             'products.name as product_name',
-    //             DB::raw('COUNT(reports.id) as total_record'), // Total Record
-    //             DB::raw('SUM(reports.bet_amount) as total_bet'), // Total Bet
-    //             DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet'), // Total Valid Bet
-    //             DB::raw('SUM(reports.jp_bet) as total_prog_jp'), // Total Progressive JP Bet
-    //             DB::raw('SUM(reports.payout_amount) as total_payout'), // Total Payout
-    //             DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as total_win_lose'), // Total Win/Loss
-
-    //             // Member-related columns
-    //             DB::raw('SUM(reports.agent_commission) as member_comm'), // Member Commission
-    //             //DB::raw('0 as member_total'), // Placeholder for member total
-
-    //             // Upline-related columns
-    //             DB::raw('SUM(reports.agent_commission) as upline_comm'), // Upline Commission
-    //             DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as upline_total'), // Upline Win/Loss
-    //         ])
-    //         ->join('products', 'reports.product_code', '=', 'products.code') // Joining reports with products
-    //         ->where('reports.status', '101') // Filter by status '101'
-    //         ->groupBy('products.name'); // Group by product name
-
-    //     return $query->get();
-    // }
-
-    public function detail($productName)
+    // amk
+    public function detail(Request $request, $userName)
     {
-        // Fetch detailed information about the selected product
-        $details = DB::table('reports')
-            ->select([
-                'reports.wager_id',
-                'members.user_name as member_name', // Member alias
-                DB::raw('agents.user_name as agent_name'), // Get agent's name
-                'products.name as product_name',
-                'game_lists.name as game_name', // Changed to use game_lists
-                'reports.bet_amount',
-                'reports.valid_bet_amount',
-                'reports.payout_amount as payout',
-                DB::raw('(reports.payout_amount - reports.valid_bet_amount) as win_loss'),
-                'reports.settlement_date as settle_match_date',
-            ])
-            ->join('products', 'reports.product_code', '=', 'products.code')
-            ->join('game_lists', 'reports.game_name', '=', 'game_lists.code') // Joining with game_lists
-            ->join('users as members', 'reports.member_name', '=', 'members.user_name') // Join for member using alias 'members'
-            ->join('users as agents', 'reports.agent_id', '=', 'agents.id') // Join for agent using alias 'agents'
-            ->where('products.name', $productName)
-            ->get();
+        if ($request->ajax()) {
+            $query = DB::table('reports')
+                ->join('users', 'reports.member_name', '=', 'users.user_name')
+                ->join('products', 'products.code', '=', 'reports.product_code')
+                ->where('reports.member_name', $userName)
+                ->orderBy('reports.id', 'desc')
+                ->select(
+                    'reports.*',
+                    'users.name as name',
+                    'products.name as product_name',
+                    DB::raw('(reports.payout_amount - reports.valid_bet_amount) as win_or_lose')
+                );
+            if (! Auth::user()->hasRole('Admin')) {
+                return $query->where('reports.agent_id', Auth::id());
+            }
+            $report = $query->get();
 
-        // Pass the details to the view
-        return view('admin.report.details', compact('details'));
+            return DataTables::of($report)
+                ->addIndexColumn()
+                ->make(true);
+        }
+        $products = Product::all();
+
+        return view('report.detail', compact('products', 'userName'));
     }
 }
