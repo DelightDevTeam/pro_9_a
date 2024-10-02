@@ -46,6 +46,7 @@ class ReportController extends Controller
     // amk
     public function detail(Request $request, $userName)
     {
+
         if ($request->ajax()) {
             $query = DB::table('reports')
                 ->join('users', 'reports.member_name', '=', 'users.user_name')
@@ -60,10 +61,7 @@ class ReportController extends Controller
                     'products.name as product_name',
                     DB::raw('(reports.payout_amount - reports.valid_bet_amount) as win_or_lose')
                 );
-            
-            if (! Auth::user()->hasRole('Admin')) {
-                return $query->where('reports.agent_id', Auth::id());
-            }
+        
             $report = $query->get();
 
             return DataTables::of($report)
