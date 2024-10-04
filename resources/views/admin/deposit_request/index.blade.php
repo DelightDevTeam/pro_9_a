@@ -57,6 +57,7 @@
     <table class="table table-flush" id="users-search">
       <thead class="thead-light">
         <th>#</th>
+        <th>PlayerId</th>
         <th>PlayerName</th>
         <th>Requested Amount</th>
         <th>Payment Method</th>
@@ -68,6 +69,7 @@
       @foreach ($deposits as $deposit)
         <tr>
             <td>{{ $loop->iteration }}</td>
+            <td>{{ $deposit->user->user_name}}</td>
             <td>{{ $deposit->user->name }}</td>
             <td>{{ number_format($deposit->amount) }}</td>
             <td>{{ $deposit->userPayment->paymentType->name }}</td>

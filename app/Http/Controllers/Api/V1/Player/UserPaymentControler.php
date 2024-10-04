@@ -7,7 +7,6 @@ use App\Models\PaymentType;
 use App\Models\UserPayment;
 use App\Traits\HttpResponses;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 
 class UserPaymentControler extends Controller
 {

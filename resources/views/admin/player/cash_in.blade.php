@@ -79,18 +79,6 @@
                 <th>Phone</th>
                 <td>{!! $player->phone !!}</td>
               </tr>
-              <tr>
-                <th>Bank Name</th>
-                <td>{!! $player->paymentType->name !!}</td>
-              </tr>
-              <tr>
-                <th>Bank Account Name</th>
-                <td>{!! $player->account_name !!}</td>
-              </tr>
-              <tr>
-                <th>Bank Account</th>
-                <td>{!! $player->account_no !!}</td>
-              </tr>
             </tbody>
           </table>
         </div>

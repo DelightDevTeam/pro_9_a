@@ -39,7 +39,7 @@ class DepositRequestController extends Controller
             $player = User::find($request->player);
 
             // Check if the status is being approved and balance is sufficient
-            if ($request->status == 1 && $agent->balance < $request->amount) {
+            if ($request->status == 1 && $agent->balanceFloat < $request->amount) {
                 return redirect()->back()->with('error', 'You do not have enough balance to transfer!');
             }
 

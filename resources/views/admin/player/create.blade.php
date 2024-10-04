@@ -149,34 +149,6 @@
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-               
-            <div class="custom-form-group">
-            <label for="title">Bank Name<span class="text-danger">*</span></label>
-            <div class="custom-select-wrapper">
-                <select name="payment_type_id" class="form-control custom-select">
-                    @foreach ($paymentTypes as $paymentType)
-                    <option value="{{$paymentType->id}}">{{$paymentType->name}}</option>
-                    @endforeach
-                </select>
-            </div>
-            @error('payment_type_id')
-            <span class="text-danger d-block">*{{ $message }}</span>
-            @enderror
-          </div>
-            <div class="custom-form-group">
-              <label for="title">Bank Account Name <span class="text-danger">*</span></label>
-              <input type="text"  name="account_name" class="form-control" value="{{old('account_name')}}" >
-              @error('account_name')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
-            <div class="custom-form-group">
-              <label for="title">Bank Account No <span class="text-danger">*</span></label>
-              <input type="text"  name="account_no" class="form-control" value="{{old('account_no')}}" >
-              @error('bank_account')
-              <span class="text-danger d-block">*{{ $message }}</span>
-              @enderror
-            </div>
             <div class="custom-form-group">
               <button class="btn btn-info" type="button" id="resetFormButton">Reset</button>
 
@@ -205,7 +177,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://pro9-react.vercel.app/login';
+  var url = 'https://mk7-slot.vercel.app/login';
   var user_name = @json(session('user_name'));
   var pw = @json(session('password'));
   

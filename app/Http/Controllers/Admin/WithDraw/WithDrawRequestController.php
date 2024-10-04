@@ -15,7 +15,7 @@ class WithDrawRequestController extends Controller
 {
     public function index()
     {
-        $withdraws = WithDrawRequest::with(['user', 'paymentType'])->get();
+        $withdraws = WithDrawRequest::with(['user', 'paymentType'])->where('agent_id', Auth::id())->get();
 
         return view('admin.withdraw_request.index', compact('withdraws'));
     }
@@ -23,7 +23,7 @@ class WithDrawRequestController extends Controller
     public function statusChangeIndex(Request $request, WithDrawRequest $withdraw)
     {
         $request->validate([
-            'status' => 'required|in:0,1,2',
+            'status' => 'required|in:0,1',
             'amount' => 'required|numeric|min:0',
             'player' => 'required|exists:users,id',
         ]);
@@ -32,8 +32,9 @@ class WithDrawRequestController extends Controller
             $agent = Auth::user();
             $player = User::find($request->player);
 
-            if ($request->status == 1 && $agent->balanceFloat < $request->amount || $player->balanceFloat < $request->amount) {
-                return redirect()->back()->with('error', 'You do not have enough balance to transfer!'); 
+            if ($request->status == 1 && $player->balanceFloat < $request->amount) {
+
+                return redirect()->back()->with('error', 'Insufficient Balance!');
             }
            
             $withdraw->update([
@@ -41,10 +42,10 @@ class WithDrawRequestController extends Controller
             ]);
 
             if ($request->status == 1) {
-                app(WalletService::class)->transfer($agent, $player, $request->amount, TransactionName::DebitTransfer);
+                app(WalletService::class)->transfer($player, $agent, $request->amount, TransactionName::DebitTransfer);
             }
 
-            return redirect()->route('admin.agent.withdraw')->with('success', 'Withdraw status updated successfully!');
+            return redirect()->back()->with('success', 'Withdraw status updated successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }
@@ -61,7 +62,7 @@ class WithDrawRequestController extends Controller
                 'status' => $request->status,
             ]);
 
-            return redirect()->route('admin.agent.withdraw')->with('success', 'Withdraw status updated successfully!');
+            return redirect()->back()->with('success', 'Withdraw status updated successfully!');
         } catch (Exception $e) {
             return back()->with('error', $e->getMessage());
         }

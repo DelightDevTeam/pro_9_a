@@ -75,7 +75,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="custom-form-group">
-                                <label class="form-label">User Name</label>
+                                <label class="form-label">Name</label>
                                 <input type="text" class="form-control" name="name" value="{{ $deposit->user->name }}"
                                        readonly>
                             </div>

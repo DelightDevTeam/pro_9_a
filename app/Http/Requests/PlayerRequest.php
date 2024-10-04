@@ -27,9 +27,6 @@ class PlayerRequest extends FormRequest
             'password' => ['required', 'min:6'],
             'amount' => ['nullable', 'numeric'],
             'phone' => ['required', 'string'],
-            'payment_type_id' => ['required', 'integer'],
-            'account_name' => ['required'],
-            'account_no' => ['required', 'string'],
         ];
     }
 }

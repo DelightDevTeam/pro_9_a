@@ -24,7 +24,7 @@
 
         @can('player_index')
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('admin.agent_report.index') }}">
+                <a class="nav-link text-white " href="{{ route('admin.report.index') }}">
                     <span class="sidenav-mini-icon"> <i class="fa-solid fa-chart-column"></i> </span>
                     <span class="sidenav-normal  ms-2  ps-1"> Win/lose Report </span>
                 </a>
