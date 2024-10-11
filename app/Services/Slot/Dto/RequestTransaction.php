@@ -16,5 +16,8 @@ class RequestTransaction extends Data
         public ?float $TransactionAmount,
         public ?float $PayoutAmount,
         public ?float $ValidBetAmount,
+        public ?float $Rate,
+        public ?int $ActualGameTypeID,
+        public ?int $ActualProductID,
     ) {}
 }

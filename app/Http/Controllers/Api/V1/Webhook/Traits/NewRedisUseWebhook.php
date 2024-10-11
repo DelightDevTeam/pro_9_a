@@ -108,6 +108,61 @@ trait NewRedisUseWebhook
         return $seamless_transactions;
     }
 
+    public function createWagerTransactionsNew(
+        $requestTransactions,
+        SeamlessEvent $event,
+        bool $refund = false
+    ) {
+        $seamless_transactions = [];
+
+        foreach ($requestTransactions as $requestTransaction) {
+            DB::transaction(function () use (&$seamless_transactions, $event, $requestTransaction, $refund) {
+
+                // Fetch wager with lock
+                $wager = Wager::where('seamless_wager_id', $requestTransaction->WagerID)
+                    ->lockForUpdate()
+                    ->first();
+
+                if (!$wager) {
+                    // Create wager if not exists
+                    $wager = Wager::create([
+                        'user_id' => $event->user->id,
+                        'seamless_wager_id' => $requestTransaction->WagerID,
+                    ]);
+                }
+
+                // Update wager status
+                if ($refund) {
+                    $wager->update([
+                        'status' => WagerStatus::Refund,
+                    ]);
+                } elseif (!$wager->wasRecentlyCreated) {
+                    $wager->update([
+                        'status' => $requestTransaction->TransactionAmount > 0 ? WagerStatus::Win : WagerStatus::Lose,
+                    ]);
+                }
+
+                // Create seamless transaction
+                $seamless_transactions[] = [
+                    'user_id' => $event->user_id,
+                    'wager_id' => $wager->id,
+                    'game_type_id' => $requestTransaction->ActualGameTypeID,
+                    'product_id' => $requestTransaction->ActualProductID,
+                    'seamless_transaction_id' => $requestTransaction->TransactionID,
+                    'rate' => $requestTransaction->Rate,
+                    'transaction_amount' => $requestTransaction->TransactionAmount,
+                    'bet_amount' => $requestTransaction->BetAmount,
+                    'valid_amount' => $requestTransaction->ValidBetAmount,
+                    'status' => $requestTransaction->Status,
+                    //'agent_id' => $user->agent_id
+                ];
+            }, 3); // Retry 3 times if deadlock occurs
+        }
+
+        // Create seamless transactions
+        return $event->transactions()->createMany($seamless_transactions);
+    }
+
     public function processTransfer(User $from, User $to, TransactionName $transactionName, float $amount, int $rate, array $meta)
     {
         app(WalletService::class)
