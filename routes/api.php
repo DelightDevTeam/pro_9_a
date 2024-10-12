@@ -57,7 +57,7 @@ Route::group(['prefix' => 'Seamless'], function () {
     Route::post('GameResult', [GameResultController::class, 'gameResult']);
     Route::post('Rollback', [RollbackController::class, 'rollback']);
     //Route::post('PlaceBet', [PlaceBetController::class, 'placeBet']);
-    Route::post('PlaceBet', [NewRedisPlaceBetController::class, 'placeBet']);
+    Route::post('PlaceBet', [NewRedisPlaceBetController::class, 'placeBetNew']);
 
     Route::post('CancelBet', [CancelBetController::class, 'cancelBet']);
     Route::post('BuyIn', [BuyInController::class, 'buyIn']);
