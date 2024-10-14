@@ -79,14 +79,6 @@
                             <input type="text" id="text" name="member_name" value="{{ request('member_name') }}" class="form-control">
 
                         </div>
-                        <div class="col-md-2">
-                            <label for="month_year">Provider Type:</label>
-                            <select name="product_code" id="" class="form-control">
-                                @foreach($providers as $provider)
-                                <option value="{{$provider->code}}">{{$provider->name}}</option>
-                                @endforeach
-                            </select>
-                        </div>
                         <div class="col-md-3" style="margin-top: 20px;">
                             <button type="submit" class="btn btn-success mt-4">Filter</button>
                             <a href="{{route('admin.report.index')}}" class="btn btn-primary mt-4">refresh</a>
