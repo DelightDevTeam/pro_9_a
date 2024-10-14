@@ -1,3 +1,6 @@
+
+php artisan migrate --path=/database/migrations/2024_10_14_042230_add_version_to_wallets_table.php
+
 // to remove laravel log
 php -r "file_put_contents('/var/www/html/pro_9_a/storage/logs/laravel.log', '');"
 // created dev branch for kzt
