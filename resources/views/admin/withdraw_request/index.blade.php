@@ -93,7 +93,7 @@
                   <select name="payment_type_id" id="" class="form-control">
                     <option selected>Select Payment Type</option>
                     @foreach($paymentTypes as $payment)
-                    <option value="{{$payment->id}}" {{request()->payment_type_id == $payment->id ? 'selected' : ''}}>{{$payment->paymentType->name}}</option>
+                    <option value="{{$payment->paymentType->id}}" {{request()->payment_type_id == $payment->paymentType->id ? 'selected' : ''}}>{{$payment->paymentType->name}}</option>
                     @endforeach
                   </select>
                 </div>
