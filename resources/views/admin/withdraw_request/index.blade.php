@@ -90,7 +90,7 @@
               <div class="col-lg-2">
                 <div class="custom-form-group">
                   <label for="End Date">PaymentType</label>
-                  <select name="payment_type_id" id="" class="form-control">
+                  <select name="user_payment_id" id="" class="form-control">
                     <option selected>Select Payment Type</option>
                     @foreach($paymentTypes as $payment)
                     <option value="{{$payment->paymentType->id}}" {{request()->payment_type_id == $payment->paymentType->id ? 'selected' : ''}}>{{$payment->paymentType->name}}</option>
