@@ -11,6 +11,49 @@
     appearance: none;
     /* For some browsers */
   }
+
+
+  .custom-form-group {
+    margin-bottom: 20px;
+  }
+
+  .custom-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .custom-form-group input,
+  .custom-form-group select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .custom-form-group input:focus,
+  .custom-form-group select:focus {
+    border-color: #d33a9e;
+    box-shadow: 0 0 5px rgba(211, 58, 158, 0.5);
+  }
+
+  .submit-btn {
+    background-color: #d33a9e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .submit-btn:hover {
+    background-color: #b8328b;
+  }
 </style>
 @endsection
 @section('content')
@@ -19,106 +62,125 @@
     <div class="card">
       <!-- Card header -->
       <div class="card-header pb-0">
-        <div class="d-lg-flex">
-          <div>
-            <h5 class="mb-0">Player Dashboards</h5>
+      <a href="{{ route('admin.player.create') }}" class="btn bg-gradient-primary btn-sm mb-0" style="float: right;">Create Player</a>
 
-          </div>
-          <div class="ms-auto my-auto mt-lg-0 mt-4">
-            <div class="ms-auto my-auto">
-              <a href="{{ route('admin.player.create') }}" class="btn bg-gradient-primary btn-sm mb-0">+&nbsp; Create Player</a>
+        <div class="card-body">
+          <h5 class="mb-0">Player Dashboards</h5>
+          <form role="form" class="text-start" action="{{ route('admin.player.index') }}" method="GET">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="custom-form-group">
+                  <label for="Status">Status</label>
+                  <select name="status" id="">  
+                    <option selected disabled>--Please Select--</option>
+                     <option value="1" {{request()->status == "1" ? 'selected' : ''}}>Active</option>
+                     <option value="0"  {{ request()->status == "0" ? 'selected' : ''}}>Ban</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="custom-form-group">
+                  <label for="Start Date">Start Date</label>
+                  <input type="date" class="form-control" id="start_date" name="start_date" value="{{request()->start_date}}">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="custom-form-group">
+                  <label for="End Date">End Date</label>
+                  <input type="date" class="form-control" id="end_date" name="end_date" value="{{request()->end_date}}">
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="table-responsive">
-        <table class="table table-flush" id="users-search">
-          <thead class="thead-light">
-            <th>#</th>
-            <th>PlayerID</th>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Status</th>
-            <th>Balance</th>
-            <th>Action</th>
-            <th>Transaction</th>
-          </thead>
-          <tbody>
-          {{-- kzt --}}
-            @if(isset($users))
-            @if(count($users)>0)
-            @foreach ($users as $user)
-            <tr>
-              <td>{{ $loop->iteration }}</td>
-              <td>
-                <span class="d-block">{{ $user->user_name }}</span>
-
-              </td>
-              <td>{{$user->name}}</td>
-              <td>{{ $user->phone }}</td>
-              <td>
-              <small class="badge bg-gradient-{{ $user->status == 1 ? 'success' : 'danger' }}">{{ $user->status == 1 ? "active" : "inactive" }}</small>
-              </td>
-              <td>{{number_format($user->balanceFloat,2) }} </td>
-              <td>
-                @if ($user->status == 1)
-                <a onclick="event.preventDefault(); document.getElementById('banUser-{{ $user->id }}').submit();" class="me-2" href="#" data-bs-toggle="tooltip" data-bs-original-title="Active Player">
-                  <i class="fas fa-user-check text-success" style="font-size: 20px;"></i>
-                </a>
-                @else
-                <a onclick="event.preventDefault(); document.getElementById('banUser-{{ $user->id }}').submit();" class="me-2" href="#" data-bs-toggle="tooltip" data-bs-original-title="InActive Player">
-                  <i class="fas fa-user-slash text-danger" style="font-size: 20px;"></i>
-                </a>
-                @endif
-                <form class="d-none" id="banUser-{{ $user->id }}" action="{{ route('admin.player.ban', $user->id) }}" method="post">
-                  @csrf
-                  @method('PUT')
-                </form>
-                <a class="me-1" href="{{ route('admin.player.getChangePassword', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Change Password">
-                  <i class="fas fa-lock text-info" style="font-size: 20px;"></i>
-                </a>
-                <a class="me-1" href="{{ route('admin.player.edit', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Edit Player">
-                  <i class="fas fa-pen-to-square text-info" style="font-size: 20px;"></i>
-                </a>
-                <!-- <form class="d-inline" action="{{ route('admin.player.destroy', $user->id) }}" method="POST">
-                  @csrf
-                  @method('DELETE')
-                  <button type="submit" class="transparent-btn" data-bs-toggle="tooltip" data-bs-original-title="Delete Player">
-                    <i class="fas fa-trash text-danger" style="font-size: 20px;"></i>
-                  </button>
-                </form> -->
-              </td>
-              <td>
-                <a href="{{ route('admin.player.getCashIn', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Deposit To Player" class="btn btn-info btn-sm">
-                  <i class="fas fa-plus text-white me-1"></i>
-                  Dep
-                </a>
-                <a href="{{ route('admin.player.getCashOut', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="WithDraw To Player" class="btn btn-info btn-sm">
-                <i class="fas fa-minus text-white me-1"></i>
-                  WDL
-                </a>
-           
-                <a href="{{ route('admin.logs', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Reports" class="btn btn-info btn-sm">
-                  <i class="fas fa-right-left text-white me-1"></i>
-                  Logs
-                </a>
-          </td>
-            </tr>
-            @endforeach
-            @else
-            <tr>
-                <td col-span=8>
-                    There was no Players.
-                </td>
-            </tr>
-            @endif
-            @endif
-
-          </tbody>
-        </table>
+            <div class="col-lg-3">
+            <button type="submit" class="btn bg-gradient-primary btn-sm mb-0">Search</button>
+            <a href="{{route('admin.player.index')}}" class="btn bg-gradient-primary btn-sm mb-0">Refresh</a>
+            </div>
+          </form>
+      
       </div>
     </div>
+    <div class="table-responsive">
+      <table class="table table-flush" id="users-search">
+        <thead class="thead-light">
+          <th>#</th>
+          <th>PlayerID</th>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Status</th>
+          <th>Balance</th>
+          <th>Action</th>
+          <th>Transaction</th>
+        </thead>
+        <tbody>
+          {{-- kzt --}}
+          @if(isset($users))
+          @if(count($users)>0)
+          @foreach ($users as $user)
+          <tr>
+            <td>{{ $loop->iteration }}</td>
+            <td>
+              <span class="d-block">{{ $user->user_name }}</span>
+
+            </td>
+            <td>{{$user->name}}</td>
+            <td>{{ $user->phone }}</td>
+            <td>
+              <small class="badge bg-gradient-{{ $user->status == 1 ? 'success' : 'danger' }}">{{ $user->status == 1 ? "active" : "inactive" }}</small>
+            </td>
+            <td>{{number_format($user->balanceFloat,2) }} </td>
+            <td>
+              @if ($user->status == 1)
+              <a onclick="event.preventDefault(); document.getElementById('banUser-{{ $user->id }}').submit();" class="me-2" href="#" data-bs-toggle="tooltip" data-bs-original-title="Active Player">
+                <i class="fas fa-user-check text-success" style="font-size: 20px;"></i>
+              </a>
+              @else
+              <a onclick="event.preventDefault(); document.getElementById('banUser-{{ $user->id }}').submit();" class="me-2" href="#" data-bs-toggle="tooltip" data-bs-original-title="InActive Player">
+                <i class="fas fa-user-slash text-danger" style="font-size: 20px;"></i>
+              </a>
+              @endif
+              <form class="d-none" id="banUser-{{ $user->id }}" action="{{ route('admin.player.ban', $user->id) }}" method="post">
+                @csrf
+                @method('PUT')
+              </form>
+              <a class="me-1" href="{{ route('admin.player.getChangePassword', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Change Password">
+                <i class="fas fa-lock text-info" style="font-size: 20px;"></i>
+              </a>
+              <a class="me-1" href="{{ route('admin.player.edit', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Edit Player">
+                <i class="fas fa-pen-to-square text-info" style="font-size: 20px;"></i>
+              </a>
+
+            </td>
+            <td>
+              <a href="{{ route('admin.player.getCashIn', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Deposit To Player" class="btn btn-info btn-sm">
+                <i class="fas fa-plus text-white me-1"></i>
+                Dep
+              </a>
+              <a href="{{ route('admin.player.getCashOut', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="WithDraw To Player" class="btn btn-info btn-sm">
+                <i class="fas fa-minus text-white me-1"></i>
+                WDL
+              </a>
+
+              <a href="{{ route('admin.logs', $user->id) }}" data-bs-toggle="tooltip" data-bs-original-title="Reports" class="btn btn-info btn-sm">
+                <i class="fas fa-right-left text-white me-1"></i>
+                Logs
+              </a>
+            </td>
+          </tr>
+          @endforeach
+          @else
+          <tr>
+            <td col-span=8>
+              There was no Players.
+            </td>
+          </tr>
+          @endif
+          @endif
+
+        </tbody>
+      </table>
+    </div>
   </div>
+</div>
 </div>
 @endsection
 @section('scripts')
