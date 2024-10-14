@@ -10,6 +10,7 @@ use App\Models\SeamlessEvent;
 use App\Enums\TransactionName;
 use App\Models\Admin\GameType;
 use App\Services\WalletService;
+use Bavix\Wallet\Models\Wallet;
 use Illuminate\Support\Facades\DB;
 use App\Models\Admin\GameTypeProduct;
 use Illuminate\Support\Facades\Redis;
@@ -152,74 +153,42 @@ trait OptimizedBettingProcess
      * Process the wallet transfer, handling deadlock retries.
      */
     public function processTransfer(User $from, User $to, TransactionName $transactionName, float $amount, int $rate, array $meta)
-{
-    $retryCount = 0;
-    $maxRetries = 5;
+    {
+        $retryCount = 0;
+        $maxRetries = 5;
 
-    do {
-        try {
-            DB::transaction(function () use ($from, $to, $amount, $transactionName, $meta) {
-                // Fetch the wallet and lock it for update
-                $wallet = $from->wallet()->lockForUpdate()->firstOrFail();
+        do {
+            try {
+                DB::transaction(function () use ($from, $to, $amount, $transactionName, $meta) {
+                    // Optimistic Locking: Ensure the version matches
+                    $wallet = Wallet::where('id', $from->wallet->id)
+                        ->where('version', $from->wallet->version)
+                        ->lockForUpdate()
+                        ->firstOrFail();
 
-                // Ensure the version matches for optimistic locking
-                if ($wallet->version !== $from->wallet->version) {
-                    throw new \Exception('Version mismatch detected.');
+                    // Update wallet balance and increment version
+                    $wallet->balance -= $amount;
+                    $wallet->version += 1;
+                    $wallet->save();
+
+                    // Perform transfer
+                    app(WalletService::class)->transfer($from, $to, abs($amount), $transactionName, $meta);
+                });
+
+                break;  // Exit loop if successful
+            } catch (\Illuminate\Database\QueryException $e) {
+                if ($e->getCode() === '40001') {  // Deadlock error code
+                    $retryCount++;
+                    if ($retryCount >= $maxRetries) {
+                        throw $e;  // Max retries reached, fail
+                    }
+                    sleep(1);  // Wait before retrying
+                } else {
+                    throw $e;  // Rethrow non-deadlock exceptions
                 }
-
-                // Update wallet balance
-                $wallet->balance -= $amount;
-
-                // Increment the version column
-                $wallet->version += 1;
-
-                // Save the changes to the wallet
-                $wallet->save();
-
-                // Perform the transfer
-                app(WalletService::class)->transfer($from, $to, abs($amount), $transactionName, $meta);
-            });
-
-            break;  // Exit loop if successful
-        } catch (\Illuminate\Database\QueryException $e) {
-            if ($e->getCode() === '40001') {  // Deadlock error code
-                $retryCount++;
-                if ($retryCount >= $maxRetries) {
-                    throw $e;  // Max retries reached, fail
-                }
-                sleep(1);  // Wait before retrying
-            } else {
-                throw $e;  // Rethrow non-deadlock exceptions
             }
-        }
-    } while ($retryCount < $maxRetries);
-}
-
-    // public function processTransfer(User $from, User $to, TransactionName $transactionName, float $amount, int $rate, array $meta)
-    // {
-    //     $retryCount = 0;
-    //     $maxRetries = 5;
-
-    //     do {
-    //         try {
-    //             DB::transaction(function () use ($from, $to, $amount, $transactionName, $meta) {
-    //                 app(WalletService::class)->transfer($from, $to, abs($amount), $transactionName, $meta);
-    //             });
-
-    //             break;  // Exit loop if successful
-    //         } catch (\Illuminate\Database\QueryException $e) {
-    //             if ($e->getCode() === '40001') {  // Deadlock error code
-    //                 $retryCount++;
-    //                 if ($retryCount >= $maxRetries) {
-    //                     throw $e;  // Max retries reached, fail
-    //                 }
-    //                 sleep(1);  // Wait before retrying
-    //             } else {
-    //                 throw $e;  // Rethrow non-deadlock exceptions
-    //             }
-    //         }
-    //     } while ($retryCount < $maxRetries);
-    // }
+        } while ($retryCount < $maxRetries);
+    }
 
     /**
      * Create the event in the system.
