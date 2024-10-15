@@ -62,7 +62,7 @@
   <div class="card">
   <div class="card-header pb-0">
         <div class="card-body">
-          <h5 class="mb-0">Deposit Requested Lists</h5>
+          <h5 class="mb-0">Transfer Logs</h5>
           <form action="{{route('admin.transferLog')}}" method="GET">
             <div class="row mt-4">
               <div class="col-lg-2">
