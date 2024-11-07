@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin\WithDraw;
 use App\Enums\TransactionName;
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Models\UserPayment;
 use App\Models\WithDrawRequest;
 use App\Services\WalletService;
 use Exception;
@@ -13,11 +14,26 @@ use Illuminate\Support\Facades\Auth;
 
 class WithDrawRequestController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $withdraws = WithDrawRequest::with(['user', 'paymentType'])->where('agent_id', Auth::id())->get();
+        $withdraws = WithDrawRequest::with(['user', 'paymentType'])->where('agent_id', Auth::id())
+            ->when($request->filled('status') && $request->input('status') !== 'all', function ($query) use ($request) {
+                $query->where('status', $request->input('status'));
+            })
+            ->when(isset($request->player_id), function ($query) use ($request) {
+                $query->where('user_id', $request->player_id);
+            })
+            ->when(isset($request->user_payment_id), function ($query) use ($request) {
+                $query->where('payment_type_id', $request->user_payment_id);
+            })
+            ->when(isset($request->start_date) && isset($request->end_date), function ($query) use ($request) {
+                $query->whereBetween('created_at', [$request->start_date . ' 00:00:00', $request->end_date . ' 23:59:59']);
+            })
+            ->get();
 
-        return view('admin.withdraw_request.index', compact('withdraws'));
+        $paymentTypes = UserPayment::with('paymentType')->where('user_id', Auth::id())->get();
+
+        return view('admin.withdraw_request.index', compact('withdraws', 'paymentTypes'));
     }
 
     public function statusChangeIndex(Request $request, WithDrawRequest $withdraw)
@@ -36,7 +52,7 @@ class WithDrawRequestController extends Controller
 
                 return redirect()->back()->with('error', 'Insufficient Balance!');
             }
-           
+
             $withdraw->update([
                 'status' => $request->status,
             ]);

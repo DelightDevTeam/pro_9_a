@@ -38,9 +38,7 @@ class User extends Authenticatable implements Wallet
         'agent_id',
         'status',
         'type',
-        'payment_type_id',
-        'account_name',
-        'account_no',
+
         'commission',
     ];
 
@@ -157,8 +155,8 @@ class User extends Authenticatable implements Wallet
         return $query;
     }
 
-    public function paymentType()
+    public function userPayments()
     {
-        return $this->belongsTo(PaymentType::class);
+        return $this->hasMany(UserPayment::class,);
     }
 }

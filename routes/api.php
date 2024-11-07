@@ -50,7 +50,6 @@ Route::get('gameType', [GameController::class, 'gameType']);
 Route::get('gamelist/{product_id}/{game_type_id}', [GameController::class, 'gameList']);
 Route::get('hotgamelist', [GameController::class, 'HotgameList']);
 Route::post('Seamless/PullReport', [LaunchGameController::class, 'pullReport']);
-Route::get('contact', [ContactController::class, 'index']);
 
 Route::group(['prefix' => 'Seamless'], function () {
     Route::post('GetBalance', [GetBalanceController::class, 'getBalance']);
@@ -86,6 +85,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('profile', [AuthController::class, 'profile']);
     Route::get('agent-payment-type', [UserPaymentControler::class, 'agentPayment']);
     Route::get('payment-type', [UserPaymentControler::class, 'paymentType']);
+    Route::get('contact', [ContactController::class, 'index']);
 
     Route::group(['prefix' => 'transaction'], function () {
         Route::post('withdraw', [WithDrawController::class, 'withdraw']);

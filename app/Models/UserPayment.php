@@ -11,13 +11,13 @@ class UserPayment extends Model
 
     protected $fillable = ['account_name', 'account_no', 'payment_type_id', 'user_id'];
 
-    public function paymentType()
-    {
-        return $this->belongsTo(PaymentType::class);
-    }
-
     public function user()
     {
-        return $this->belongsToMany(User::class);
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function paymentType()
+    {
+        return $this->belongsTo(PaymentType::class, 'payment_type_id');
     }
 }

@@ -33,14 +33,18 @@ class ReportController extends Controller
             $query->when($request->member_name, function($query) use($request) {
                 $query->where('reports.member_name', $request->member_name);
             });
-
+            $query->when($request->product_code, function($query) use($request) {
+                $query->where('reports.product_code', $request->product_code);
+            });
             if (! Auth::user()->hasRole('Admin')) {
                 $query->where('reports.agent_id', Auth::id());
             }
 
         $agentReports = $query->groupBy('reports.member_name', 'users.name', 'users.user_name')->get();
+        
+        $providers = Product::all();
 
-        return view('report.show', compact('agentReports'));
+        return view('report.show', compact('agentReports', 'providers'));
     }
 
     // amk

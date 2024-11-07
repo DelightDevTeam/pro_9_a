@@ -11,21 +11,25 @@
                     <h5>Change Password</h5>
                 </div>
                 <div class="card-body pt-0">
-                <form action="{{ route('admin.profile.updatePassword',$user->id) }}" method="POST">
-                @csrf
-                    <div class="input-group input-group-outline my-4">
-                        <label class="form-label">New password</label>
-                        <input type="password" class="form-control" name="password">
-                    </div>
-                    @error('password')
+                    <form action="{{ route('admin.profile.updatePassword',$user->id) }}" method="POST">
+                        @csrf
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" value="{{auth()->user()->name}}">
+                        </div>
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">New password</label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+                        @error('password')
                         <span class="d-block text-danger">*{{ $message }}</span>
-                    @enderror
-                    <div class="input-group input-group-outline">
-                        <label class="form-label">Confirm New password</label>
-                        <input type="password" class="form-control" name="password_confirmation">
-                    </div>
+                        @enderror
+                        <div class="input-group input-group-outline">
+                            <label class="form-label">Confirm New password</label>
+                            <input type="password" class="form-control" name="password_confirmation">
+                        </div>
 
-                    <button class="btn bg-gradient-dark btn-sm float-end mt-6 mb-0" type="submit">Update password</button>
+                        <button class="btn bg-gradient-dark btn-sm float-end mt-6 mb-0" type="submit">Update password</button>
                     </form>
                 </div>
             </div>
@@ -37,28 +41,27 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-        var errorMessage =  @json(session('error'));
-        var successMessage =  @json(session('success'));
-        console.log(successMessage);
-    @if(session()->has('success'))
-    Swal.fire({
-      icon: 'success',
-      title: successMessage,
-      text: '{{ session('
-      SuccessRequest ') }}',
-      timer: 3000,
-      showConfirmButton: false
-    });
-    @elseif(session()->has('error'))
-    Swal.fire({
-      icon: 'error',
-      title: '',
-      text: errorMessage,
-      timer: 3000,
-      showConfirmButton: false
-    });
-    @endif
-  });
-
+            var errorMessage = @json(session('error'));
+            var successMessage = @json(session('success'));
+            console.log(successMessage);
+            @if(session() -> has('success'))
+            Swal.fire({
+                icon: 'success',
+                title: successMessage,
+                text: '{{ session('
+                SuccessRequest ') }}',
+                timer: 3000,
+                showConfirmButton: false
+            });
+            @elseif(session() -> has('error'))
+            Swal.fire({
+                icon: 'error',
+                title: '',
+                text: errorMessage,
+                timer: 3000,
+                showConfirmButton: false
+            });
+            @endif
+        });
     </script>
     @endsection

@@ -6,6 +6,7 @@ use App\Enums\TransactionName;
 use App\Http\Controllers\Controller;
 use App\Models\DepositRequest;
 use App\Models\User;
+use App\Models\UserPayment;
 use App\Services\WalletService;
 use Exception;
 use Illuminate\Http\Request;
@@ -16,14 +17,25 @@ class DepositRequestController extends Controller
     public function index(Request $request)
     {
         $deposits = DepositRequest::with(['user', 'userPayment'])
-                ->where('agent_id', Auth::id())
-                ->when($request->filled('status') && $request->input('status') !== 'all', function ($query) use ($request) {
-                    $query->where('status', $request->input('status'));
-                })
-                ->orderBy('id', 'desc')
-                ->get();
+            ->where('agent_id', Auth::id())
+            ->when($request->filled('status') && $request->input('status') !== 'all', function ($query) use ($request) {
+                $query->where('status', $request->input('status'));
+            })
+            ->when(isset($request->player_id), function ($query) use ($request) {
+                $query->where('user_id', $request->player_id);
+            })
+            ->when(isset($request->user_payment_id), function ($query) use ($request) {
+                $query->where('user_payment_id', $request->user_payment_id);
+            })
+            ->when(isset($request->start_date) && isset($request->end_date), function ($query) use ($request) {
+                $query->whereBetween('created_at',[$request->start_date . ' 00:00:00' , $request->end_date . ' 23:59:59']);
+            })
+            ->orderBy('id', 'desc')
+            ->get();
 
-        return view('admin.deposit_request.index', compact('deposits'));
+        $paymentTypes = UserPayment::with('paymentType')->where('user_id', Auth::id())->get();
+
+        return view('admin.deposit_request.index', compact('deposits', 'paymentTypes'));
     }
 
     public function statusChangeIndex(Request $request, DepositRequest $deposit)

@@ -24,8 +24,10 @@ class UserPaymentControler extends Controller
 
     public function paymentType()
     {
-        $types = PaymentType::all();
+        $player = Auth::user();
 
-        return $this->success($types, 'Payment Type List');
+        $data = UserPayment::with('paymentType')->where('user_id', $player->agent_id)->get();
+
+        return $this->success($data, 'Payment Type List');
     }
 }
