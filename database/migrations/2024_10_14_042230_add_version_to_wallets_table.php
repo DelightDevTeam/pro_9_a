@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('wallets', function (Blueprint $table) {
-             $table->unsignedBigInteger('version')->default(0);  // Add versioning for optimistic locking
+            $table->unsignedBigInteger('version')->default(0);  // Add versioning for optimistic locking
         });
     }
 

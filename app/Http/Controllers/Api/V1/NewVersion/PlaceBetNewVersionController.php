@@ -68,8 +68,7 @@ class PlaceBetNewVersionController extends Controller
         // Read operations (happens outside the transaction)
         $before_balance = $request->getMember()->balanceFloat;
 
-            $event = $this->createEvent($request);
-
+        $event = $this->createEvent($request);
 
         DB::beginTransaction();
         try {

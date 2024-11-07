@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers\Api\V1\Webhook;
 
-use App\Models\User;
+use App\Enums\SlotWebhookResponseCode;
 use App\Enums\TransactionName;
+use App\Http\Controllers\Api\V1\Webhook\Traits\OptimizedBettingProcess;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Slot\SlotWebhookRequest;
+use App\Models\User;
+use App\Services\Slot\SlotWebhookService;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Redis;
-use App\Enums\SlotWebhookResponseCode;
-use App\Services\Slot\SlotWebhookService;
-use App\Http\Requests\Slot\SlotWebhookRequest;
-use App\Http\Controllers\Api\V1\Webhook\Traits\OptimizedBettingProcess;
 
 class VersionNewPlaceBetController extends Controller
 {
@@ -23,7 +23,7 @@ class VersionNewPlaceBetController extends Controller
 
         // Try to acquire a Redis lock for the user's wallet
         $lock = Redis::set("wallet:lock:$userId", true, 'EX', 10, 'NX'); // 10 seconds lock
-        if (!$lock) {
+        if (! $lock) {
             return response()->json([
                 'message' => 'The wallet is currently being updated. Please try again later.',
             ], 409); // 409 Conflict
@@ -34,6 +34,7 @@ class VersionNewPlaceBetController extends Controller
         if ($validator->fails()) {
             // Release Redis lock and return validation error response
             Redis::del("wallet:lock:$userId");
+
             return $validator->getResponse();
         }
 

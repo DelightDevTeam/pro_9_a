@@ -157,6 +157,6 @@ class User extends Authenticatable implements Wallet
 
     public function userPayments()
     {
-        return $this->hasMany(UserPayment::class,);
+        return $this->hasMany(UserPayment::class);
     }
 }

@@ -123,7 +123,7 @@ trait NewRedisUseWebhook
                     ->lockForUpdate()
                     ->first();
 
-                if (!$wager) {
+                if (! $wager) {
                     // Create wager if not exists
                     $wager = Wager::create([
                         'user_id' => $event->user->id,
@@ -136,7 +136,7 @@ trait NewRedisUseWebhook
                     $wager->update([
                         'status' => WagerStatus::Refund,
                     ]);
-                } elseif (!$wager->wasRecentlyCreated) {
+                } elseif (! $wager->wasRecentlyCreated) {
                     $wager->update([
                         'status' => $requestTransaction->TransactionAmount > 0 ? WagerStatus::Win : WagerStatus::Lose,
                     ]);

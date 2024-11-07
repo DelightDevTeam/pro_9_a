@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('account_no');
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('payment_type_id');
-            
+
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('payment_type_id')->references('id')->on('payment_types')->onDelete('cascade');
 

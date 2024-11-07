@@ -1,38 +1,37 @@
 <?php
 
-use App\Models\Admin\Role;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TestController;
-use App\Http\Controllers\Api\V1\BannerController;
-use App\Http\Controllers\Api\V1\ContactController;
 use App\Http\Controllers\Admin\BannerTextController;
 use App\Http\Controllers\Api\V1\Auth\AuthController;
 use App\Http\Controllers\Api\V1\Bank\BankController;
+use App\Http\Controllers\Api\V1\BannerController;
+use App\Http\Controllers\Api\V1\ContactController;
 use App\Http\Controllers\Api\V1\Game\GameController;
-use App\Http\Controllers\Api\V1\PromotionController;
+use App\Http\Controllers\Api\V1\Game\LaunchGameController;
+use App\Http\Controllers\Api\V1\NewVersion\PlaceBetNewVersionController;
+use App\Http\Controllers\Api\V1\PaymentType\PaymentTypeController;
+use App\Http\Controllers\Api\V1\Player\DepositController;
+use App\Http\Controllers\Api\V1\Player\PlayerTransactionLogController;
+use App\Http\Controllers\Api\V1\Player\TransactionController;
+use App\Http\Controllers\Api\V1\Player\UserPaymentControler;
 use App\Http\Controllers\Api\V1\Player\WagerController;
+use App\Http\Controllers\Api\V1\Player\WithDrawController;
+use App\Http\Controllers\Api\V1\PromotionController;
 use App\Http\Controllers\Api\V1\Webhook\BonusController;
 use App\Http\Controllers\Api\V1\Webhook\BuyInController;
-use App\Http\Controllers\Api\V1\Player\DepositController;
 use App\Http\Controllers\Api\V1\Webhook\BuyOutController;
-use App\Http\Controllers\Api\V1\Game\LaunchGameController;
-use App\Http\Controllers\Api\V1\Player\WithDrawController;
-use App\Http\Controllers\Api\V1\Webhook\JackPotController;
-use App\Http\Controllers\Api\V1\Webhook\PushBetController;
-use App\Http\Controllers\Api\V1\Webhook\PlaceBetController;
-use App\Http\Controllers\Api\V1\Webhook\RollbackController;
-use App\Http\Controllers\Api\V1\Player\UserPaymentControler;
 use App\Http\Controllers\Api\V1\Webhook\CancelBetController;
-use App\Http\Controllers\Api\V1\Player\TransactionController;
 use App\Http\Controllers\Api\V1\Webhook\GameResultController;
 use App\Http\Controllers\Api\V1\Webhook\GetBalanceController;
+use App\Http\Controllers\Api\V1\Webhook\JackPotController;
 use App\Http\Controllers\Api\V1\Webhook\MobileLoginController;
-use App\Http\Controllers\Api\V1\PaymentType\PaymentTypeController;
 use App\Http\Controllers\Api\V1\Webhook\NewRedisPlaceBetController;
+use App\Http\Controllers\Api\V1\Webhook\PlaceBetController;
+use App\Http\Controllers\Api\V1\Webhook\PushBetController;
+use App\Http\Controllers\Api\V1\Webhook\RollbackController;
 use App\Http\Controllers\Api\V1\Webhook\VersionNewPlaceBetController;
-use App\Http\Controllers\Api\V1\Player\PlayerTransactionLogController;
-use App\Http\Controllers\Api\V1\NewVersion\PlaceBetNewVersionController;
-
+use App\Http\Controllers\TestController;
+use App\Models\Admin\Role;
+use Illuminate\Support\Facades\Route;
 
 //login route post
 Route::post('/login', [AuthController::class, 'login']);
@@ -62,7 +61,6 @@ Route::group(['prefix' => 'Seamless'], function () {
     //Route::post('PlaceBet', [NewRedisPlaceBetController::class, 'placeBetNew']);
     //Route::post('PlaceBet', [VersionNewPlaceBetController::class, 'placeBetNew']);
     Route::post('PlaceBet', [PlaceBetNewVersionController::class, 'placeBetNew']);
-
 
     Route::post('CancelBet', [CancelBetController::class, 'cancelBet']);
     Route::post('BuyIn', [BuyInController::class, 'buyIn']);

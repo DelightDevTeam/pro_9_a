@@ -24,7 +24,7 @@ class UserPaymentTableSeeder extends Seeder
                 'account_no' => '1298789986678656',
                 'user_id' => 3,
                 'payment_type_id' => 2,
-            ]
+            ],
         ];
 
         DB::table('user_payments')->insert($banks);

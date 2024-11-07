@@ -35,7 +35,7 @@ class PlayerController extends Controller
             '403 Forbidden |You cannot  Access this page because you do not have permission'
         );
         //kzt
-        $users = User::with('roles' ,'userPayments')
+        $users = User::with('roles', 'userPayments')
             ->whereHas('roles', function ($query) {
                 $query->where('role_id', self::PLAYER_ROLE);
             })
@@ -50,11 +50,11 @@ class PlayerController extends Controller
                 });
             })
             ->when(isset($request->start_date) && isset($request->end_date), function ($query) use ($request) {
-                $query->whereBetween('created_at', [$request->start_date . ' 00:00:00', $request->end_date . ' 23:59:59']);
+                $query->whereBetween('created_at', [$request->start_date.' 00:00:00', $request->end_date.' 23:59:59']);
             })
             ->get();
 
-            return view('admin.player.index', compact('users'));
+        return view('admin.player.index', compact('users'));
     }
 
     /**
@@ -105,7 +105,7 @@ class PlayerController extends Controller
                 ]
             );
 
-            Log::info('User prepared: ' . json_encode($userPrepare));
+            Log::info('User prepared: '.json_encode($userPrepare));
 
             $player = User::create($userPrepare);
             $player->roles()->sync(self::PLAYER_ROLE);
@@ -120,7 +120,7 @@ class PlayerController extends Controller
                 ->with('password', $request->password)
                 ->with('user_name', $player->user_name);
         } catch (Exception $e) {
-            Log::error('Error creating user: ' . $e->getMessage());
+            Log::error('Error creating user: '.$e->getMessage());
 
             return redirect()->back()->with('error', $e->getMessage());
         }
@@ -203,7 +203,7 @@ class PlayerController extends Controller
 
         return redirect()->back()->with(
             'success',
-            'User ' . ($user->status == 1 ? 'activate' : 'inactive') . ' successfully'
+            'User '.($user->status == 1 ? 'activate' : 'inactive').' successfully'
         );
     }
 
@@ -317,7 +317,7 @@ class PlayerController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'MKP' . $randomNumber;
+        return 'MKP'.$randomNumber;
     }
 
     private function getRefrenceId($prefix = 'REF')

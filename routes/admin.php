@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\Agent\AgentController;
+use App\Http\Controllers\Admin\Agent\AgentReportController;
 use App\Http\Controllers\Admin\BannerAds\BannerAdsController;
 use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Admin\BannerTextController;
@@ -24,8 +25,6 @@ use App\Http\Controllers\Admin\UserPaymentController;
 use App\Http\Controllers\Admin\WithDraw\WithDrawRequestController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ReportController;
-use App\Http\Controllers\Admin\Agent\AgentReportController;
-
 use App\Models\Admin\Role;
 use Illuminate\Support\Facades\Route;
 

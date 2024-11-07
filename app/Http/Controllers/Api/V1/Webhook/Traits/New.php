@@ -1,20 +1,21 @@
 <?php
+
 namespace App\Http\Controllers\Api\V1\Webhook\Traits;
 
-use Exception;
-use App\Models\User;
-use App\Models\Wager;
+use App\Enums\TransactionName;
 use App\Enums\WagerStatus;
+use App\Http\Requests\Slot\SlotWebhookRequest;
+use App\Models\Admin\GameType;
+use App\Models\Admin\GameTypeProduct;
 use App\Models\Admin\Product;
 use App\Models\SeamlessEvent;
-use App\Enums\TransactionName;
-use App\Models\Admin\GameType;
+use App\Models\User;
+use App\Models\Wager;
 use App\Services\WalletService;
 use Bavix\Wallet\Models\Wallet;
+use Exception;
 use Illuminate\Support\Facades\DB;
-use App\Models\Admin\GameTypeProduct;
 use Illuminate\Support\Facades\Redis;
-use App\Http\Requests\Slot\SlotWebhookRequest;
 
 trait OptimizedBettingProcess
 {
@@ -25,7 +26,7 @@ trait OptimizedBettingProcess
         // Try to acquire a Redis lock for the user's wallet
         $lock = Redis::set("wallet:lock:$userId", true, 'EX', 10, 'NX');  // 10-second lock
 
-        if (!$lock) {
+        if (! $lock) {
             return response()->json(['message' => 'The wallet is currently being updated. Please try again later.'], 409);
         }
 
@@ -35,6 +36,7 @@ trait OptimizedBettingProcess
             $validator = $request->check();
             if ($validator->fails()) {
                 Redis::del("wallet:lock:$userId");
+
                 return $validator->getResponse();
             }
 
@@ -77,6 +79,7 @@ trait OptimizedBettingProcess
         } catch (Exception $e) {
             DB::rollBack();
             Redis::del("wallet:lock:$userId");
+
             return response()->json(['message' => $e->getMessage()], 500);
         }
     }
@@ -105,7 +108,7 @@ trait OptimizedBettingProcess
                         // Update wager status
                         if ($refund) {
                             $wager->update(['status' => WagerStatus::Refund]);
-                        } elseif (!$wager->wasRecentlyCreated) {
+                        } elseif (! $wager->wasRecentlyCreated) {
                             $wager->update(['status' => $requestTransaction->TransactionAmount > 0 ? WagerStatus::Win : WagerStatus::Lose]);
                         }
 

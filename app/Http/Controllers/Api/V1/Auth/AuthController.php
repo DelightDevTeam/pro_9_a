@@ -27,10 +27,10 @@ class AuthController extends Controller
 
         if (! Auth::attempt($credentials)) {
             return $this->error('', 'Credentials do not match!', 401);
-        } 
+        }
         if (Auth::user()->status == 0) {
 
-            return $this->error('','You are banned. Please contact your agent.', 401);
+            return $this->error('', 'You are banned. Please contact your agent.', 401);
         }
 
         $user = User::where('user_name', $request->user_name)->first();
@@ -83,7 +83,7 @@ class AuthController extends Controller
         $player = Auth::user();
         $player->update([
             'name' => $request->name,
-            'phone' => $request->phone
+            'phone' => $request->phone,
         ]);
 
         return $this->success(new PlayerResource($player), 'Update profile');

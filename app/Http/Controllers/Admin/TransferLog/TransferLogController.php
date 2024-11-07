@@ -23,7 +23,7 @@ class TransferLogController extends Controller
                 $query->where('transactions.type', $request->type);
             })
             ->when(isset($request->start_date) && isset($request->end_date), function ($query) use ($request) {
-                $query->whereBetween('transactions.created_at', [$request->start_date . ' 00:00:00', $request->end_date . ' 23:59:59']);
+                $query->whereBetween('transactions.created_at', [$request->start_date.' 00:00:00', $request->end_date.' 23:59:59']);
             })
             ->latest()->paginate();
 

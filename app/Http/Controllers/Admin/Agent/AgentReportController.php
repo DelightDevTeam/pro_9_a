@@ -18,38 +18,38 @@ class AgentReportController extends Controller
 
     // v2
     private function makeJoinTable()
-{
-    $authAgentId = Auth::user()->id; // Get the authenticated agent's ID
+    {
+        $authAgentId = Auth::user()->id; // Get the authenticated agent's ID
 
-    $query = DB::table('reports')
-        ->select([
-            'products.name as product_name',
-            DB::raw('COUNT(reports.id) as total_record'), // Total Record
-            DB::raw('SUM(reports.bet_amount) as total_bet'), // Total Bet
-            DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet'), // Total Valid Bet
-            DB::raw('SUM(reports.jp_bet) as total_prog_jp'), // Total Progressive JP Bet
-            DB::raw('SUM(reports.payout_amount) as total_payout'), // Total Payout
-            DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as total_win_lose'), // Total Win/Loss
+        $query = DB::table('reports')
+            ->select([
+                'products.name as product_name',
+                DB::raw('COUNT(reports.id) as total_record'), // Total Record
+                DB::raw('SUM(reports.bet_amount) as total_bet'), // Total Bet
+                DB::raw('SUM(reports.valid_bet_amount) as total_valid_bet'), // Total Valid Bet
+                DB::raw('SUM(reports.jp_bet) as total_prog_jp'), // Total Progressive JP Bet
+                DB::raw('SUM(reports.payout_amount) as total_payout'), // Total Payout
+                DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as total_win_lose'), // Total Win/Loss
 
-            // Agent-related columns
-            'agents.user_name as agent_user_name', // Agent Username
+                // Agent-related columns
+                'agents.user_name as agent_user_name', // Agent Username
 
-            // Member-related columns
-            DB::raw('SUM(reports.agent_commission) as member_comm'), // Member Commission
+                // Member-related columns
+                DB::raw('SUM(reports.agent_commission) as member_comm'), // Member Commission
 
-            // Upline-related columns
-            DB::raw('SUM(reports.agent_commission) as upline_comm'), // Upline Commission
-            DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as upline_total'), // Upline Win/Loss
-        ])
-        ->join('products', 'reports.product_code', '=', 'products.code') // Join reports with products
-        ->join('users as agents', 'reports.agent_id', '=', 'agents.id') // Join reports with agent's user name
-        ->join('users as masters', 'reports.master_id', '=', 'masters.id') // Join reports with master's user name
-        ->where('reports.status', '101') // Filter by status '101'
-        ->where('reports.agent_id', $authAgentId) // Filter to show only reports for the authenticated agent
-        ->groupBy('products.name', 'agents.user_name'); // Group by product name and agent's user name
+                // Upline-related columns
+                DB::raw('SUM(reports.agent_commission) as upline_comm'), // Upline Commission
+                DB::raw('SUM(reports.payout_amount - reports.valid_bet_amount) as upline_total'), // Upline Win/Loss
+            ])
+            ->join('products', 'reports.product_code', '=', 'products.code') // Join reports with products
+            ->join('users as agents', 'reports.agent_id', '=', 'agents.id') // Join reports with agent's user name
+            ->join('users as masters', 'reports.master_id', '=', 'masters.id') // Join reports with master's user name
+            ->where('reports.status', '101') // Filter by status '101'
+            ->where('reports.agent_id', $authAgentId) // Filter to show only reports for the authenticated agent
+            ->groupBy('products.name', 'agents.user_name'); // Group by product name and agent's user name
 
-    return $query->get();
-}
+        return $query->get();
+    }
 
     // private function makeJoinTable()
     // {

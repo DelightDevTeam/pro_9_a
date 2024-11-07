@@ -4,13 +4,13 @@ namespace App\Services\Slot;
 
 use App\Enums\SlotWebhookResponseCode;
 use App\Http\Requests\Slot\SlotWebhookRequest;
+use App\Models\Admin\GameType;
 use App\Models\Admin\GameTypeProduct;
+use App\Models\Admin\Product;
 use App\Models\SeamlessTransaction;
 use App\Models\Wager;
 use App\Services\Slot\Dto\RequestTransaction;
 use Exception;
-use App\Models\Admin\GameType;
-use App\Models\Admin\Product;
 
 class SlotWebhookValidator
 {
@@ -163,15 +163,15 @@ class SlotWebhookValidator
         $product_id_array = Product::whereIn('code', $product_codes_array)->pluck('id')->toArray();
         // if id arrays length are not equal to transactions length, then throw exception
         if (count($game_type_ids_array) != count($transactions) || count($product_id_array) != count($transactions)) {
-            throw new Exception("Product or GameType not found.");
+            throw new Exception('Product or GameType not found.');
         }
 
         foreach ($transactions as $key => $transaction) {
             $game_type_product = GameTypeProduct::where('game_type_id', $game_type_ids_array[$key])
                 ->where('product_id', $product_id_array[$key])
                 ->first();
-            if (!$game_type_product) {
-                throw new Exception("Product or GameType not found for {" . $transaction['ProductID'] . " " . $transaction['GameType'] . "}");
+            if (! $game_type_product) {
+                throw new Exception('Product or GameType not found for {'.$transaction['ProductID'].' '.$transaction['GameType'].'}');
             }
             $transaction['Rate'] = $game_type_product->rate;
             $transaction['ActualGameTypeID'] = $game_type_ids_array[$key];

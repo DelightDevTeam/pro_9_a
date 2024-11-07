@@ -42,7 +42,7 @@ class PermissionRoleTableSeeder extends Seeder
             'make_transfer',
             'game_type_access',
             'contact',
-            'agent_change_password_access'
+            'agent_change_password_access',
 
         ]);
         Role::findOrFail(1)->permissions()->sync($admin_permissions->pluck('id'));
@@ -70,7 +70,7 @@ class PermissionRoleTableSeeder extends Seeder
             'agent_delete',
             'agent_update',
             'make_transfer',
-            'agent_change_password_access'
+            'agent_change_password_access',
 
         ]);
         Role::findOrFail(2)->permissions()->sync($master_permissions->pluck('id'));
@@ -91,7 +91,7 @@ class PermissionRoleTableSeeder extends Seeder
             'withdraw_requests',
             'deposit_requests',
             'contact',
-            'agent_change_password_access'
+            'agent_change_password_access',
         ])->pluck('id');
         Role::findOrFail(3)->permissions()->sync($agent_permissions);
     }
