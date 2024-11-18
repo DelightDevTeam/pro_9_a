@@ -98,8 +98,9 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     });
     Route::group(['prefix' => 'game'], function () {
         Route::post('Seamless/LaunchGame', [LaunchGameController::class, 'launchGame']);
-        Route::post('Seamless/lobbyLaunchGame', [LaunchGameController::class, 'lobbyLaunchGame']);
-
+    });
+    Route::group(['prefix' => 'direct'], function () {
+        Route::post('Seamless/LaunchGame', [LaunchGameController::class, 'directLaunchGame']);
     });
 });
 

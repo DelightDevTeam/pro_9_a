@@ -68,7 +68,7 @@ class LaunchGameController extends Controller
         }
     }
 
-    public function lobbyLaunchGame(Request $request)
+    public function directLaunchGame(Request $request)
     {
         //Log::info($request->all());
         // Validate the request data
