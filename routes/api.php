@@ -32,6 +32,9 @@ use App\Http\Controllers\Api\V1\Webhook\VersionNewPlaceBetController;
 use App\Http\Controllers\TestController;
 use App\Models\Admin\Role;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\V1\NewVersion\NewBonusController;
+use App\Http\Controllers\Api\V1\NewVersion\NewJackpotController;
+
 
 //login route post
 Route::post('/login', [AuthController::class, 'login']);
@@ -66,8 +69,10 @@ Route::group(['prefix' => 'Seamless'], function () {
     Route::post('BuyIn', [BuyInController::class, 'buyIn']);
     Route::post('BuyOut', [BuyOutController::class, 'buyOut']);
     Route::post('PushBet', [PushBetController::class, 'pushBet']);
-    Route::post('Bonus', [BonusController::class, 'bonus']);
-    Route::post('Jackpot', [JackPotController::class, 'jackPot']);
+    //Route::post('Bonus', [BonusController::class, 'bonus']);
+    Route::post('Bonus', [NewBonusController::class, 'bonus']);
+    //Route::post('Jackpot', [JackPotController::class, 'jackPot']);
+    Route::post('Jackpot', [NewJackpotController::class, 'jackPot']);
     Route::post('MobileLogin', [MobileLoginController::class, 'MobileLogin']);
     // });
 });

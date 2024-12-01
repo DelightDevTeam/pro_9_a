@@ -14,12 +14,15 @@ use App\Services\Slot\SlotWebhookValidator;
 use App\Services\WalletService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Api\V1\Webhook\Traits\BonuUseWebhook;
+use App\Http\Requests\Slot\BonuSlotWebhookRequest;
+
 
 class BuyOutController extends Controller
 {
-    use UseWebhook;
+    use BonuUseWebhook;
 
-    public function buyOut(SlotWebhookRequest $request)
+    public function buyOut(BonuSlotWebhookRequest $request)
     {
         DB::beginTransaction();
         try {
